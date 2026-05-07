@@ -300,7 +300,10 @@ window.addEventListener('load', () => {
 
 // Cookie Consent Logic
 function initCookieConsent() {
+    if (document.getElementById('cookieConsentBanner')) return;
+
     const cookieConsent = document.createElement('div');
+    cookieConsent.id = 'cookieConsentBanner';
     cookieConsent.className = 'cookie-consent';
     cookieConsent.innerHTML = `
         <div class="cookie-content">
@@ -317,23 +320,30 @@ function initCookieConsent() {
     const acceptBtn = document.getElementById('cookieAccept');
     const declineBtn = document.getElementById('cookieDecline');
 
-    // Check if user already made a choice
     if (!localStorage.getItem('cookieConsent')) {
         setTimeout(() => {
             cookieConsent.classList.add('show');
-        }, 3000);
+        }, 2000);
     }
 
-    acceptBtn.onclick = () => {
+    acceptBtn.addEventListener('click', (e) => {
+        e.preventDefault();
         localStorage.setItem('cookieConsent', 'accepted');
         cookieConsent.classList.remove('show');
-    };
+        setTimeout(() => cookieConsent.remove(), 600);
+    });
 
-    declineBtn.onclick = () => {
+    declineBtn.addEventListener('click', (e) => {
+        e.preventDefault();
         localStorage.setItem('cookieConsent', 'declined');
         cookieConsent.classList.remove('show');
-    };
+        setTimeout(() => cookieConsent.remove(), 600);
+    });
 }
 
 // Start Cookie Consent
-initCookieConsent();
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initCookieConsent);
+} else {
+    initCookieConsent();
+}
