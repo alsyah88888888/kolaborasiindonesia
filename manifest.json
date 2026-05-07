@@ -1,0 +1,21 @@
+{
+  "name": "PT. Kola Borasi Indonesia",
+  "short_name": "KOBOI",
+  "description": "Mitra Distribusi FMCG Nusantara",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#FF7A00",
+  "icons": [
+    {
+      "src": "logokoboi.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "logokoboi.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
