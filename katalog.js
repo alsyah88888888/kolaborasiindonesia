@@ -1503,3 +1503,43 @@ dots.forEach((dot, index) => {
 if (carouselItems.length > 0) {
     startCarousel();
 }
+
+// Cookie Consent Logic
+function initCookieConsent() {
+    const cookieConsent = document.createElement('div');
+    cookieConsent.className = 'cookie-consent';
+    cookieConsent.innerHTML = `
+        <div class="cookie-content">
+            <i class="fas fa-cookie-bite"></i>
+            <p>Website kami menggunakan cookie untuk meningkatkan pengalaman Anda dan menganalisis trafik kami. Dengan klik "Setuju", Anda menyetujui penggunaan cookie kami.</p>
+        </div>
+        <div class="cookie-btns">
+            <button class="btn-cookie-decline" id="cookieDecline">Tolak</button>
+            <button class="btn-cookie-accept" id="cookieAccept">Setuju</button>
+        </div>
+    `;
+    document.body.appendChild(cookieConsent);
+
+    const acceptBtn = document.getElementById('cookieAccept');
+    const declineBtn = document.getElementById('cookieDecline');
+
+    // Check if user already made a choice
+    if (!localStorage.getItem('cookieConsent')) {
+        setTimeout(() => {
+            cookieConsent.classList.add('show');
+        }, 3000);
+    }
+
+    acceptBtn.onclick = () => {
+        localStorage.setItem('cookieConsent', 'accepted');
+        cookieConsent.classList.remove('show');
+    };
+
+    declineBtn.onclick = () => {
+        localStorage.setItem('cookieConsent', 'declined');
+        cookieConsent.classList.remove('show');
+    };
+}
+
+// Start Cookie Consent
+initCookieConsent();
