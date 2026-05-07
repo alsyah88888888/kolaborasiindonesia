@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PT. Kola Borasi Indonesia - Mitra FMCG Nusantara</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="PT. Kola Borasi Indonesia (KOBOI) adalah mitra distribusi FMCG terkemuka di Indonesia. Menghubungkan produk esensial berkualitas dengan distribusi cepat, efisien, dan harga kompetitif.">
+    <meta name="keywords"
+        content="FMCG Indonesia, Distributor Sembako, Logistik FMCG, PT Kola Borasi Indonesia, KOBOI, Distribusi Produk Esensial">
+    <meta name="author" content="PT. Kola Borasi Indonesia">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kolaborasiindonesia.com/">
+    <meta property="og:title" content="PT. Kola Borasi Indonesia - Mitra FMCG Nusantara">
+    <meta property="og:description"
+        content="Distributor FMCG terkemuka dengan sistem logistik mandiri dan jaringan 800+ toko ritel di Indonesia.">
+    <meta property="og:image" content="logokoboi.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://kolaborasiindonesia.com/">
+    <meta property="twitter:title" content="PT. Kola Borasi Indonesia - Mitra FMCG Nusantara">
+    <meta property="twitter:description"
+        content="Distributor FMCG terkemuka dengan sistem logistik mandiri dan jaringan 800+ toko ritel di Indonesia.">
+    <meta property="twitter:image" content="logokoboi.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="logokoboi.png">
+    <link rel="apple-touch-icon" href="logokoboi.png">
+
+    <!-- Google Analytics (Placeholder - Ganti ID dengan ID Anda) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- GSAP for 3D Portal Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+
+<body>
+    <!-- Preloader / Splash Screen -->
+    <div id="preloader" class="preloader">
+        <div class="preloader-content">
+            <img src="logokoboi.png" alt="PT. Kola Borasi Indonesia" class="preloader-logo">
+            <div class="preloader-spinner"></div>
+        </div>
+    </div>
+
+    <!-- Parallax Background Orbs -->
+    <div class="parallax-bg">
+        <div class="parallax-orb orb-1" data-speed="0.2"></div>
+        <div class="parallax-orb orb-2" data-speed="0.4"></div>
+        <div class="parallax-orb orb-3" data-speed="0.1"></div>
+        <div class="parallax-orb orb-4" data-speed="0.3"></div>
+    </div>
+
+    <!-- Navbar (Sticky & Glassmorphism) -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Kola Borasi Indonesia</a>
+            <ul class="nav-links">
+                <li><a href="#hero">Beranda</a></li>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#philosophy">Keunggulan</a></li>
+                <li><a href="katalog.html">Katalog</a></li>
+                <li><a href="#fleet">Armada</a></li>
+            </ul>
+            <div style="display: flex; align-items: center; gap: 15px;">
+                <div class="theme-toggle" id="themeToggle"
+                    style="cursor: pointer; font-size: 1.2rem; color: var(--dark); transition: var(--transition);">
+                    <i class="fas fa-moon"></i>
+                </div>
+                <a href="https://wa.me/6285774444805" target="_blank" class="btn-primary-sm">Kontak</a>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <video autoplay muted loop playsinline class="hero-video shadow-in">
+            <source src="images/catalog/PT.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="bounce-in">MITRA FMCG NUSANTARA</h1>
+            <p class="fade-in-up"><strong>PT. Kola Borasi Indonesia</strong> hadir dengan komitmen sebagai
+                <strong>Mitra FMCG Nusantara</strong> yang mendefinisikan ulang cara distribusi bekerja.
+                Kami menghubungkan produk esensial berkualitas dengan cara yang lebih cepat
+                dan efisien, menjadikannya terjangkau bagi siapa saja, di mana saja.
+            </p>
+            <a href="https://wa.me/6285774444805" target="_blank" class="btn-primary fade-in-up delay-1">Hubungi
+                Kami</a>
+        </div>
+    </section>
+
+
+    <!-- Tentang Kami Section -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Tentang Kami</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3 class="reveal" style="text-transform: uppercase;">PT. Kola Borasi Indonesia</h3>
+                    <p class="reveal">Didirikan pada tahun 2020, PT. Kola Borasi Indonesia berdedikasi untuk menjadi
+                        penghubung utama antara
+                        produsen dan konsumen.</p>
+
+                    <p class="reveal"
+                        style="margin-top: 30px; font-size: 1.2rem; color: var(--primary); font-weight: 600;">VISI KAMI
+                    </p>
+                    <p class="reveal" style="font-style: italic; font-size: 1.1rem; line-height: 1.8;">"Menjadi pusat
+                        distribusi FMCG terkemuka di Indonesia yang mendefinisikan ulang keterjangkauan dan kualitas,
+                        guna meningkatkan taraf hidup komunitas melalui akses produk esensial yang merata."</p>
+
+                    <p class="reveal"
+                        style="margin-top: 30px; font-size: 1.2rem; color: var(--primary); font-weight: 600;">MISI KAMI
+                    </p>
+                    <ul class="misi-list reveal"
+                        style="text-align: left; max-width: 800px; margin: 0 auto; list-style: none; padding: 0;">
+                        <li
+                            style="margin-bottom: 15px; position: relative; padding-left: 25px; line-height: 1.8; color: var(--muted);">
+                            <i class="fas fa-check-circle"
+                                style="color: var(--primary); position: absolute; left: 0; top: 5px;"></i> <strong
+                                style="color: var(--dark);">Efisiensi Rantai Pasok:</strong> Mengoptimalkan distribusi
+                            melalui sistem logistik mandiri untuk menjamin pengiriman cepat dan tepat waktu ke seluruh
+                            penjuru nusantara.
+                        </li>
+                        <li
+                            style="margin-bottom: 15px; position: relative; padding-left: 25px; line-height: 1.8; color: var(--muted);">
+                            <i class="fas fa-check-circle"
+                                style="color: var(--primary); position: absolute; left: 0; top: 5px;"></i> <strong
+                                style="color: var(--dark);">Keunggulan Harga:</strong> Memastikan setiap produk tetap
+                            terjangkau (low-cost) dengan strategi pengadaan dan analisis pasar yang tajam.
+                        </li>
+                        <li
+                            style="margin-bottom: 15px; position: relative; padding-left: 25px; line-height: 1.8; color: var(--muted);">
+                            <i class="fas fa-check-circle"
+                                style="color: var(--primary); position: absolute; left: 0; top: 5px;"></i> <strong
+                                style="color: var(--dark);">Inovasi Produk:</strong> Terus melakukan diversifikasi
+                            portofolio, termasuk sektor kebutuhan rumah tangga dan kosmetik, sesuai dengan tren pasar
+                            nasional.
+                        </li>
+                        <li
+                            style="margin-bottom: 15px; position: relative; padding-left: 25px; line-height: 1.8; color: var(--muted);">
+                            <i class="fas fa-check-circle"
+                                style="color: var(--primary); position: absolute; left: 0; top: 5px;"></i> <strong
+                                style="color: var(--dark);">Kemitraan Terpercaya:</strong> Membangun ekosistem bisnis
+                            yang saling menguntungkan dengan lebih dari 800 jaringan toko ritel di Indonesia.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section (Sales Pitch) -->
+    <section class="section-padding bg-light" id="features">
+        <div class="container">
+            <div class="section-title reveal">
+                <span class="subtitle">Kenapa Bermitra dengan Kami?</span>
+                <h2>Solusi Distribusi Terbaik untuk Bisnis Ritel Anda</h2>
+            </div>
+            <div class="grid-3">
+                <div class="feature-card reveal">
+                    <div class="feature-icon"><i class="fas fa-truck-loading"></i></div>
+                    <h3>Pengiriman Cepat</h3>
+                    <p>Sistem logistik terintegrasi memastikan barang sampai di toko Anda dalam waktu 24 jam setelah
+                        pemesanan.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon"><i class="fas fa-tags"></i></div>
+                    <h3>Harga Grosir Langsung</h3>
+                    <p>Dapatkan margin keuntungan lebih besar dengan harga tangan pertama langsung dari distributor
+                        resmi.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Jaminan Stok Ready</h3>
+                    <p>Manajemen gudang modern kami memastikan ketersediaan stok barang esensial selalu terjaga untuk
+                        Anda.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Rekam Jejak / Statistik -->
+    <section id="stats" class="stats section-padding">
+        <div class="container">
+            <div class="grid-stats">
+                <div class="stat-item">
+                    <div class="stat-icon"><i class="fas fa-store"></i></div>
+                    <div class="counter" data-target="800">0</div>
+                    <span>Toko Ritel Mitra</span>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon"><i class="fas fa-box-open"></i></div>
+                    <div class="counter" data-target="150">0</div>
+                    <span>Varian Produk Tersedia</span>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon"><i class="fas fa-truck-fast"></i></div>
+                    <div class="counter" data-target="10000">0</div>
+                    <span>Pengiriman Sukses</span>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon"><i class="fas fa-calendar-alt"></i></div>
+                    <div class="counter" data-target="5">0</div>
+                    <span>Tahun Pengalaman Distribusi</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lini Produk & Brand Partner (Marquee) -->
+    <section id="brands" class="brands-section">
+        <div class="container reveal">
+            <div class="section-title" style="margin-bottom: 30px;">
+                <h2 style="font-size: 1.5rem; opacity: 0.7;">Lini Produk & Brand Partner</h2>
+            </div>
+            <div class="brand-wrapper">
+                <div class="marquee-content">
+                    <div class="brand-item"><img src="images/catalog/brands/1.png" alt="Brand Logo"></div>
+                    <div class="brand-item"><img src="images/catalog/brands/2.png" alt="Brand Logo"></div>
+                    <div class="brand-item"><img src="images/catalog/brands/3.png" alt="Brand Logo"></div>
+                    <div class="brand-item"><img src="images/catalog/brands/4.png" alt="Brand Logo"></div>
+                    <div class="brand-item"><img src="images/catalog/brands/5.png" alt="Brand Logo"></div>
+                    <div class="brand-item"><img src="images/catalog/brands/6.png" alt="Brand Logo"></div>
+                    <div class="brand-item"><img src="images/catalog/brands/7.png" alt="Brand Logo"></div>
+                    <div class="brand-item"><img src="images/catalog/brands/8.png" alt="Brand Logo"></div>
+                    <div class="brand-item"><img src="images/catalog/brands/9.png" alt="Brand Logo"></div>
+                    <div class="brand-item"><img src="images/catalog/brands/10.png" alt="Brand Logo"></div>
+                    <div class="brand-item"><img src="images/catalog/brands/11.png" alt="Brand Logo"></div>
+                    <div class="brand-item"><img src="images/catalog/brands/12.png" alt="Brand Logo"></div>
+                    <div class="brand-item"><img src="images/catalog/brands/13.png" alt="Brand Logo"></div>
+                    <div class="brand-item"><img src="images/catalog/brands/14.png" alt="Brand Logo"></div>
+                    <div class="brand-item"><img src="images/catalog/brands/15.png" alt="Brand Logo"></div>
+                    <div class="brand-item"><img src="images/catalog/brands/16.png" alt="Brand Logo"></div>
+                    <div class="brand-item"><img src="images/catalog/brands/17.png" alt="Brand Logo"></div>
+                    <div class="brand-item"><img src="images/catalog/brands/18.png" alt="Brand Logo"></div>
+                    <div class="brand-item"><img src="images/catalog/brands/19.png" alt="Brand Logo"></div>
+                </div>
+                <!-- Duplicate for seamless looping -->
+                <div class="marquee-content">
+                    <div class="brand-item"><img src="images/catalog/brands/1.png" alt="Brand Logo"></div>
+                    <div class="brand-item"><img src="images/catalog/brands/2.png" alt="Brand Logo"></div>
+                    <div class="brand-item"><img src="images/catalog/brands/3.png" alt="Brand Logo"></div>
+                    <div class="brand-item"><img src="images/catalog/brands/4.png" alt="Brand Logo"></div>
+                    <div class="brand-item"><img src="images/catalog/brands/5.png" alt="Brand Logo"></div>
+                    <div class="brand-item"><img src="images/catalog/brands/6.png" alt="Brand Logo"></div>
+                    <div class="brand-item"><img src="images/catalog/brands/7.png" alt="Brand Logo"></div>
+                    <div class="brand-item"><img src="images/catalog/brands/8.png" alt="Brand Logo"></div>
+                    <div class="brand-item"><img src="images/catalog/brands/9.png" alt="Brand Logo"></div>
+                    <div class="brand-item"><img src="images/catalog/brands/10.png" alt="Brand Logo"></div>
+                    <div class="brand-item"><img src="images/catalog/brands/11.png" alt="Brand Logo"></div>
+                    <div class="brand-item"><img src="images/catalog/brands/12.png" alt="Brand Logo"></div>
+                    <div class="brand-item"><img src="images/catalog/brands/13.png" alt="Brand Logo"></div>
+                    <div class="brand-item"><img src="images/catalog/brands/14.png" alt="Brand Logo"></div>
+                    <div class="brand-item"><img src="images/catalog/brands/15.png" alt="Brand Logo"></div>
+                    <div class="brand-item"><img src="images/catalog/brands/16.png" alt="Brand Logo"></div>
+                    <div class="brand-item"><img src="images/catalog/brands/17.png" alt="Brand Logo"></div>
+                    <div class="brand-item"><img src="images/catalog/brands/18.png" alt="Brand Logo"></div>
+                    <div class="brand-item"><img src="images/catalog/brands/19.png" alt="Brand Logo"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Katalog Preview Barang Utama (Featured) -->
+    <section id="catalog" class="catalog section-padding bg-light">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Produk Pilihan Kami</h2>
+                <div class="underline"></div>
+            </div>
+            <p class="catalog-header-text reveal">
+                Jelajahi koleksi produk esensial terbaik kami. Dari kebutuhan harian hingga perlengkapan rumah tangga,
+                kami menjamin ketersediaan stok dengan harga yang paling kompetitif untuk bisnis Anda.
+            </p>
+
+            <div class="filter-controls reveal">
+                <button class="filter-btn active" data-filter="all">Semua Kategori</button>
+                <button class="filter-btn" data-filter="harian">Kebutuhan Harian</button>
+                <button class="filter-btn" data-filter="rt">Rumah Tangga</button>
+                <button class="filter-btn" data-filter="kosmetik">Kosmetik</button>
+            </div>
+
+            <!-- Dynamic Grid Generated by script.js -->
+            <div class="product-grid" id="productGrid"></div>
+
+            <div style="text-align: center; margin-top: 40px;" class="reveal">
+                <a href="katalog.html" class="btn-primary">Lihat Katalog E-Commerce Lebih Lengkap <i
+                        class="fas fa-arrow-right" style="margin-left: 5px;"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kekuatan Armada -->
+    <section id="fleet" class="fleet section-padding">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Kekuatan Armada</h2>
+                <p>Didukung oleh mitra Borcelle Logistics untuk jangkauan luas</p>
+                <div class="underline"></div>
+            </div>
+            <div class="fleet-list reveal">
+                <div class="fleet-item">
+                    <div class="fleet-icon"><i class="fas fa-truck-moving"></i></div>
+                    <h3>1 Unit Double Bak</h3>
+                </div>
+                <div class="fleet-item">
+                    <div class="fleet-icon"><i class="fas fa-truck"></i></div>
+                    <h3>2 Unit Double Box</h3>
+                </div>
+                <div class="fleet-item">
+                    <div class="fleet-icon"><i class="fas fa-truck-fast"></i></div>
+                    <h3>2 Unit Mobil Box Engkel</h3>
+                </div>
+                <div class="fleet-item">
+                    <div class="fleet-icon"><i class="fas fa-truck-pickup"></i></div>
+                    <h3>1 Unit Mobil Pick Up</h3>
+                </div>
+                <div class="fleet-item">
+                    <div class="fleet-icon"><i class="fas fa-van-shuttle"></i></div>
+                    <h3>1 Unit Mobil Box</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Pertumbuhan -->
+    <section id="timeline" class="timeline-section section-padding bg-light">
+        <div class="container">
+            <div class="section-title reveal">
+                <h2>Timeline Pertumbuhan</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>2020</h3>
+                        <p>PT. Kola Borasi Indonesia didirikan oleh Ir. Jonara dan Bapak Ferza di tengah meningkatnya
+                            kebutuhan logistik.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>2022</h3>
+                        <p>Ekspansi jaringan distribusi mencapai lebih dari 300 toko ritel di wilayah strategis
+                            operasional.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>2024</h3>
+                        <p>Kemitraan dengan Borcelle Logistics ditandatangani dan menjangkau 800+ toko ritel aktif.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>2025 (Proyeksi)</h3>
+                        <p>Menjadi pusat distribusi terkemuka tingkat nasional dengan layanan pelanggan terintegrasi
+                            inovatif.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer id="footer" class="footer">
+        <div class="container footer-content">
+            <!-- Kolom 1: Perusahaan & Kontak -->
+            <div class="footer-col">
+                <h3>PT. Kola Borasi Indonesia</h3>
+                <p>Mendemokratisasi akses produk esensial logistik FMCG untuk pahlawan ritel masyarakat.</p>
+                <p><i class="fas fa-map-marker-alt"></i> Green Kartika Residence, Cibinong, Bogor</p>
+                <p><i class="fas fa-phone-alt"></i> +62 857-7444-4805</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="http://www.kolaborasi.id" target="_blank"><i class="fas fa-globe"></i></a>
+                </div>
+            </div>
+
+            <!-- Kolom 2: Tautan -->
+            <div class="footer-col">
+                <h3>Tautan Cepat</h3>
+                <ul class="footer-links">
+                    <li><a href="#about">Tentang Kami</a></li>
+                    <li><a href="#philosophy">Keunggulan</a></li>
+                    <li><a href="katalog.html">Katalog Produk</a></li>
+                    <li><a href="#fleet">Armada Logistik</a></li>
+                </ul>
+            </div>
+
+            <!-- Kolom 3: Form Kontak -->
+            <div class="footer-col">
+                <h3>Tinggalkan Pesan</h3>
+                <form id="footerContactForm" class="footer-form">
+                    <input type="text" id="fcName" placeholder="Nama Anda" required>
+                    <input type="email" id="fcEmail" placeholder="Email Anda" required>
+                    <textarea id="fcMessage" placeholder="Tuliskan pesan Anda..." rows="3" required></textarea>
+                    <button type="submit" class="btn-primary">Kirim Pesan</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 PT. Kola Borasi Indonesia. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/6285774444805" target="_blank" class="float-wa">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+
+    <!-- Data & Custom Script -->
+    <script src="katalog.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

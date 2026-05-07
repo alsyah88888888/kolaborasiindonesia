@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog Produk - PT. Kola Borasi Indonesia</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Jelajahi katalog produk FMCG lengkap dari PT. Kola Borasi Indonesia. Kebutuhan harian, makanan, minuman, dan kebutuhan rumah tangga dengan harga grosir terbaik.">
+    <meta name="keywords" content="Katalog Produk FMCG, Grosir Sembako, Distributor Minuman, Distributor Makanan, Kola Borasi Katalog">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kolaborasiindonesia.com/katalog.html">
+    <meta property="og:title" content="Katalog Produk - PT. Kola Borasi Indonesia">
+    <meta property="og:description" content="Temukan produk berkualitas untuk bisnis ritel Anda dengan harga tangan pertama.">
+    <meta property="og:image" content="logokoboi.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="logokoboi.png">
+    <link rel="apple-touch-icon" href="logokoboi.png">
+
+    <!-- Google Analytics (Placeholder) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-light">
+    <!-- Navbar (Sticky & Glassmorphism) -->
+    <header class="navbar sticky" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Kola Borasi</a>
+            <ul class="nav-links">
+                <li><a href="index.html#hero">Beranda</a></li>
+                <li><a href="index.html#about">Tentang Kami</a></li>
+                <li><a href="index.html#philosophy">Keunggulan</a></li>
+                <li><a href="katalog.html" style="color: var(--primary)">Katalog</a></li>
+                <li><a href="index.html#fleet">Armada</a></li>
+            </ul>
+            <div style="display: flex; align-items: center; gap: 15px;">
+                <div class="theme-toggle" id="themeToggle"
+                    style="cursor: pointer; font-size: 1.2rem; color: var(--dark); transition: var(--transition);">
+                    <i class="fas fa-moon"></i>
+                </div>
+                <a href="https://wa.me/6285774444805" target="_blank" class="btn-primary-sm">Kontak</a>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header (Rich Carousel) -->
+    <section class="page-header">
+        <div class="katalog-carousel" id="katalogCarousel">
+            <div class="carousel-inner">
+                <!-- Slide 1: Promo Utama -->
+                <div class="carousel-item active">
+                    <div class="carousel-bg">
+                        <img src="images/catalog/hero-catalog-1.jpg" alt="Promo FMCG" onerror="this.src='https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=1920'">
+                    </div>
+                    <div class="carousel-content">
+                        <h2>Katalog Produk Terlengkap</h2>
+                        <p>Temukan ribuan produk FMCG berkualitas tinggi dengan harga distributor tangan pertama untuk kebutuhan bisnis ritel Anda.</p>
+                        <a href="#ecommerceGrid" class="btn-primary-sm">Jelajahi Sekarang</a>
+                    </div>
+                </div>
+
+                <!-- Slide 2: Kebutuhan Rumah Tangga -->
+                <div class="carousel-item">
+                    <div class="carousel-bg">
+                        <img src="images/catalog/hero-catalog-2.jpg" alt="Kebutuhan Rumah Tangga" onerror="this.src='https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=1920'">
+                    </div>
+                    <div class="carousel-content">
+                        <h2>Kebutuhan Rumah Tangga</h2>
+                        <p>Deterjen, sabun cuci piring, dan perlengkapan kebersihan lainnya. Stok selalu terjaga untuk kelancaran operasional toko Anda.</p>
+                        <a href="#ecommerceGrid" class="btn-primary-sm">Lihat Produk</a>
+                    </div>
+                </div>
+
+                <!-- Slide 3: Makanan & Minuman -->
+                <div class="carousel-item">
+                    <div class="carousel-bg">
+                        <img src="images/catalog/hero-catalog-3.jpg" alt="Makanan & Minuman" onerror="this.src='https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=1920'">
+                    </div>
+                    <div class="carousel-content">
+                        <h2>Snack & Minuman Segar</h2>
+                        <p>Pilihan camilan dan minuman favorit konsumen Indonesia. Harga kompetitif untuk meningkatkan margin keuntungan bisnis Anda.</p>
+                        <a href="#ecommerceGrid" class="btn-primary-sm">Cek Koleksi</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carousel Navigation -->
+            <button class="carousel-arrow arrow-prev" id="prevSlide">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="carousel-arrow arrow-next" id="nextSlide">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+
+            <div class="carousel-nav" id="carouselDots">
+                <span class="nav-dot active" data-index="0"></span>
+                <span class="nav-dot" data-index="1"></span>
+                <span class="nav-dot" data-index="2"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ecommerce Layout -->
+    <section class="ecommerce-wrapper section-padding">
+        <div class="container">
+            <div class="ecommerce-layout">
+
+                <!-- Sidebar Filter -->
+                <aside class="ecommerce-sidebar">
+                    <div class="filter-header">
+                        <h3>Filter Pencarian</h3>
+                        <button id="resetFilter" class="btn-reset">Reset</button>
+                    </div>
+
+                    <!-- Kategori -->
+                    <div class="filter-group">
+                        <h4>Kategori Produk</h4>
+                        <label class="custom-checkbox">
+                            <input type="checkbox" value="minuman" class="filter-category">
+                            Aneka Minuman
+                        </label>
+                        <label class="custom-checkbox">
+                            <input type="checkbox" value="makanan" class="filter-category">
+                            Makanan & Snack
+                        </label>
+                        <label class="custom-checkbox">
+                            <input type="checkbox" value="rt" class="filter-category">
+                            Kebutuhan Rumah Tangga
+                        </label>
+                        <label class="custom-checkbox">
+                            <input type="checkbox" value="harian" class="filter-category">
+                            Kebutuhan Lainnya
+                        </label>
+                    </div>
+
+
+
+                </aside>
+
+                <!-- Katalog Utama -->
+                <main class="ecommerce-main">
+                    <!-- Top Bar -->
+                    <div class="ecommerce-topbar">
+                        <div class="search-box">
+                            <input type="text" id="searchInput" placeholder="Cari nama barang...">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="sort-box">
+                            <span class="sort-label">Urutkan: </span>
+                            <select id="sortSelect">
+                                <option value="relevan">Paling Sesuai</option>
+                                <option value="terbaru">Terbaru</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="product-info-bar">
+                        <span id="productCount">Menampilkan X produk</span>
+                    </div>
+
+                    <!-- Product Grid Ecommerce -->
+                    <div class="ecommerce-grid" id="ecommerceGrid">
+                        <!-- Data populated via katalog.js -->
+                    </div>
+
+                    <!-- Pagination -->
+                    <div class="pagination" id="paginationContainer">
+                        <!-- Data populated via katalog.js -->
+                    </div>
+                </main>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="footer">
+        <div class="container footer-content" style="display: grid; grid-template-columns: 1.5fr 1fr 1.5fr; gap: 40px;">
+            <!-- Kolom 1: Perusahaan & Kontak -->
+            <div class="footer-col" style="margin-bottom: 0;">
+                <h3 style="font-size: 1.5rem; color: var(--primary);">PT. Kola Borasi Indonesia</h3>
+                <p style="margin-bottom: 15px;">Mendemokratisasi akses produk esensial logistik FMCG untuk pahlawan
+                    ritel masyarakat.</p>
+                <p style="margin-bottom: 5px;"><i class="fas fa-map-marker-alt"
+                        style="color: var(--primary); margin-right:8px; width: 20px;"></i> Green Kartika Residence,
+                    Cibinong, Bogor</p>
+                <p style="margin-bottom: 15px;"><i class="fas fa-phone-alt"
+                        style="color: var(--primary); margin-right:8px; width: 20px;"></i> +62 857-7444-4805</p>
+                <div class="social-links" style="margin-top: 15px;">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="http://www.kolaborasi.id" target="_blank"><i class="fas fa-globe"></i></a>
+                </div>
+            </div>
+
+            <!-- Kolom 2: Tautan -->
+            <div class="footer-col" style="margin-bottom: 0;">
+                <h3 style="color: var(--dark);">Tautan Cepat</h3>
+                <ul class="footer-links" style="margin-top: 20px;">
+                    <li><a href="index.html#about">Tentang Kami</a></li>
+                    <li><a href="index.html#philosophy">Keunggulan</a></li>
+                    <li><a href="katalog.html">Katalog Produk</a></li>
+                    <li><a href="index.html#fleet">Armada Logistik</a></li>
+                </ul>
+            </div>
+
+            <!-- Kolom 3: Form Kontak -->
+            <div class="footer-col" style="margin-bottom: 0;">
+                <h3 style="color: var(--dark);">Tinggalkan Pesan</h3>
+                <form id="footerContactForm" class="footer-form"
+                    style="margin-top: 20px; display: flex; flex-direction: column; gap: 10px;">
+                    <input type="text" id="fcName" placeholder="Nama Anda" required
+                        style="padding: 10px 15px; border-radius: 6px; border: 1px solid #E5E7EB; background: var(--light-gray); color: var(--dark); outline: none;">
+                    <input type="email" id="fcEmail" placeholder="Email Anda" required
+                        style="padding: 10px 15px; border-radius: 6px; border: 1px solid #E5E7EB; background: var(--light-gray); color: var(--dark); outline: none;">
+                    <textarea id="fcMessage" placeholder="Tuliskan pesan Anda..." rows="3" required
+                        style="padding: 10px 15px; border-radius: 6px; border: 1px solid #E5E7EB; background: var(--light-gray); color: var(--dark); resize: none; outline: none;"></textarea>
+                    <button type="submit" class="btn-primary"
+                        style="padding: 10px; border-radius: 6px; border: none; font-weight: 600; cursor: pointer;">Kirim
+                        Pesan</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 PT. Kola Borasi Indonesia. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/6285774444805" target="_blank" class="float-wa">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+
+    <!-- Scripts (Using separate ecommerce js logic) -->
+    <script src="katalog.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
