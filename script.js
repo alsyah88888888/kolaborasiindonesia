@@ -300,6 +300,8 @@ window.addEventListener('load', () => {
 
 // Cookie Consent Logic
 function initCookieConsent() {
+    // Jika sudah ada persetujuan di localStorage, jangan buat banner sama sekali
+    if (localStorage.getItem('cookieConsent')) return;
     if (document.getElementById('cookieConsentBanner')) return;
 
     const cookieConsent = document.createElement('div');
@@ -308,7 +310,7 @@ function initCookieConsent() {
     cookieConsent.innerHTML = `
         <div class="cookie-content">
             <i class="fas fa-cookie-bite"></i>
-            <p>Website kami menggunakan cookie untuk meningkatkan pengalaman Anda dan menganalisis trafik kami. Dengan klik "Setuju", Anda menyetujui penggunaan cookie kami.</p>
+            <p>Website kami menggunakan cookie untuk meningkatkan pengalaman Anda. Dengan klik "Setuju", Anda menyetujui penggunaan cookie kami.</p>
         </div>
         <div class="cookie-btns">
             <button class="btn-cookie-decline" id="cookieDecline">Tolak</button>
@@ -320,11 +322,10 @@ function initCookieConsent() {
     const acceptBtn = document.getElementById('cookieAccept');
     const declineBtn = document.getElementById('cookieDecline');
 
-    if (!localStorage.getItem('cookieConsent')) {
-        setTimeout(() => {
-            cookieConsent.classList.add('show');
-        }, 2000);
-    }
+    // Munculkan dengan animasi setelah 2 detik
+    setTimeout(() => {
+        cookieConsent.classList.add('show');
+    }, 2000);
 
     acceptBtn.addEventListener('click', (e) => {
         e.preventDefault();
