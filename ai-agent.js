@@ -9,7 +9,7 @@ const KOBOI_AI = {
         role: "Asisten AI KOBOI",
         welcomeMessage: "Halo! Saya Kobi, asisten AI PT. Kola Borasi Indonesia. Ada yang bisa saya bantu hari ini?",
         avatar: "logokoboi.png",
-        geminiApiKey: "", // User can set this later
+        geminiApiKey: "AIzaSyDeqfGxS9M1syHdxf50vEpOnTJLZs6Rt1s", // Updated with provided key
     },
 
     knowledge: {
@@ -125,41 +125,79 @@ const KOBOI_AI = {
 
         const typing = this.showTyping();
 
-        // Simulate AI thinking
-        setTimeout(async () => {
-            typing.remove();
+        // Actual AI call if API Key is present
+        try {
             const response = await this.generateResponse(text);
+            typing.remove();
             this.addMessage(response, 'bot');
-        }, 800);
+        } catch (error) {
+            typing.remove();
+            this.addMessage("Maaf, sedang ada gangguan koneksi ke otak AI saya. Bisa coba lagi nanti?", 'bot');
+            console.error("Gemini Error:", error);
+        }
     },
 
     async generateResponse(query) {
         const q = query.toLowerCase();
 
-        // 1. Search in Catalog (if available)
-        if (typeof ecommerceProducts !== 'undefined' && (q.includes('produk') || q.includes('barang') || q.includes('jual'))) {
-            const searchTerms = q.replace(/produk|barang|jual|cari|ada|mau/g, '').trim();
+        // 1. Check Catalog First (Fastest & Most Accurate for products)
+        if (typeof ecommerceProducts !== 'undefined' && (q.includes('produk') || q.includes('barang') || q.includes('jual') || q.includes('ada'))) {
+            const searchTerms = q.replace(/produk|barang|jual|cari|ada|mau|tanya|apa/g, '').trim();
             if (searchTerms.length > 2) {
                 const found = ecommerceProducts.filter(p => p.name.toLowerCase().includes(searchTerms)).slice(0, 3);
                 if (found.length > 0) {
-                    let resp = `Saya menemukan beberapa produk "${searchTerms}":\n`;
+                    let resp = `Saya menemukan beberapa produk "${searchTerms}" di KOBOI:\n`;
                     found.forEach(p => resp += `- ${p.name}\n`);
-                    resp += `Mau lihat lebih detail di Katalog?`;
+                    resp += `Silakan cek Katalog untuk detail lengkapnya.`;
                     return resp;
                 }
             }
-            return "Kami menyediakan berbagai produk FMCG seperti sembako, kebutuhan rumah tangga, dan kosmetik. Anda bisa cek di menu Katalog kami.";
         }
 
-        // 2. Company Info
+        // 2. Use Gemini if API Key is available
+        if (this.config.geminiApiKey) {
+            return await this.callGemini(query);
+        }
+
+        // 3. Fallback to Rule-based if no API Key
         if (q.includes('siapa') || q.includes('apa itu') || q.includes('koboi')) return this.knowledge.company;
         if (q.includes('visi') || q.includes('misi')) return `${this.knowledge.vision}\n\nMisi kami: ${this.knowledge.mission}`;
         if (q.includes('kontak') || q.includes('wa') || q.includes('lokasi') || q.includes('alamat')) return this.knowledge.contact;
         if (q.includes('kirim') || q.includes('ongkir') || q.includes('pengiriman')) return this.knowledge.shipping;
-        if (q.includes('order') || q.includes('pesan') || q.includes('cara')) return "Cara order sangat mudah! Anda bisa langsung hubungi WhatsApp kami atau melalui Sales Representative kami yang tersebar di 800+ toko mitra.";
+        
+        return "Maaf, saya belum mengerti pertanyaan itu. Anda bisa menanyakan tentang produk, lokasi, atau cara bermitra dengan KOBOI. Hubungi WhatsApp kami untuk bantuan cepat!";
+    },
 
-        // 3. Fallback / AI simulation
-        return "Maaf, saya belum mengerti pertanyaan itu secara mendalam. Anda bisa menanyakan tentang produk, lokasi, atau cara bermitra dengan KOBOI. Ingin bicara dengan tim admin kami via WhatsApp?";
+    async callGemini(prompt) {
+        const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${this.config.geminiApiKey}`;
+        
+        const systemPrompt = `Anda adalah Kobi, asisten AI untuk PT. Kola Borasi Indonesia (KOBOI). 
+        Info Perusahaan: ${this.knowledge.company}
+        Visi: ${this.knowledge.vision}
+        Misi: ${this.knowledge.mission}
+        Kontak: ${this.knowledge.contact}
+        Pengiriman: ${this.knowledge.shipping}
+        
+        Tugas Anda: Jawab pertanyaan pelanggan dengan ramah, profesional, dan informatif dalam Bahasa Indonesia. 
+        Jika ditanya tentang produk, katakan bahwa KOBOI menyediakan produk FMCG berkualitas dan sarankan cek menu Katalog.
+        Jawablah dengan singkat dan padat.`;
+
+        const response = await fetch(url, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                contents: [{
+                    parts: [{ text: `${systemPrompt}\n\nPertanyaan User: ${prompt}` }]
+                }]
+            })
+        });
+
+        const data = await response.json();
+        if (data.candidates && data.candidates[0].content.parts[0].text) {
+            return data.candidates[0].content.parts[0].text;
+        } else {
+            throw new Error("Invalid response from Gemini");
+        }
     }
 };
 
