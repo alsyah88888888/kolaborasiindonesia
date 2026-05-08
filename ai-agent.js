@@ -154,7 +154,12 @@ const KOBOI_AI = {
             }
         }
 
-        // 2. Company Info (Prioritize local knowledge for speed and stability)
+        // 2. Greetings (Ensure immediate response for greetings)
+        if (q === 'hi' || q === 'halo' || q === 'hello' || q === 'p' || q.includes('pagi') || q.includes('siang') || q.includes('sore') || q.includes('malam')) {
+            return "Halo! Selamat datang di KOBOI. Ada yang bisa saya bantu terkait produk FMCG atau informasi distribusi kami?";
+        }
+
+        // 3. Company Info (Prioritize local knowledge for speed and stability)
         if (q.includes('siapa') || q.includes('apa itu') || q.includes('koboi')) return this.knowledge.company;
         if (q.includes('visi') || q.includes('misi')) return `${this.knowledge.vision}\n\nMisi kami: ${this.knowledge.mission}`;
         if (q.includes('kontak') || q.includes('wa') || q.includes('lokasi') || q.includes('alamat')) return this.knowledge.contact;
