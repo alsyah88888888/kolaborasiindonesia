@@ -16,7 +16,7 @@ const KOBOI_AI = {
         company: "PT. Kola Borasi Indonesia (KOBOI) adalah mitra distribusi FMCG terkemuka di Indonesia, didirikan tahun 2020. Kami memiliki 800+ jaringan toko ritel dan sistem logistik mandiri.",
         vision: "Menjadi pusat distribusi FMCG terkemuka di Indonesia yang mendefinisikan ulang keterjangkauan dan kualitas.",
         mission: "Efisiensi rantai pasok, keunggulan harga, inovasi produk, dan kemitraan terpercaya.",
-        contact: "Lokasi: Green Kartika Residence, Cibinong, Bogor. WhatsApp: +62 857-7444-4805. Website: www.kolaborasi.id",
+        contact: "Lokasi: Green Kartika Residence, Cibinong, Bogor. WhatsApp: +62 857-7444-4805. Website: kolaborasiindonesia.com",
         shipping: "Kami menjamin pengiriman cepat dalam waktu 24 jam setelah pemesanan melalui armada Borcelle Logistics.",
         fleet: "Armada kami meliputi: Double Bak, Double Box, Mobil Box Engkel, Mobil Pick Up, dan Mobil Box."
     },
