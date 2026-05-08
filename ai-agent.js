@@ -148,24 +148,30 @@ const KOBOI_AI = {
                 if (found.length > 0) {
                     let resp = `Saya menemukan beberapa produk "${searchTerms}" di KOBOI:\n`;
                     found.forEach(p => resp += `- ${p.name}\n`);
-                    resp += `Silakan cek Katalog untuk detail lengkapnya.`;
+                    resp += `\nSilakan cek Katalog untuk detail lengkapnya.`;
                     return resp;
                 }
             }
         }
 
-        // 2. Use Gemini if API Key is available
-        if (this.config.geminiApiKey) {
-            return await this.callGemini(query);
-        }
-
-        // 3. Fallback to Rule-based if no API Key
+        // 2. Company Info (Prioritize local knowledge for speed and stability)
         if (q.includes('siapa') || q.includes('apa itu') || q.includes('koboi')) return this.knowledge.company;
         if (q.includes('visi') || q.includes('misi')) return `${this.knowledge.vision}\n\nMisi kami: ${this.knowledge.mission}`;
         if (q.includes('kontak') || q.includes('wa') || q.includes('lokasi') || q.includes('alamat')) return this.knowledge.contact;
         if (q.includes('kirim') || q.includes('ongkir') || q.includes('pengiriman')) return this.knowledge.shipping;
+        if (q.includes('order') || q.includes('pesan') || q.includes('cara')) return "Cara order sangat mudah! Anda bisa langsung hubungi WhatsApp kami di +62 857-7444-4805 atau melalui Sales Representative kami yang tersebar di 800+ toko mitra.";
+
+        // 3. Use Gemini for everything else
+        if (this.config.geminiApiKey) {
+            try {
+                return await this.callGemini(query);
+            } catch (err) {
+                console.error("Gemini fallback error:", err);
+                return "Maaf, saya sedang sulit berkoneksi dengan pusat data. Bisa tanyakan tentang produk atau kontak kami saja?";
+            }
+        }
         
-        return "Maaf, saya belum mengerti pertanyaan itu. Anda bisa menanyakan tentang produk, lokasi, atau cara bermitra dengan KOBOI. Hubungi WhatsApp kami untuk bantuan cepat!";
+        return "Maaf, saya belum mengerti pertanyaan itu. Anda bisa menanyakan tentang produk, lokasi, atau cara bermitra dengan KOBOI.";
     },
 
     async callGemini(prompt) {
@@ -179,8 +185,7 @@ const KOBOI_AI = {
         Pengiriman: ${this.knowledge.shipping}
         
         Tugas Anda: Jawab pertanyaan pelanggan dengan ramah, profesional, dan informatif dalam Bahasa Indonesia. 
-        Jika ditanya tentang produk, katakan bahwa KOBOI menyediakan produk FMCG berkualitas dan sarankan cek menu Katalog.
-        Jawablah dengan singkat dan padat.`;
+        Jawablah dengan singkat dan padat. Jika tidak tahu, sarankan hubungi WhatsApp.`;
 
         const response = await fetch(url, {
             method: 'POST',
@@ -191,6 +196,11 @@ const KOBOI_AI = {
                 }]
             })
         });
+
+        if (!response.ok) {
+            const errData = await response.json();
+            throw new Error(errData.error?.message || "Gemini API Error");
+        }
 
         const data = await response.json();
         if (data.candidates && data.candidates[0].content.parts[0].text) {
