@@ -271,12 +271,17 @@
 @media (max-width: 480px) {
     .ai-agent-container {
         right: 10px;
-        bottom: 90px;
+        bottom: 10px;
         width: calc(100% - 20px);
-        height: 70vh;
+        height: 80vh; /* Higher for mobile */
+        z-index: 10001;
     }
     .ai-agent-launcher {
         right: 20px;
-        bottom: 20px;
+        bottom: 100px; /* Moved up to be above WhatsApp button */
+        width: 55px;
+        height: 55px;
+        font-size: 1.5rem;
+        z-index: 10001; /* Above everything */
     }
 }
