@@ -138,46 +138,44 @@ const KOBOI_AI = {
     },
 
     async generateResponse(query) {
-        const q = query.toLowerCase();
+        const q = query.toLowerCase().trim();
 
-        // 1. Check Catalog First (Fastest & Most Accurate for products)
-        if (typeof ecommerceProducts !== 'undefined' && (q.includes('produk') || q.includes('barang') || q.includes('jual') || q.includes('ada') || q.includes('cek'))) {
-            const searchTerms = q.replace(/produk|barang|jual|cari|ada|mau|tanya|apa|cek|lihat/g, '').trim();
-            
-            // If it's a generic question like "cek produk" (searchTerms is empty or too short)
-            if (searchTerms.length <= 2) {
-                return "Kami menyediakan berbagai produk FMCG berkualitas seperti Sembako, Minuman, Makanan Ringan, dan Kebutuhan Rumah Tangga. Anda ingin mencari produk spesifik apa? Atau bisa klik menu 'Katalog' di atas untuk melihat semuanya.";
-            }
-
-            // If it's a specific search
-            const found = ecommerceProducts.filter(p => p.name.toLowerCase().includes(searchTerms)).slice(0, 3);
-            if (found.length > 0) {
-                let resp = `Saya menemukan beberapa produk "${searchTerms}" di KOBOI:\n`;
-                found.forEach(p => resp += `- ${p.name}\n`);
-                resp += `\nSilakan cek Katalog untuk detail lengkapnya.`;
-                return resp;
-            }
-        }
-
-        // 2. Greetings (Ensure immediate response for greetings)
+        // 1. Greetings (Ensure immediate response for greetings)
         if (q === 'hi' || q === 'halo' || q === 'hello' || q === 'p' || q.includes('pagi') || q.includes('siang') || q.includes('sore') || q.includes('malam')) {
             return "Halo! Selamat datang di KOBOI. Ada yang bisa saya bantu terkait produk FMCG atau informasi distribusi kami?";
         }
 
-        // 3. Company Info (Prioritize local knowledge for speed and stability)
+        // 2. Company Info (Prioritize local knowledge)
         if (q.includes('siapa') || q.includes('apa itu') || q.includes('koboi')) return this.knowledge.company;
         if (q.includes('visi') || q.includes('misi')) return `${this.knowledge.vision}\n\nMisi kami: ${this.knowledge.mission}`;
         if (q.includes('kontak') || q.includes('wa') || q.includes('lokasi') || q.includes('alamat')) return this.knowledge.contact;
         if (q.includes('kirim') || q.includes('ongkir') || q.includes('pengiriman')) return this.knowledge.shipping;
         if (q.includes('order') || q.includes('pesan') || q.includes('cara')) return "Cara order sangat mudah! Anda bisa langsung hubungi WhatsApp kami di +62 857-7444-4805 atau melalui Sales Representative kami yang tersebar di 800+ toko mitra.";
 
-        // 3. Use Gemini for everything else
+        // 3. Catalog Search (Smart Search for anything else)
+        if (typeof ecommerceProducts !== 'undefined') {
+            // Clean the query from filler words
+            const searchTerms = q.replace(/produk|barang|jual|cari|ada|mau|tanya|apa|cek|lihat|punya|beli/g, '').trim();
+            const finalTerm = searchTerms || q; // Use original query if searchTerms becomes empty
+
+            if (finalTerm.length >= 3) {
+                const found = ecommerceProducts.filter(p => p.name.toLowerCase().includes(finalTerm)).slice(0, 3);
+                if (found.length > 0) {
+                    let resp = `Saya menemukan beberapa produk "${finalTerm}" di KOBOI:\n`;
+                    found.forEach(p => resp += `- ${p.name}\n`);
+                    resp += `\nSilakan cek menu 'Katalog' untuk detail harga dan stok lengkapnya.`;
+                    return resp;
+                }
+            }
+        }
+
+        // 4. Use Gemini for complex/unstructured questions
         if (this.config.geminiApiKey) {
             try {
                 return await this.callGemini(query);
             } catch (err) {
                 console.error("Gemini fallback error:", err);
-                return "Maaf, saya sedang sulit berkoneksi dengan pusat data. Bisa tanyakan tentang produk atau kontak kami saja?";
+                return "Maaf, saya belum menemukan informasi spesifik tentang itu. Anda bisa menanyakan tentang produk lain atau hubungi WhatsApp kami untuk bantuan cepat!";
             }
         }
         
