@@ -141,16 +141,21 @@ const KOBOI_AI = {
         const q = query.toLowerCase();
 
         // 1. Check Catalog First (Fastest & Most Accurate for products)
-        if (typeof ecommerceProducts !== 'undefined' && (q.includes('produk') || q.includes('barang') || q.includes('jual') || q.includes('ada'))) {
-            const searchTerms = q.replace(/produk|barang|jual|cari|ada|mau|tanya|apa/g, '').trim();
-            if (searchTerms.length > 2) {
-                const found = ecommerceProducts.filter(p => p.name.toLowerCase().includes(searchTerms)).slice(0, 3);
-                if (found.length > 0) {
-                    let resp = `Saya menemukan beberapa produk "${searchTerms}" di KOBOI:\n`;
-                    found.forEach(p => resp += `- ${p.name}\n`);
-                    resp += `\nSilakan cek Katalog untuk detail lengkapnya.`;
-                    return resp;
-                }
+        if (typeof ecommerceProducts !== 'undefined' && (q.includes('produk') || q.includes('barang') || q.includes('jual') || q.includes('ada') || q.includes('cek'))) {
+            const searchTerms = q.replace(/produk|barang|jual|cari|ada|mau|tanya|apa|cek|lihat/g, '').trim();
+            
+            // If it's a generic question like "cek produk" (searchTerms is empty or too short)
+            if (searchTerms.length <= 2) {
+                return "Kami menyediakan berbagai produk FMCG berkualitas seperti Sembako, Minuman, Makanan Ringan, dan Kebutuhan Rumah Tangga. Anda ingin mencari produk spesifik apa? Atau bisa klik menu 'Katalog' di atas untuk melihat semuanya.";
+            }
+
+            // If it's a specific search
+            const found = ecommerceProducts.filter(p => p.name.toLowerCase().includes(searchTerms)).slice(0, 3);
+            if (found.length > 0) {
+                let resp = `Saya menemukan beberapa produk "${searchTerms}" di KOBOI:\n`;
+                found.forEach(p => resp += `- ${p.name}\n`);
+                resp += `\nSilakan cek Katalog untuk detail lengkapnya.`;
+                return resp;
             }
         }
 
