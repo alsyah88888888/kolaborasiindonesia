@@ -175,50 +175,53 @@
                     </div>
                 </aside>
 
-                <!-- Katalog Utama -->
-                <main class="ecommerce-main">
-                    <!-- Top Bar -->
-                    <div class="ecommerce-topbar">
-                        <div class="search-box">
-                            <input type="text" id="searchInput" placeholder="Cari nama barang...">
-                            <i class="fas fa-search"></i>
+                    <!-- Katalog Utama -->
+                    <main class="ecommerce-main">
+                        <!-- Top Bar (Fixed) -->
+                        <div class="ecommerce-topbar">
+                            <div class="search-box">
+                                <input type="text" id="searchInput" placeholder="Cari nama barang...">
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="sort-box">
+                                <span class="sort-label">Urutkan: </span>
+                                <select id="sortSelect">
+                                    <option value="relevan">Paling Sesuai</option>
+                                    <option value="terbaru">Terbaru</option>
+                                </select>
+                            </div>
                         </div>
-                        <div class="sort-box">
-                            <span class="sort-label">Urutkan: </span>
-                            <select id="sortSelect">
-                                <option value="relevan">Paling Sesuai</option>
-                                <option value="terbaru">Terbaru</option>
-                            </select>
-                        </div>
-                    </div>
 
-                    <div class="product-info-bar">
-                        <span id="productCount">Menampilkan X produk</span>
-                    </div>
+                        <div class="ecommerce-scroll-area">
+                            <div class="product-info-bar">
+                                <span id="productCount">Menampilkan 410 produk</span>
+                            </div>
 
-                    <!-- Cluster Quick Filters -->
-                    <div class="cluster-container" id="clusterContainer">
-                        <button class="cluster-pill active" data-cluster="All">Semua</button>
-                        <button class="cluster-pill" data-cluster="Kopi & Teh">Kopi & Teh</button>
-                        <button class="cluster-pill" data-cluster="Susu & Olahannya">Susu & Olahannya</button>
-                        <button class="cluster-pill" data-cluster="Mie Instan">Mie Instan</button>
-                        <button class="cluster-pill" data-cluster="Biskuit & Wafer">Biskuit & Wafer</button>
-                        <button class="cluster-pill" data-cluster="Pembersih Rumah">Pembersih</button>
-                        <button class="cluster-pill" data-cluster="Perawatan Tubuh">Perawatan</button>
-                    </div>
+                            <!-- Cluster Quick Filters -->
+                            <div class="cluster-container" id="clusterContainer">
+                                <button class="cluster-pill active" data-cluster="All">Semua</button>
+                                <button class="cluster-pill" data-cluster="Kopi & Teh">Kopi & Teh</button>
+                                <button class="cluster-pill" data-cluster="Susu & Olahannya">Susu & Olahannya</button>
+                                <button class="cluster-pill" data-cluster="Mie Instan">Mie Instan</button>
+                                <button class="cluster-pill" data-cluster="Biskuit & Wafer">Biskuit & Wafer</button>
+                                <button class="cluster-pill" data-cluster="Pembersih Rumah">Pembersih</button>
+                                <button class="cluster-pill" data-cluster="Perawatan Tubuh">Perawatan</button>
+                            </div>
 
-                    <!-- Product Grid Ecommerce -->
-                    <div class="ecommerce-grid" id="ecommerceGrid">
-                        <!-- Data populated via katalog.js -->
-                    </div>
+                            <!-- Product Grid Ecommerce -->
+                            <div class="ecommerce-grid" id="ecommerceGrid">
+                                <!-- Data populated via katalog.js -->
+                            </div>
 
-                    <!-- Pagination -->
-                    <div class="pagination" id="paginationContainer">
-                        <!-- Data populated via katalog.js -->
-                    </div>
-                </main>
-            </div>
-        </div>
+                            <!-- Pagination -->
+                            <div class="pagination" id="paginationContainer">
+                                <!-- Data populated via katalog.js -->
+                            </div>
+                        </div> <!-- End Scroll Area -->
+                    </main>
+                </div> <!-- End Layout -->
+            </div> <!-- End Dashboard Container -->
+        </div> <!-- End Section -->
     </section>
 
     <!-- Footer -->
