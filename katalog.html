@@ -130,95 +130,93 @@
 
     <!-- Ecommerce Layout -->
     <section class="ecommerce-wrapper section-padding">
-        <div class="container">
-            <div class="ecommerce-layout">
+        <div class="ecommerce-layout">
 
-                <!-- Sidebar Filter -->
-                <aside class="ecommerce-sidebar">
-                    <div class="filter-header">
-                        <h3>Filter Pencarian</h3>
-                        <button id="resetFilter" class="btn-reset">Reset</button>
+            <!-- Sidebar Filter -->
+            <aside class="ecommerce-sidebar">
+                <div class="filter-header">
+                    <h3>Filter Pencarian</h3>
+                    <button id="resetFilter" class="btn-reset">Reset</button>
+                </div>
+
+                <!-- Kategori -->
+                <div class="filter-group">
+                    <h4>Kategori Produk</h4>
+                    <label class="custom-checkbox">
+                        <input type="checkbox" value="minuman" class="filter-category">
+                        Aneka Minuman
+                    </label>
+                    <label class="custom-checkbox">
+                        <input type="checkbox" value="makanan" class="filter-category">
+                        Makanan &amp; Snack
+                    </label>
+                    <label class="custom-checkbox">
+                        <input type="checkbox" value="rt" class="filter-category">
+                        Kebutuhan Rumah Tangga
+                    </label>
+                    <label class="custom-checkbox">
+                        <input type="checkbox" value="harian" class="filter-category">
+                        Kebutuhan Lainnya
+                    </label>
+                </div>
+
+                <!-- Brand -->
+                <div class="filter-group">
+                    <h4>Brand Populer</h4>
+                    <div class="brand-scroll-list" id="brandList">
+                        <!-- Populated via JS -->
                     </div>
+                </div>
 
-                    <!-- Kategori -->
-                    <div class="filter-group">
-                        <h4>Kategori Produk</h4>
-                        <label class="custom-checkbox">
-                            <input type="checkbox" value="minuman" class="filter-category">
-                            Aneka Minuman
-                        </label>
-                        <label class="custom-checkbox">
-                            <input type="checkbox" value="makanan" class="filter-category">
-                            Makanan & Snack
-                        </label>
-                        <label class="custom-checkbox">
-                            <input type="checkbox" value="rt" class="filter-category">
-                            Kebutuhan Rumah Tangga
-                        </label>
-                        <label class="custom-checkbox">
-                            <input type="checkbox" value="harian" class="filter-category">
-                            Kebutuhan Lainnya
-                        </label>
-                    </div>
+                <div class="filter-group">
+                    <label class="custom-checkbox">
+                        <input type="checkbox" value="promo" class="filter-rating">
+                        Produk Promo
+                    </label>
+                </div>
+            </aside>
 
-                    <!-- Brand -->
-                    <div class="filter-group">
-                        <h4>Brand Populer</h4>
-                        <div class="brand-scroll-list" id="brandList">
-                            <!-- Populated via JS -->
+            <!-- Katalog Utama -->
+            <main class="ecommerce-main">
+                <!-- Unified Control Panel (Professional & Integrated) -->
+                <div class="catalog-header-panel">
+                    <div class="top-controls">
+                        <div class="search-box">
+                            <i class="fas fa-search"></i>
+                            <input type="text" id="searchInput" placeholder="Cari nama barang atau SKU produk...">
+                        </div>
+                        <div class="sort-box">
+                            <select id="sortSelect">
+                                <option value="relevan">Urutkan: Paling Sesuai</option>
+                                <option value="terbaru">Urutkan: Terbaru</option>
+                            </select>
                         </div>
                     </div>
 
-                    <div class="filter-group">
-                        <label class="custom-checkbox">
-                            <input type="checkbox" value="promo" class="filter-rating">
-                            Produk Promo
-                        </label>
+                    <!-- Cluster Filters -->
+                    <div class="cluster-container" id="clusterContainer">
+                        <button class="cluster-pill active" data-cluster="All">Semua Produk</button>
+                        <button class="cluster-pill" data-cluster="Kopi & Teh">Kopi & Teh</button>
+                        <button class="cluster-pill" data-cluster="Susu & Olahannya">Susu & Olahannya</button>
+                        <button class="cluster-pill" data-cluster="Mie Instan">Mie Instan</button>
+                        <button class="cluster-pill" data-cluster="Biskuit & Wafer">Biskuit & Wafer</button>
+                        <button class="cluster-pill" data-cluster="Pembersih Rumah">Pembersih</button>
+                        <button class="cluster-pill" data-cluster="Perawatan Tubuh">Perawatan</button>
                     </div>
-                </aside>
+                </div>
 
-                <!-- Katalog Utama -->
-                <main class="ecommerce-main">
-                    <!-- Unified Control Panel (Professional & Integrated) -->
-                    <div class="catalog-header-panel">
-                        <div class="top-controls">
-                            <div class="search-box">
-                                <i class="fas fa-search"></i>
-                                <input type="text" id="searchInput" placeholder="Cari nama barang atau SKU produk...">
-                            </div>
-                            <div class="sort-box">
-                                <select id="sortSelect">
-                                    <option value="relevan">Urutkan: Paling Sesuai</option>
-                                    <option value="terbaru">Urutkan: Terbaru</option>
-                                </select>
-                            </div>
-                        </div>
+                <div class="product-info-bar">
+                    <i class="fas fa-layer-group"></i> <span id="productCount">Memuat Katalog...</span>
+                </div>
 
-                        <!-- Cluster Filters -->
-                        <div class="cluster-container" id="clusterContainer">
-                            <button class="cluster-pill active" data-cluster="All">Semua Produk</button>
-                            <button class="cluster-pill" data-cluster="Kopi & Teh">Kopi & Teh</button>
-                            <button class="cluster-pill" data-cluster="Susu & Olahannya">Susu & Olahannya</button>
-                            <button class="cluster-pill" data-cluster="Mie Instan">Mie Instan</button>
-                            <button class="cluster-pill" data-cluster="Biskuit & Wafer">Biskuit & Wafer</button>
-                            <button class="cluster-pill" data-cluster="Pembersih Rumah">Pembersih</button>
-                            <button class="cluster-pill" data-cluster="Perawatan Tubuh">Perawatan</button>
-                        </div>
-                    </div>
+                <!-- Product Grid -->
+                <div class="ecommerce-grid" id="ecommerceGrid">
+                    <!-- Content populated via katalog.js -->
+                </div>
 
-                    <div class="product-info-bar">
-                        <i class="fas fa-layer-group"></i> <span id="productCount">Memuat Katalog...</span>
-                    </div>
-
-                    <!-- Product Grid -->
-                    <div class="ecommerce-grid" id="ecommerceGrid">
-                        <!-- Content populated via katalog.js -->
-                    </div>
-
-                    <!-- Pagination -->
-                    <div class="pagination" id="paginationContainer"></div>
-                </main>
-            </div>
+                <!-- Pagination -->
+                <div class="pagination" id="paginationContainer"></div>
+            </main>
         </div>
     </section>
 
