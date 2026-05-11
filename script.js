@@ -72,6 +72,7 @@ function renderProducts(filter = 'all', limit = displayLimit) {
         
         card.innerHTML = `
             <div class="product-img-wrapper">
+                <div class="product-badge">${product.sold > 1000 ? 'Top Seller' : 'Original'}</div>
                 <img src="${product.img}" alt="${product.name}" class="product-img" loading="lazy" 
                      onerror="this.closest('.product-card').style.display='none'">
                 <div class="product-overlay">
@@ -86,6 +87,10 @@ function renderProducts(filter = 'all', limit = displayLimit) {
             <div class="product-info" onclick="trackEvent('view_product', 'Catalog', '${product.name}')">
                 <span class="product-category-label">${categoryLabels[product.category] || 'Umum'}</span>
                 <h3>${product.name}</h3>
+                <div class="product-meta">
+                    <span class="price-retail">Harga Bersaing</span>
+                    <span class="sold-count">${product.sold}+ Terjual</span>
+                </div>
                 <div class="product-footer">
                     <span class="quality-label"><i class="fas fa-shield-check"></i> Verified Partner</span>
                     <span class="stock-status in-stock">Ready Stock</span>
