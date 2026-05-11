@@ -1,5 +1,6 @@
-// DATA TERFILTER (Hanya Produk dengan Foto)
-const ecommerceProducts = [
+// Use data from katalog_generated.js if it exists, otherwise use this internal list
+if (typeof ecommerceProducts === 'undefined') {
+    var ecommerceProducts = [
     {
         "id": 1,
         "sku": "CHOLATOS-073",
@@ -1184,6 +1185,7 @@ const ecommerceProducts = [
         "dateAdded": "2024-05-07"
     }
 ];
+}
 
 
 
@@ -1316,32 +1318,24 @@ function renderEcommerce(items, totalCount) {
 
     const fragment = document.createDocumentFragment();
     items.forEach(prod => {
-        let badgeHtml = '';
-        if (prod.originalPrice || prod.price < 150000) { // Contoh logika promo
-            badgeHtml = `<div class="prod-badge">Promo</div>`;
-        }
-
-        const waMessage = encodeURIComponent(`Halo KOBOI, saya berminat memesan: ${prod.name} (${prod.sku})`);
+        const waMessage = encodeURIComponent(`Halo KOBOI, saya berminat memesan: ${prod.name} (SKU: ${prod.sku || 'N/A'})`);
         const waUrl = `https://wa.me/6285774444805?text=${waMessage}`;
         const catLabel = categoryLabels[prod.category] || 'Umum';
 
         const card = document.createElement('div');
         card.className = 'ecommerce-card';
         card.innerHTML = `
-            ${badgeHtml}
             <div class="img-wrapper">
-                <img src="${prod.img}" alt="${prod.name}" loading="lazy" onerror="this.src='https://placehold.co/400x400/F3F4F6/FF7A00?text=${encodeURIComponent(prod.name)}'">
+                <img src="${prod.img}" alt="${prod.name}" loading="lazy" 
+                     onerror="this.closest('.ecommerce-card').style.display='none'">
             </div>
-            <div class="card-body">
-                <span class="prod-category">${catLabel}</span>
-                <h3 class="prod-name" title="${prod.name}">${prod.name}</h3>
-                <div class="prod-meta">
-                    <span class="stock-status"><i class="fas fa-check-circle"></i> Stok Tersedia</span>
-                    <span class="prod-location">${prod.location}</span>
-                </div>
+            <div class="card-body" style="padding: 15px; text-align: center;">
+                <span class="prod-category" style="font-size: 0.7rem; color: var(--primary); text-transform: uppercase; font-weight: 700; display: block; margin-bottom: 5px;">${catLabel}</span>
+                <h3 class="prod-name" title="${prod.name}" style="font-size: 1rem; height: 2.4em; overflow: hidden; margin-bottom: 10px;">${prod.name}</h3>
+                <p style="font-size: 0.8rem; color: var(--muted); margin-bottom: 15px;">SKU: ${prod.sku || prod.id}</p>
             </div>
-            <div class="card-footer">
-                <a href="${waUrl}" target="_blank" class="btn-buy">
+            <div class="card-footer" style="border: none; padding-top: 0;">
+                <a href="${waUrl}" target="_blank" class="btn-buy" style="width: 100%; justify-content: center; border-radius: 8px;">
                     <i class="fab fa-whatsapp"></i> Chat Admin
                 </a>
             </div>

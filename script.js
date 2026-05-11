@@ -33,37 +33,43 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Product Catalog Data & Filtering
-// Product Catalog Data (Source: katalog.js)
-// We take a subset for the homepage preview
-const featuredProductIds = [1, 4, 10, 12, 16, 18, 21, 46, 90]; // Selection from katalog.js with verified images
-const products = typeof ecommerceProducts !== 'undefined' 
-    ? ecommerceProducts.filter(p => featuredProductIds.includes(p.id))
-    : [];
+// Product Catalog Data
+let displayLimit = 20;
+let currentProducts = [];
+
+function initProducts() {
+    // Take all products from database
+    if (typeof ecommerceProducts !== 'undefined') {
+        currentProducts = ecommerceProducts;
+    }
+}
+initProducts();
 
 // categoryLabels is now defined in katalog.js for shared use
 
 const productGrid = document.getElementById('productGrid');
 const filterBtns = document.querySelectorAll('.filter-btn');
 
-function renderProducts(filter = 'all') {
+function renderProducts(filter = 'all', limit = displayLimit) {
     if(!productGrid) return;
     productGrid.innerHTML = '';
-    const filtered = filter === 'all' ? products : products.filter(p => p.category === filter);
     
-    filtered.forEach(product => {
+    // Filter based on category
+    let filtered = filter === 'all' ? currentProducts : currentProducts.filter(p => p.category === filter);
+    
+    // Take only up to limit
+    const displayItems = filtered.slice(0, limit);
+    
+    displayItems.forEach(product => {
         const card = document.createElement('div');
         card.className = 'product-card reveal';
+        card.id = `prod-${product.id}`;
         
-        // Add click tracking for the whole card
-        card.addEventListener('click', () => {
-            trackEvent('view_product', 'Catalog', product.name);
-        });
-
         card.innerHTML = `
             <div class="product-img-wrapper">
                 <div class="product-badge">${product.sold > 1000 ? 'Top Seller' : 'Original'}</div>
-                <img src="${product.img}" alt="${product.name}" class="product-img" loading="lazy">
+                <img src="${product.img}" alt="${product.name}" class="product-img" loading="lazy" 
+                     onerror="this.closest('.product-card').style.display='none'">
                 <div class="product-overlay">
                     <a href="https://wa.me/6285774444805?text=Halo%20KOBOI,%20saya%20tertarik%20dengan%20produk%20${encodeURIComponent(product.name)}" 
                        target="_blank" 
@@ -73,7 +79,7 @@ function renderProducts(filter = 'all') {
                     </a>
                 </div>
             </div>
-            <div class="product-info">
+            <div class="product-info" onclick="trackEvent('view_product', 'Catalog', '${product.name}')">
                 <span class="product-category-label">${categoryLabels[product.category] || 'Umum'}</span>
                 <h3>${product.name}</h3>
                 <div class="product-meta">
@@ -89,6 +95,29 @@ function renderProducts(filter = 'all') {
 
         productGrid.appendChild(card);
     });
+
+    // Add Load More Button if needed
+    updateLoadMoreButton(filtered.length > limit);
+}
+
+function updateLoadMoreButton(show) {
+    let loadMoreBtn = document.getElementById('loadMoreBtn');
+    if (!loadMoreBtn) {
+        const container = productGrid.parentElement;
+        loadMoreBtn = document.createElement('div');
+        loadMoreBtn.id = 'loadMoreContainer';
+        loadMoreBtn.style.textAlign = 'center';
+        loadMoreBtn.style.marginTop = '40px';
+        loadMoreBtn.innerHTML = `<button id="loadMoreBtn" class="btn-primary" style="background: transparent; color: var(--primary); border: 2px solid var(--primary); box-shadow: none;">Lihat Lebih Banyak Produk <i class="fas fa-plus" style="margin-left: 10px;"></i></button>`;
+        container.appendChild(loadMoreBtn);
+        
+        document.getElementById('loadMoreBtn').addEventListener('click', () => {
+            displayLimit += 20;
+            const activeFilter = document.querySelector('.filter-btn.active').getAttribute('data-filter');
+            renderProducts(activeFilter, displayLimit);
+        });
+    }
+    loadMoreBtn.style.display = show ? 'block' : 'none';
 }
 
 // Initial render
