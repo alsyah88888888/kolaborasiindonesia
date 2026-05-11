@@ -1156,8 +1156,24 @@ a {
     position: sticky;
     top: 120px;
     height: fit-content;
-    padding-right: 20px;
+    padding-right: 30px;
     border-right: 1px solid #f1f5f9;
+}
+
+.filter-header h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--dark);
+    margin: 0;
+}
+
+.filter-group h4 {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--primary);
+    margin: 30px 0 15px 0;
+    font-weight: 800;
 }
 
 /* Sidebar Filters */
@@ -1901,21 +1917,19 @@ a {
 }
 
 .ecommerce-card {
-    background: var(--white);
-    border-radius: 16px;
+    background: white;
+    border-radius: 20px;
     overflow: hidden;
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    border: 1px solid rgba(0,0,0,0.05);
-    position: relative;
+    border: 1px solid #f1f5f9;
     display: flex;
     flex-direction: column;
-    height: 100%;
 }
 
 .ecommerce-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 15px 35px rgba(249, 115, 22, 0.12);
-    border-color: var(--primary);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.06);
+    border-color: rgba(255, 122, 0, 0.2);
 }
 
 .ecommerce-card .img-wrapper {
@@ -2113,19 +2127,19 @@ a {
 
 .cluster-pill {
     white-space: nowrap;
-    padding: 10px 20px;
-    background: white;
-    border: 1px solid #eee;
-    border-radius: 50px;
-    font-size: 0.9rem;
-    color: var(--dark);
+    padding: 8px 18px;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #64748b;
     cursor: pointer;
-    transition: all 0.3s ease;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+    transition: all 0.2s ease;
 }
 
 .cluster-pill:hover {
-    border-color: var(--primary);
+    background: #f1f5f9;
     color: var(--primary);
 }
 
@@ -2133,7 +2147,14 @@ a {
     background: var(--primary);
     color: white;
     border-color: var(--primary);
-    box-shadow: 0 4px 12px rgba(255, 122, 0, 0.2);
+    box-shadow: 0 4px 10px rgba(255, 122, 0, 0.15);
+}
+
+.product-info-bar {
+    margin-bottom: 15px;
+    font-size: 0.85rem;
+    color: #94a3b8;
+    font-weight: 500;
 }
 
 .custom-checkbox {
