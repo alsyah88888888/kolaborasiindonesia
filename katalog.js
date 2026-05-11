@@ -10,7 +10,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 3872,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Mayora",
+        "cluster": "Biskuit & Wafer"
     },
     {
         "id": 2,
@@ -22,7 +24,9 @@ const ecommerceProducts = [
         "rating": 5.0,
         "sold": 400,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Ultra Jaya",
+        "cluster": "Susu & Olahannya"
     },
     {
         "id": 3,
@@ -34,7 +38,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 1327,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Ultra Jaya",
+        "cluster": "Susu & Olahannya"
     },
     {
         "id": 4,
@@ -46,7 +52,9 @@ const ecommerceProducts = [
         "rating": 5.0,
         "sold": 4904,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Mayora",
+        "cluster": "Kopi & Teh"
     },
     {
         "id": 5,
@@ -58,7 +66,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 2400,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Ultra Jaya",
+        "cluster": "Kopi & Teh"
     },
     {
         "id": 6,
@@ -70,7 +80,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 677,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Kopi & Teh"
     },
     {
         "id": 7,
@@ -82,7 +94,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 498,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 8,
@@ -94,7 +108,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 3724,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 9,
@@ -106,7 +122,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 3235,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Kopi & Teh"
     },
     {
         "id": 10,
@@ -118,7 +136,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 3661,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Kopi & Teh"
     },
     {
         "id": 11,
@@ -130,7 +150,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 444,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Susu & Olahannya"
     },
     {
         "id": 12,
@@ -142,7 +164,9 @@ const ecommerceProducts = [
         "rating": 4.5,
         "sold": 2748,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Susu & Olahannya"
     },
     {
         "id": 13,
@@ -154,7 +178,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 102,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Susu & Olahannya"
     },
     {
         "id": 14,
@@ -166,7 +192,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 1302,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Susu & Olahannya"
     },
     {
         "id": 15,
@@ -178,7 +206,9 @@ const ecommerceProducts = [
         "rating": 4.5,
         "sold": 4707,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Nestle",
+        "cluster": "Kopi & Teh"
     },
     {
         "id": 16,
@@ -190,7 +220,9 @@ const ecommerceProducts = [
         "rating": 5.0,
         "sold": 3661,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Nestle",
+        "cluster": "Kopi & Teh"
     },
     {
         "id": 18,
@@ -202,7 +234,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 4558,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Nestle",
+        "cluster": "Kopi & Teh"
     },
     {
         "id": 19,
@@ -214,7 +248,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 236,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Nestle",
+        "cluster": "Kopi & Teh"
     },
     {
         "id": 20,
@@ -226,7 +262,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 2413,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Nestle",
+        "cluster": "Kopi & Teh"
     },
     {
         "id": 21,
@@ -238,7 +276,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 3667,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Nestle",
+        "cluster": "Susu & Olahannya"
     },
     {
         "id": 22,
@@ -250,7 +290,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 753,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Susu & Olahannya"
     },
     {
         "id": 23,
@@ -262,7 +304,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 2286,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Kopi & Teh"
     },
     {
         "id": 25,
@@ -274,7 +318,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 3438,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Kopi & Teh"
     },
     {
         "id": 26,
@@ -286,7 +332,9 @@ const ecommerceProducts = [
         "rating": 4.5,
         "sold": 4257,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Kopi & Teh"
     },
     {
         "id": 27,
@@ -298,7 +346,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 2050,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Kopi & Teh"
     },
     {
         "id": 28,
@@ -310,7 +360,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 2018,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Kopi & Teh"
     },
     {
         "id": 29,
@@ -322,7 +374,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 1834,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Kopi & Teh"
     },
     {
         "id": 30,
@@ -334,7 +388,9 @@ const ecommerceProducts = [
         "rating": 4.5,
         "sold": 1558,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Kopi & Teh"
     },
     {
         "id": 31,
@@ -346,7 +402,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 1949,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Kopi & Teh"
     },
     {
         "id": 32,
@@ -358,7 +416,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 2195,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "ABC",
+        "cluster": "Kopi & Teh"
     },
     {
         "id": 34,
@@ -370,7 +430,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 880,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Susu & Olahannya"
     },
     {
         "id": 35,
@@ -382,7 +444,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 3741,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 36,
@@ -394,7 +458,9 @@ const ecommerceProducts = [
         "rating": 4.5,
         "sold": 1379,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 37,
@@ -406,7 +472,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 821,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Mayora",
+        "cluster": "Biskuit & Wafer"
     },
     {
         "id": 38,
@@ -418,7 +486,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 3099,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Mayora",
+        "cluster": "Biskuit & Wafer"
     },
     {
         "id": 39,
@@ -430,7 +500,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 4151,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Kopi & Teh"
     },
     {
         "id": 40,
@@ -442,7 +514,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 1876,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 41,
@@ -454,7 +528,9 @@ const ecommerceProducts = [
         "rating": 4.5,
         "sold": 1056,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 42,
@@ -466,7 +542,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 3248,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 43,
@@ -478,7 +556,9 @@ const ecommerceProducts = [
         "rating": 5.0,
         "sold": 184,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 44,
@@ -490,7 +570,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 3850,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Ultra Jaya",
+        "cluster": "Susu & Olahannya"
     },
     {
         "id": 45,
@@ -502,7 +584,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 2613,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Ultra Jaya",
+        "cluster": "Susu & Olahannya"
     },
     {
         "id": 46,
@@ -514,7 +598,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 1767,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Ultra Jaya",
+        "cluster": "Susu & Olahannya"
     },
     {
         "id": 47,
@@ -526,7 +612,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 3861,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Nestle",
+        "cluster": "Susu & Olahannya"
     },
     {
         "id": 48,
@@ -538,7 +626,9 @@ const ecommerceProducts = [
         "rating": 4.5,
         "sold": 4471,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Kopi & Teh"
     },
     {
         "id": 49,
@@ -550,7 +640,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 2731,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 50,
@@ -562,7 +654,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 487,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Nestle",
+        "cluster": "Susu & Olahannya"
     },
     {
         "id": 51,
@@ -574,7 +668,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 2808,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Marjan",
+        "cluster": "Lainnya"
     },
     {
         "id": 52,
@@ -586,7 +682,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 144,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Nestle",
+        "cluster": "Susu & Olahannya"
     },
     {
         "id": 53,
@@ -598,7 +696,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 3197,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Nestle",
+        "cluster": "Kopi & Teh"
     },
     {
         "id": 54,
@@ -610,7 +710,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 1057,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Marjan",
+        "cluster": "Lainnya"
     },
     {
         "id": 55,
@@ -622,7 +724,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 3269,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Biskuit & Wafer"
     },
     {
         "id": 56,
@@ -634,7 +738,9 @@ const ecommerceProducts = [
         "rating": 5.0,
         "sold": 4154,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Nestle",
+        "cluster": "Susu & Olahannya"
     },
     {
         "id": 57,
@@ -646,7 +752,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 31,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Otsuka",
+        "cluster": "Lainnya"
     },
     {
         "id": 58,
@@ -658,7 +766,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 1109,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Otsuka",
+        "cluster": "Lainnya"
     },
     {
         "id": 59,
@@ -670,7 +780,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 1928,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Otsuka",
+        "cluster": "Lainnya"
     },
     {
         "id": 60,
@@ -682,7 +794,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 4714,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Otsuka",
+        "cluster": "Lainnya"
     },
     {
         "id": 61,
@@ -694,7 +808,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 3330,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Nestle",
+        "cluster": "Kopi & Teh"
     },
     {
         "id": 62,
@@ -706,7 +822,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 4425,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Nestle",
+        "cluster": "Kopi & Teh"
     },
     {
         "id": 63,
@@ -718,7 +836,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 4778,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Nestle",
+        "cluster": "Lainnya"
     },
     {
         "id": 64,
@@ -730,7 +850,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 4372,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Nestle",
+        "cluster": "Lainnya"
     },
     {
         "id": 65,
@@ -742,7 +864,9 @@ const ecommerceProducts = [
         "rating": 5.0,
         "sold": 4344,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Nestle",
+        "cluster": "Susu & Olahannya"
     },
     {
         "id": 66,
@@ -754,7 +878,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 1373,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Nestle",
+        "cluster": "Kopi & Teh"
     },
     {
         "id": 67,
@@ -766,7 +892,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 2162,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 69,
@@ -778,7 +906,9 @@ const ecommerceProducts = [
         "rating": 5.0,
         "sold": 2522,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Kopi & Teh"
     },
     {
         "id": 70,
@@ -790,7 +920,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 2728,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Kopi & Teh"
     },
     {
         "id": 71,
@@ -802,7 +934,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 3336,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 72,
@@ -814,7 +948,9 @@ const ecommerceProducts = [
         "rating": 4.5,
         "sold": 2752,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Susu & Olahannya"
     },
     {
         "id": 73,
@@ -826,7 +962,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 3935,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Kopi & Teh"
     },
     {
         "id": 74,
@@ -838,7 +976,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 4835,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Kopi & Teh"
     },
     {
         "id": 75,
@@ -850,7 +990,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 4184,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Marjan",
+        "cluster": "Lainnya"
     },
     {
         "id": 76,
@@ -862,7 +1004,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 3621,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Marjan",
+        "cluster": "Lainnya"
     },
     {
         "id": 77,
@@ -874,7 +1018,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 756,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Susu & Olahannya"
     },
     {
         "id": 78,
@@ -886,7 +1032,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 1331,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Marjan",
+        "cluster": "Lainnya"
     },
     {
         "id": 79,
@@ -898,7 +1046,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 3410,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Nestle",
+        "cluster": "Susu & Olahannya"
     },
     {
         "id": 80,
@@ -910,7 +1060,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 4017,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Unilever",
+        "cluster": "Perawatan Tubuh"
     },
     {
         "id": 81,
@@ -922,7 +1074,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 2733,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Unilever",
+        "cluster": "Perawatan Tubuh"
     },
     {
         "id": 82,
@@ -934,7 +1088,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 1190,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Unilever",
+        "cluster": "Perawatan Tubuh"
     },
     {
         "id": 83,
@@ -946,7 +1102,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 1136,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Unilever",
+        "cluster": "Perawatan Tubuh"
     },
     {
         "id": 84,
@@ -958,7 +1116,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 4847,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 85,
@@ -970,7 +1130,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 3431,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Indofood",
+        "cluster": "Lainnya"
     },
     {
         "id": 86,
@@ -982,7 +1144,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 4691,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 87,
@@ -994,7 +1158,9 @@ const ecommerceProducts = [
         "rating": 5.0,
         "sold": 2964,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Indofood",
+        "cluster": "Lainnya"
     },
     {
         "id": 88,
@@ -1006,7 +1172,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 2177,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Mie Instan"
     },
     {
         "id": 89,
@@ -1018,7 +1186,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 5000,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Nestle",
+        "cluster": "Lainnya"
     },
     {
         "id": 90,
@@ -1030,7 +1200,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 2678,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 91,
@@ -1042,7 +1214,9 @@ const ecommerceProducts = [
         "rating": 4.5,
         "sold": 3524,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 92,
@@ -1054,7 +1228,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 916,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "ABC",
+        "cluster": "Lainnya"
     },
     {
         "id": 93,
@@ -1066,7 +1242,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 3715,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 94,
@@ -1078,7 +1256,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 796,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Mondelez",
+        "cluster": "Biskuit & Wafer"
     },
     {
         "id": 95,
@@ -1090,7 +1270,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 2928,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Mondelez",
+        "cluster": "Biskuit & Wafer"
     },
     {
         "id": 96,
@@ -1102,7 +1284,9 @@ const ecommerceProducts = [
         "rating": 5.0,
         "sold": 3174,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "ABC",
+        "cluster": "Lainnya"
     },
     {
         "id": 97,
@@ -1114,7 +1298,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 107,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "ABC",
+        "cluster": "Lainnya"
     },
     {
         "id": 98,
@@ -1126,7 +1312,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 1724,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "ABC",
+        "cluster": "Lainnya"
     },
     {
         "id": 99,
@@ -1138,7 +1326,9 @@ const ecommerceProducts = [
         "rating": 4.5,
         "sold": 2317,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "ABC",
+        "cluster": "Lainnya"
     },
     {
         "id": 100,
@@ -1150,7 +1340,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 3204,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "ABC",
+        "cluster": "Lainnya"
     },
     {
         "id": 101,
@@ -1162,7 +1354,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 371,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "ABC",
+        "cluster": "Lainnya"
     },
     {
         "id": 102,
@@ -1174,7 +1368,9 @@ const ecommerceProducts = [
         "rating": 5.0,
         "sold": 4673,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "ABC",
+        "cluster": "Lainnya"
     },
     {
         "id": 103,
@@ -1186,7 +1382,9 @@ const ecommerceProducts = [
         "rating": 5.0,
         "sold": 2232,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "ABC",
+        "cluster": "Lainnya"
     },
     {
         "id": 104,
@@ -1198,7 +1396,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 873,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "ABC",
+        "cluster": "Lainnya"
     },
     {
         "id": 105,
@@ -1210,7 +1410,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 4619,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "ABC",
+        "cluster": "Lainnya"
     },
     {
         "id": 106,
@@ -1222,7 +1424,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 4452,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "ABC",
+        "cluster": "Lainnya"
     },
     {
         "id": 107,
@@ -1234,7 +1438,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 1304,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "ABC",
+        "cluster": "Lainnya"
     },
     {
         "id": 109,
@@ -1246,7 +1452,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 1890,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "ABC",
+        "cluster": "Lainnya"
     },
     {
         "id": 110,
@@ -1258,7 +1466,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 2939,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "ABC",
+        "cluster": "Lainnya"
     },
     {
         "id": 111,
@@ -1270,7 +1480,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 4506,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "ABC",
+        "cluster": "Lainnya"
     },
     {
         "id": 112,
@@ -1282,7 +1494,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 4364,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "ABC",
+        "cluster": "Lainnya"
     },
     {
         "id": 113,
@@ -1294,7 +1508,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 1559,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "ABC",
+        "cluster": "Lainnya"
     },
     {
         "id": 114,
@@ -1306,7 +1522,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 4570,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "ABC",
+        "cluster": "Lainnya"
     },
     {
         "id": 115,
@@ -1318,7 +1536,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 4904,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "ABC",
+        "cluster": "Lainnya"
     },
     {
         "id": 116,
@@ -1330,7 +1550,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 368,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "ABC",
+        "cluster": "Lainnya"
     },
     {
         "id": 117,
@@ -1342,7 +1564,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 185,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 118,
@@ -1354,7 +1578,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 4039,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 119,
@@ -1366,7 +1592,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 1276,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 120,
@@ -1378,7 +1606,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 4620,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 121,
@@ -1390,7 +1620,9 @@ const ecommerceProducts = [
         "rating": 5.0,
         "sold": 4511,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 122,
@@ -1402,7 +1634,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 846,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 123,
@@ -1414,7 +1648,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 2287,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 124,
@@ -1426,7 +1662,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 4001,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 125,
@@ -1438,7 +1676,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 3366,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 126,
@@ -1450,7 +1690,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 2467,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 127,
@@ -1462,7 +1704,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 2993,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 128,
@@ -1474,7 +1718,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 273,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 129,
@@ -1486,7 +1732,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 4646,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 130,
@@ -1498,7 +1746,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 2821,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 131,
@@ -1510,7 +1760,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 1885,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 132,
@@ -1522,7 +1774,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 3429,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 133,
@@ -1534,7 +1788,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 3457,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 134,
@@ -1546,7 +1802,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 2680,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 145,
@@ -1558,7 +1816,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 3695,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 153,
@@ -1570,7 +1830,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 118,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 154,
@@ -1582,7 +1844,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 1807,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 155,
@@ -1594,7 +1858,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 1271,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 156,
@@ -1606,7 +1872,9 @@ const ecommerceProducts = [
         "rating": 5.0,
         "sold": 1707,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 167,
@@ -1618,7 +1886,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 3126,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 168,
@@ -1630,7 +1900,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 999,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 169,
@@ -1642,7 +1914,9 @@ const ecommerceProducts = [
         "rating": 5.0,
         "sold": 3216,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 170,
@@ -1654,7 +1928,9 @@ const ecommerceProducts = [
         "rating": 4.5,
         "sold": 853,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 171,
@@ -1666,7 +1942,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 2816,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 172,
@@ -1678,7 +1956,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 882,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 173,
@@ -1690,7 +1970,9 @@ const ecommerceProducts = [
         "rating": 5.0,
         "sold": 1695,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 174,
@@ -1702,7 +1984,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 3343,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 175,
@@ -1714,7 +1998,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 1159,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 176,
@@ -1726,7 +2012,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 1636,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 177,
@@ -1738,7 +2026,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 2134,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 178,
@@ -1750,7 +2040,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 2077,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 179,
@@ -1762,7 +2054,9 @@ const ecommerceProducts = [
         "rating": 5.0,
         "sold": 4473,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 180,
@@ -1774,7 +2068,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 2989,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 193,
@@ -1786,7 +2082,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 2030,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 207,
@@ -1798,7 +2096,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 1878,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 208,
@@ -1810,7 +2110,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 2394,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 209,
@@ -1822,7 +2124,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 481,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 210,
@@ -1834,7 +2138,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 582,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Mayora",
+        "cluster": "Biskuit & Wafer"
     },
     {
         "id": 211,
@@ -1846,7 +2152,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 2756,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 212,
@@ -1858,7 +2166,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 1327,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 213,
@@ -1870,7 +2180,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 2929,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 214,
@@ -1882,7 +2194,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 3311,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 215,
@@ -1894,7 +2208,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 2677,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Kopi & Teh"
     },
     {
         "id": 216,
@@ -1906,7 +2222,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 4066,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 217,
@@ -1918,7 +2236,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 1584,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 218,
@@ -1930,7 +2250,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 2644,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 220,
@@ -1942,7 +2264,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 245,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 221,
@@ -1954,7 +2278,9 @@ const ecommerceProducts = [
         "rating": 4.5,
         "sold": 590,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 222,
@@ -1966,7 +2292,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 3094,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 223,
@@ -1978,7 +2306,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 2178,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 224,
@@ -1990,7 +2320,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 147,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 225,
@@ -2002,7 +2334,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 465,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 226,
@@ -2014,7 +2348,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 480,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 227,
@@ -2026,7 +2362,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 3072,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 228,
@@ -2038,7 +2376,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 662,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 229,
@@ -2050,7 +2390,9 @@ const ecommerceProducts = [
         "rating": 4.5,
         "sold": 4687,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 230,
@@ -2062,7 +2404,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 98,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 233,
@@ -2074,7 +2418,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 1247,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 234,
@@ -2086,7 +2432,9 @@ const ecommerceProducts = [
         "rating": 5.0,
         "sold": 797,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 235,
@@ -2098,7 +2446,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 4839,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Indofood",
+        "cluster": "Mie Instan"
     },
     {
         "id": 236,
@@ -2110,7 +2460,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 4618,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Indofood",
+        "cluster": "Mie Instan"
     },
     {
         "id": 237,
@@ -2122,7 +2474,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 4478,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Indofood",
+        "cluster": "Mie Instan"
     },
     {
         "id": 238,
@@ -2134,7 +2488,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 549,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Indofood",
+        "cluster": "Mie Instan"
     },
     {
         "id": 239,
@@ -2146,7 +2502,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 474,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Indofood",
+        "cluster": "Mie Instan"
     },
     {
         "id": 240,
@@ -2158,7 +2516,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 250,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Indofood",
+        "cluster": "Mie Instan"
     },
     {
         "id": 241,
@@ -2170,7 +2530,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 3768,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Indofood",
+        "cluster": "Mie Instan"
     },
     {
         "id": 242,
@@ -2182,7 +2544,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 3934,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Indofood",
+        "cluster": "Mie Instan"
     },
     {
         "id": 243,
@@ -2194,7 +2558,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 397,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Indofood",
+        "cluster": "Mie Instan"
     },
     {
         "id": 244,
@@ -2206,7 +2572,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 88,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Indofood",
+        "cluster": "Mie Instan"
     },
     {
         "id": 245,
@@ -2218,7 +2586,9 @@ const ecommerceProducts = [
         "rating": 4.5,
         "sold": 938,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Indofood",
+        "cluster": "Mie Instan"
     },
     {
         "id": 246,
@@ -2230,7 +2600,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 1042,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Indofood",
+        "cluster": "Mie Instan"
     },
     {
         "id": 247,
@@ -2242,7 +2614,9 @@ const ecommerceProducts = [
         "rating": 4.5,
         "sold": 4021,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Indofood",
+        "cluster": "Mie Instan"
     },
     {
         "id": 248,
@@ -2254,7 +2628,9 @@ const ecommerceProducts = [
         "rating": 4.5,
         "sold": 4604,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Indofood",
+        "cluster": "Mie Instan"
     },
     {
         "id": 249,
@@ -2266,7 +2642,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 1694,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Indofood",
+        "cluster": "Mie Instan"
     },
     {
         "id": 250,
@@ -2278,7 +2656,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 4423,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Indofood",
+        "cluster": "Mie Instan"
     },
     {
         "id": 251,
@@ -2290,7 +2670,9 @@ const ecommerceProducts = [
         "rating": 5.0,
         "sold": 412,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 252,
@@ -2302,7 +2684,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 4357,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 253,
@@ -2314,7 +2698,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 301,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 254,
@@ -2326,7 +2712,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 3863,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 255,
@@ -2338,7 +2726,9 @@ const ecommerceProducts = [
         "rating": 4.5,
         "sold": 1684,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 256,
@@ -2350,7 +2740,9 @@ const ecommerceProducts = [
         "rating": 5.0,
         "sold": 3492,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Kopi & Teh"
     },
     {
         "id": 257,
@@ -2362,7 +2754,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 1292,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 258,
@@ -2374,7 +2768,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 917,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 259,
@@ -2386,7 +2782,9 @@ const ecommerceProducts = [
         "rating": 5.0,
         "sold": 159,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 260,
@@ -2398,7 +2796,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 3178,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 261,
@@ -2410,7 +2810,9 @@ const ecommerceProducts = [
         "rating": 4.5,
         "sold": 2660,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 262,
@@ -2422,7 +2824,9 @@ const ecommerceProducts = [
         "rating": 4.5,
         "sold": 1025,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 263,
@@ -2434,7 +2838,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 4805,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 264,
@@ -2446,7 +2852,9 @@ const ecommerceProducts = [
         "rating": 4.5,
         "sold": 1038,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 265,
@@ -2458,7 +2866,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 2887,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Biskuit & Wafer"
     },
     {
         "id": 266,
@@ -2470,7 +2880,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 1740,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Biskuit & Wafer"
     },
     {
         "id": 267,
@@ -2482,7 +2894,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 1008,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 268,
@@ -2494,7 +2908,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 227,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 269,
@@ -2506,7 +2922,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 924,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 270,
@@ -2518,7 +2936,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 3466,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 271,
@@ -2530,7 +2950,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 3130,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 272,
@@ -2542,7 +2964,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 3950,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 273,
@@ -2554,7 +2978,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 490,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 274,
@@ -2566,7 +2992,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 2260,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 275,
@@ -2578,7 +3006,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 852,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 276,
@@ -2590,7 +3020,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 3065,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 277,
@@ -2602,7 +3034,9 @@ const ecommerceProducts = [
         "rating": 4.5,
         "sold": 4392,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 278,
@@ -2614,7 +3048,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 1090,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 279,
@@ -2626,7 +3062,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 3265,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 280,
@@ -2638,7 +3076,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 2910,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 281,
@@ -2650,7 +3090,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 3088,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 282,
@@ -2662,7 +3104,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 146,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 283,
@@ -2674,7 +3118,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 2410,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 284,
@@ -2686,7 +3132,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 4412,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Indofood",
+        "cluster": "Lainnya"
     },
     {
         "id": 285,
@@ -2698,7 +3146,9 @@ const ecommerceProducts = [
         "rating": 4.5,
         "sold": 2558,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Indofood",
+        "cluster": "Lainnya"
     },
     {
         "id": 286,
@@ -2710,7 +3160,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 4270,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Indofood",
+        "cluster": "Lainnya"
     },
     {
         "id": 287,
@@ -2722,7 +3174,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 1421,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 288,
@@ -2734,7 +3188,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 4874,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 289,
@@ -2746,7 +3202,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 263,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 290,
@@ -2758,7 +3216,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 551,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 291,
@@ -2770,7 +3230,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 790,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 292,
@@ -2782,7 +3244,9 @@ const ecommerceProducts = [
         "rating": 4.5,
         "sold": 1326,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 293,
@@ -2794,7 +3258,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 3646,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 294,
@@ -2806,7 +3272,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 4513,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 295,
@@ -2818,7 +3286,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 1736,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 296,
@@ -2830,7 +3300,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 3801,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 297,
@@ -2842,7 +3314,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 3920,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 298,
@@ -2854,7 +3328,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 4804,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 299,
@@ -2866,7 +3342,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 4858,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 300,
@@ -2878,7 +3356,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 2288,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 301,
@@ -2890,7 +3370,9 @@ const ecommerceProducts = [
         "rating": 4.5,
         "sold": 1693,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 302,
@@ -2902,7 +3384,9 @@ const ecommerceProducts = [
         "rating": 4.5,
         "sold": 1024,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 303,
@@ -2914,7 +3398,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 4286,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 305,
@@ -2926,7 +3412,9 @@ const ecommerceProducts = [
         "rating": 4.5,
         "sold": 3115,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 306,
@@ -2938,7 +3426,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 3025,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 307,
@@ -2950,7 +3440,9 @@ const ecommerceProducts = [
         "rating": 5.0,
         "sold": 2392,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 308,
@@ -2962,7 +3454,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 3738,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 309,
@@ -2974,7 +3468,9 @@ const ecommerceProducts = [
         "rating": 5.0,
         "sold": 4000,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 310,
@@ -2986,7 +3482,9 @@ const ecommerceProducts = [
         "rating": 4.5,
         "sold": 2709,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 311,
@@ -2998,7 +3496,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 682,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 312,
@@ -3010,7 +3510,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 2541,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 313,
@@ -3022,7 +3524,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 1094,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 314,
@@ -3034,7 +3538,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 2737,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 315,
@@ -3046,7 +3552,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 3066,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 316,
@@ -3058,7 +3566,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 1850,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 317,
@@ -3070,7 +3580,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 2035,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 318,
@@ -3082,7 +3594,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 1284,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 319,
@@ -3094,7 +3608,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 761,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 320,
@@ -3106,7 +3622,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 3808,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Unilever",
+        "cluster": "Perawatan Tubuh"
     },
     {
         "id": 321,
@@ -3118,7 +3636,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 1777,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 322,
@@ -3130,7 +3650,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 2842,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 323,
@@ -3142,7 +3664,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 3729,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 324,
@@ -3154,7 +3678,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 4310,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 325,
@@ -3166,7 +3692,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 4130,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 326,
@@ -3178,7 +3706,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 98,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 327,
@@ -3190,7 +3720,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 397,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 328,
@@ -3202,7 +3734,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 2052,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 329,
@@ -3214,7 +3748,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 3290,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 330,
@@ -3226,7 +3762,9 @@ const ecommerceProducts = [
         "rating": 5.0,
         "sold": 2349,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 331,
@@ -3238,7 +3776,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 3479,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 332,
@@ -3250,7 +3790,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 150,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 333,
@@ -3262,7 +3804,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 2183,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 334,
@@ -3274,7 +3818,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 166,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 335,
@@ -3286,7 +3832,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 3878,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Wings",
+        "cluster": "Mie Instan"
     },
     {
         "id": 336,
@@ -3298,7 +3846,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 944,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Wings",
+        "cluster": "Mie Instan"
     },
     {
         "id": 337,
@@ -3310,7 +3860,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 2894,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Wings",
+        "cluster": "Mie Instan"
     },
     {
         "id": 338,
@@ -3322,7 +3874,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 960,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 339,
@@ -3334,7 +3888,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 2249,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 340,
@@ -3346,7 +3902,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 3304,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 341,
@@ -3358,7 +3916,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 93,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 342,
@@ -3370,7 +3930,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 3935,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Kopi & Teh"
     },
     {
         "id": 343,
@@ -3382,7 +3944,9 @@ const ecommerceProducts = [
         "rating": 4.5,
         "sold": 1520,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Kopi & Teh"
     },
     {
         "id": 344,
@@ -3394,7 +3958,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 4443,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Kopi & Teh"
     },
     {
         "id": 345,
@@ -3406,7 +3972,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 3073,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Nestle",
+        "cluster": "Kopi & Teh"
     },
     {
         "id": 346,
@@ -3418,7 +3986,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 4188,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Nestle",
+        "cluster": "Lainnya"
     },
     {
         "id": 347,
@@ -3430,7 +4000,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 4229,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Nestle",
+        "cluster": "Lainnya"
     },
     {
         "id": 348,
@@ -3442,7 +4014,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 2138,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Nestle",
+        "cluster": "Lainnya"
     },
     {
         "id": 349,
@@ -3454,7 +4028,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 3767,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Biskuit & Wafer"
     },
     {
         "id": 350,
@@ -3466,7 +4042,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 3934,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 352,
@@ -3478,7 +4056,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 4422,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Mondelez",
+        "cluster": "Biskuit & Wafer"
     },
     {
         "id": 353,
@@ -3490,7 +4070,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 1543,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Mondelez",
+        "cluster": "Biskuit & Wafer"
     },
     {
         "id": 354,
@@ -3502,7 +4084,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 4595,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Mondelez",
+        "cluster": "Biskuit & Wafer"
     },
     {
         "id": 355,
@@ -3514,7 +4098,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 241,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Perawatan Tubuh"
     },
     {
         "id": 356,
@@ -3526,7 +4112,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 2288,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Perawatan Tubuh"
     },
     {
         "id": 357,
@@ -3538,7 +4126,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 3997,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Perawatan Tubuh"
     },
     {
         "id": 358,
@@ -3550,7 +4140,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 2217,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 359,
@@ -3562,7 +4154,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 4474,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 360,
@@ -3574,7 +4168,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 1650,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 361,
@@ -3586,7 +4182,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 2306,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 365,
@@ -3598,7 +4196,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 1771,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Indofood",
+        "cluster": "Mie Instan"
     },
     {
         "id": 366,
@@ -3610,7 +4210,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 4808,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Indofood",
+        "cluster": "Mie Instan"
     },
     {
         "id": 367,
@@ -3622,7 +4224,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 711,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Indofood",
+        "cluster": "Mie Instan"
     },
     {
         "id": 368,
@@ -3634,7 +4238,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 4860,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Indofood",
+        "cluster": "Mie Instan"
     },
     {
         "id": 369,
@@ -3646,7 +4252,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 2486,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Indofood",
+        "cluster": "Mie Instan"
     },
     {
         "id": 370,
@@ -3658,7 +4266,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 1225,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Indofood",
+        "cluster": "Mie Instan"
     },
     {
         "id": 371,
@@ -3670,7 +4280,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 810,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Indofood",
+        "cluster": "Mie Instan"
     },
     {
         "id": 372,
@@ -3682,7 +4294,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 28,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Indofood",
+        "cluster": "Mie Instan"
     },
     {
         "id": 373,
@@ -3694,7 +4308,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 3969,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 374,
@@ -3706,7 +4322,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 2851,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 375,
@@ -3718,7 +4336,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 3893,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Unilever",
+        "cluster": "Perawatan Tubuh"
     },
     {
         "id": 376,
@@ -3730,7 +4350,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 2487,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Unilever",
+        "cluster": "Perawatan Tubuh"
     },
     {
         "id": 377,
@@ -3742,7 +4364,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 408,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Unilever",
+        "cluster": "Perawatan Tubuh"
     },
     {
         "id": 378,
@@ -3754,7 +4378,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 704,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Unilever",
+        "cluster": "Perawatan Tubuh"
     },
     {
         "id": 379,
@@ -3766,7 +4392,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 2373,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Unilever",
+        "cluster": "Perawatan Tubuh"
     },
     {
         "id": 380,
@@ -3778,7 +4406,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 3917,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Unilever",
+        "cluster": "Perawatan Tubuh"
     },
     {
         "id": 381,
@@ -3790,7 +4420,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 2696,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Unilever",
+        "cluster": "Perawatan Tubuh"
     },
     {
         "id": 382,
@@ -3802,7 +4434,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 992,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Unilever",
+        "cluster": "Perawatan Tubuh"
     },
     {
         "id": 383,
@@ -3814,7 +4448,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 3120,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Unilever",
+        "cluster": "Perawatan Tubuh"
     },
     {
         "id": 384,
@@ -3826,7 +4462,9 @@ const ecommerceProducts = [
         "rating": 4.5,
         "sold": 174,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Unilever",
+        "cluster": "Perawatan Tubuh"
     },
     {
         "id": 385,
@@ -3838,7 +4476,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 945,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Unilever",
+        "cluster": "Perawatan Tubuh"
     },
     {
         "id": 386,
@@ -3850,7 +4490,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 4114,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Unilever",
+        "cluster": "Perawatan Tubuh"
     },
     {
         "id": 387,
@@ -3862,7 +4504,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 2560,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Unilever",
+        "cluster": "Perawatan Tubuh"
     },
     {
         "id": 388,
@@ -3874,7 +4518,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 670,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Unilever",
+        "cluster": "Perawatan Tubuh"
     },
     {
         "id": 389,
@@ -3886,7 +4532,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 1247,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Unilever",
+        "cluster": "Perawatan Tubuh"
     },
     {
         "id": 390,
@@ -3898,7 +4546,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 3297,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Unilever",
+        "cluster": "Perawatan Tubuh"
     },
     {
         "id": 391,
@@ -3910,7 +4560,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 21,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Unilever",
+        "cluster": "Perawatan Tubuh"
     },
     {
         "id": 392,
@@ -3922,7 +4574,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 2329,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Unilever",
+        "cluster": "Perawatan Tubuh"
     },
     {
         "id": 393,
@@ -3934,7 +4588,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 2272,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Unilever",
+        "cluster": "Perawatan Tubuh"
     },
     {
         "id": 394,
@@ -3946,7 +4602,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 2201,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Unilever",
+        "cluster": "Perawatan Tubuh"
     },
     {
         "id": 395,
@@ -3958,7 +4616,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 4000,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Unilever",
+        "cluster": "Perawatan Tubuh"
     },
     {
         "id": 396,
@@ -3970,7 +4630,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 1126,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Unilever",
+        "cluster": "Perawatan Tubuh"
     },
     {
         "id": 397,
@@ -3982,7 +4644,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 4824,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Unilever",
+        "cluster": "Perawatan Tubuh"
     },
     {
         "id": 398,
@@ -3994,7 +4658,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 3972,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Perawatan Tubuh"
     },
     {
         "id": 399,
@@ -4006,7 +4672,9 @@ const ecommerceProducts = [
         "rating": 5.0,
         "sold": 2695,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Perawatan Tubuh"
     },
     {
         "id": 400,
@@ -4018,7 +4686,9 @@ const ecommerceProducts = [
         "rating": 4.5,
         "sold": 4765,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Perawatan Tubuh"
     },
     {
         "id": 401,
@@ -4030,7 +4700,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 1984,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Perawatan Tubuh"
     },
     {
         "id": 402,
@@ -4042,7 +4714,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 3456,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Perawatan Tubuh"
     },
     {
         "id": 403,
@@ -4054,7 +4728,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 883,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Perawatan Tubuh"
     },
     {
         "id": 404,
@@ -4066,7 +4742,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 4723,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Perawatan Tubuh"
     },
     {
         "id": 405,
@@ -4078,7 +4756,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 2289,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Perawatan Tubuh"
     },
     {
         "id": 406,
@@ -4090,7 +4770,9 @@ const ecommerceProducts = [
         "rating": 4.5,
         "sold": 4315,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Indofood",
+        "cluster": "Lainnya"
     },
     {
         "id": 407,
@@ -4102,7 +4784,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 194,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Indofood",
+        "cluster": "Lainnya"
     },
     {
         "id": 408,
@@ -4114,7 +4798,9 @@ const ecommerceProducts = [
         "rating": 5.0,
         "sold": 202,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Indofood",
+        "cluster": "Lainnya"
     },
     {
         "id": 409,
@@ -4126,7 +4812,9 @@ const ecommerceProducts = [
         "rating": 4.5,
         "sold": 314,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Indofood",
+        "cluster": "Lainnya"
     },
     {
         "id": 410,
@@ -4138,7 +4826,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 4767,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Indofood",
+        "cluster": "Lainnya"
     },
     {
         "id": 411,
@@ -4150,7 +4840,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 769,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 412,
@@ -4162,7 +4854,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 84,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 413,
@@ -4174,7 +4868,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 1875,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 414,
@@ -4186,7 +4882,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 4403,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 415,
@@ -4198,7 +4896,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 1907,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 416,
@@ -4210,7 +4910,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 1177,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Perawatan Tubuh"
     },
     {
         "id": 417,
@@ -4222,7 +4924,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 384,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Perawatan Tubuh"
     },
     {
         "id": 418,
@@ -4234,7 +4938,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 2244,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Perawatan Tubuh"
     },
     {
         "id": 422,
@@ -4246,7 +4952,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 3164,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Unilever",
+        "cluster": "Lainnya"
     },
     {
         "id": 423,
@@ -4258,7 +4966,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 3111,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Unilever",
+        "cluster": "Lainnya"
     },
     {
         "id": 424,
@@ -4270,7 +4980,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 383,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Unilever",
+        "cluster": "Lainnya"
     },
     {
         "id": 425,
@@ -4282,7 +4994,9 @@ const ecommerceProducts = [
         "rating": 4.5,
         "sold": 1020,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Unilever",
+        "cluster": "Lainnya"
     },
     {
         "id": 426,
@@ -4294,7 +5008,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 4876,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 427,
@@ -4306,7 +5022,9 @@ const ecommerceProducts = [
         "rating": 4.5,
         "sold": 91,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 428,
@@ -4318,7 +5036,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 2661,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "ABC",
+        "cluster": "Lainnya"
     },
     {
         "id": 429,
@@ -4330,7 +5050,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 341,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 430,
@@ -4342,7 +5064,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 4199,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Wings",
+        "cluster": "Mie Instan"
     },
     {
         "id": 431,
@@ -4354,7 +5078,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 512,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Wings",
+        "cluster": "Mie Instan"
     },
     {
         "id": 432,
@@ -4366,7 +5092,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 2271,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Wings",
+        "cluster": "Mie Instan"
     },
     {
         "id": 433,
@@ -4378,7 +5106,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 22,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Wings",
+        "cluster": "Mie Instan"
     },
     {
         "id": 434,
@@ -4390,7 +5120,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 3796,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Wings",
+        "cluster": "Mie Instan"
     },
     {
         "id": 435,
@@ -4402,7 +5134,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 4506,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Wings",
+        "cluster": "Mie Instan"
     },
     {
         "id": 436,
@@ -4414,7 +5148,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 2414,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Wings",
+        "cluster": "Mie Instan"
     },
     {
         "id": 437,
@@ -4426,7 +5162,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 1883,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Wings",
+        "cluster": "Mie Instan"
     },
     {
         "id": 438,
@@ -4438,7 +5176,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 962,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Wings",
+        "cluster": "Mie Instan"
     },
     {
         "id": 439,
@@ -4450,7 +5190,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 2355,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Wings",
+        "cluster": "Mie Instan"
     },
     {
         "id": 440,
@@ -4462,7 +5204,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 2858,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 442,
@@ -4474,7 +5218,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 997,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Marjan",
+        "cluster": "Lainnya"
     },
     {
         "id": 443,
@@ -4486,7 +5232,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 3297,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Marjan",
+        "cluster": "Lainnya"
     },
     {
         "id": 444,
@@ -4498,7 +5246,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 384,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Wings",
+        "cluster": "Pembersih Rumah"
     },
     {
         "id": 445,
@@ -4510,7 +5260,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 2216,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Wings",
+        "cluster": "Pembersih Rumah"
     },
     {
         "id": 447,
@@ -4522,7 +5274,9 @@ const ecommerceProducts = [
         "rating": 4.5,
         "sold": 4766,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Wings",
+        "cluster": "Pembersih Rumah"
     },
     {
         "id": 448,
@@ -4534,7 +5288,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 2749,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 449,
@@ -4546,7 +5302,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 3994,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 450,
@@ -4558,7 +5316,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 844,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 451,
@@ -4570,7 +5330,9 @@ const ecommerceProducts = [
         "rating": 5.0,
         "sold": 3161,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 452,
@@ -4582,7 +5344,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 463,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 453,
@@ -4594,7 +5358,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 1173,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 454,
@@ -4606,7 +5372,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 2964,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 455,
@@ -4618,7 +5386,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 4816,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 456,
@@ -4630,7 +5400,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 1402,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 457,
@@ -4642,7 +5414,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 1900,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 458,
@@ -4654,7 +5428,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 2103,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 459,
@@ -4666,7 +5442,9 @@ const ecommerceProducts = [
         "rating": 5.0,
         "sold": 1606,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 464,
@@ -4678,7 +5456,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 2707,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 465,
@@ -4690,7 +5470,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 205,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 466,
@@ -4702,7 +5484,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 4698,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 467,
@@ -4714,7 +5498,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 1238,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Mayora",
+        "cluster": "Kopi & Teh"
     },
     {
         "id": 475,
@@ -4726,7 +5512,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 1104,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Wings",
+        "cluster": "Pembersih Rumah"
     },
     {
         "id": 476,
@@ -4738,7 +5526,9 @@ const ecommerceProducts = [
         "rating": 4.6,
         "sold": 3529,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 477,
@@ -4750,7 +5540,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 3298,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Pembersih Rumah"
     },
     {
         "id": 478,
@@ -4762,7 +5554,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 782,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Pembersih Rumah"
     },
     {
         "id": 479,
@@ -4774,7 +5568,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 2370,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Pembersih Rumah"
     },
     {
         "id": 480,
@@ -4786,7 +5582,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 3331,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Mie Instan"
     },
     {
         "id": 481,
@@ -4798,7 +5596,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 4719,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Mie Instan"
     },
     {
         "id": 570,
@@ -4810,7 +5610,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 2728,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Wings",
+        "cluster": "Pembersih Rumah"
     },
     {
         "id": 571,
@@ -4822,7 +5624,9 @@ const ecommerceProducts = [
         "rating": 4.9,
         "sold": 1680,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Wings",
+        "cluster": "Pembersih Rumah"
     },
     {
         "id": 574,
@@ -4834,7 +5638,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 1706,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Wings",
+        "cluster": "Pembersih Rumah"
     },
     {
         "id": 575,
@@ -4846,7 +5652,9 @@ const ecommerceProducts = [
         "rating": 4.5,
         "sold": 725,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Wings",
+        "cluster": "Pembersih Rumah"
     },
     {
         "id": 577,
@@ -4858,7 +5666,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 1617,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Wings",
+        "cluster": "Pembersih Rumah"
     },
     {
         "id": 578,
@@ -4870,7 +5680,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 324,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Wings",
+        "cluster": "Pembersih Rumah"
     },
     {
         "id": 580,
@@ -4882,7 +5694,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 3586,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Lainnya"
     },
     {
         "id": 581,
@@ -4894,7 +5708,9 @@ const ecommerceProducts = [
         "rating": 4.8,
         "sold": 4114,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Pembersih Rumah"
     },
     {
         "id": 582,
@@ -4906,7 +5722,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 3223,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Pembersih Rumah"
     },
     {
         "id": 635,
@@ -4918,7 +5736,9 @@ const ecommerceProducts = [
         "rating": 4.7,
         "sold": 934,
         "location": "Gudang Utama",
-        "dateAdded": "2024-04-15"
+        "dateAdded": "2024-04-15",
+        "brand": "Lainnya",
+        "cluster": "Perawatan Tubuh"
     }
 ];
 
@@ -4940,6 +5760,8 @@ const categoryLabels = {
 
 // State Variables untuk Filter & Pagination
 let currentCategoryFilters = [];
+let currentBrandFilters = [];
+let currentCluster = "All";
 let currentRatingFilter = false;
 let currentSearch = "";
 let currentSort = "relevan";
@@ -5025,6 +5847,31 @@ function renderSkeletons() {
     }
 }
 
+// Fungsi Inisialisasi Brand List di Sidebar
+function initBrandFilter() {
+    const brandListContainer = document.getElementById('brandList');
+    if (!brandListContainer) return;
+
+    const brands = [...new Set(ecommerceProducts.map(p => p.brand))].sort();
+    
+    brandListContainer.innerHTML = brands.map(brand => `
+        <label class="custom-checkbox">
+            <input type="checkbox" value="${brand}" class="filter-brand">
+            ${brand}
+        </label>
+    `).join('');
+
+    // Add listeners to new brand checkboxes
+    document.querySelectorAll('.filter-brand').forEach(cb => {
+        cb.addEventListener('change', () => {
+            currentBrandFilters = Array.from(document.querySelectorAll('.filter-brand'))
+                .filter(i => i.checked)
+                .map(i => i.value);
+            applyFilters();
+        });
+    });
+}
+
 // Fungsi Utama: Menggambar Kartu Produk
 function renderEcommerce(items, totalCount) {
     if (!grid) return;
@@ -5093,6 +5940,16 @@ function applyFilters(keepPage = false) {
             if (!currentCategoryFilters.includes(p.category)) return false;
         }
 
+        // Filter Brand
+        if (currentBrandFilters.length > 0) {
+            if (!currentBrandFilters.includes(p.brand)) return false;
+        }
+
+        // Filter Cluster
+        if (currentCluster !== "All") {
+            if (p.cluster !== currentCluster) return false;
+        }
+
         // Filter Search
         if (currentSearch) {
             const searchLower = currentSearch.toLowerCase();
@@ -5152,17 +6009,19 @@ if (grid) {
         });
     }
 
+    // Reset Logic Extended
     if (resetBtn) {
         resetBtn.addEventListener('click', () => {
-            // Reset Checkboxes
-            categoryCheckboxes.forEach(cb => cb.checked = false);
-
-            // Reset Inputs
+            document.querySelectorAll('.filter-category, .filter-brand').forEach(cb => cb.checked = false);
+            document.querySelectorAll('.cluster-pill').forEach(p => p.classList.remove('active'));
+            document.querySelector('.cluster-pill[data-cluster="All"]').classList.add('active');
+            
             if (searchInput) searchInput.value = '';
             if (sortSelect) sortSelect.value = 'relevan';
 
-            // Reset State
             currentCategoryFilters = [];
+            currentBrandFilters = [];
+            currentCluster = "All";
             currentSearch = "";
             currentSort = "relevan";
             currentPage = 1;
@@ -5171,8 +6030,19 @@ if (grid) {
         });
     }
 
-    // Inisialisasi awal hanya jika berada di halaman katalog
+    // Cluster Pills Listeners
+    document.querySelectorAll('.cluster-pill').forEach(pill => {
+        pill.addEventListener('click', () => {
+            document.querySelectorAll('.cluster-pill').forEach(p => p.classList.remove('active'));
+            pill.classList.add('active');
+            currentCluster = pill.getAttribute('data-cluster');
+            applyFilters();
+        });
+    });
+
+    // Inisialisasi awal
     if (grid) {
+        initBrandFilter();
         applyFilters();
     }
 }

@@ -159,10 +159,20 @@
                             <input type="checkbox" value="harian" class="filter-category">
                             Kebutuhan Lainnya
                         </label>
+                    <!-- Brand -->
+                    <div class="filter-group">
+                        <h4>Brand Populer</h4>
+                        <div class="brand-scroll-list" id="brandList">
+                            <!-- Populated via JS -->
+                        </div>
                     </div>
 
-
-
+                    <div class="filter-group">
+                        <label class="custom-checkbox">
+                            <input type="checkbox" value="promo" class="filter-rating">
+                            Produk Promo
+                        </label>
+                    </div>
                 </aside>
 
                 <!-- Katalog Utama -->
@@ -184,6 +194,17 @@
 
                     <div class="product-info-bar">
                         <span id="productCount">Menampilkan X produk</span>
+                    </div>
+
+                    <!-- Cluster Quick Filters -->
+                    <div class="cluster-container" id="clusterContainer">
+                        <button class="cluster-pill active" data-cluster="All">Semua</button>
+                        <button class="cluster-pill" data-cluster="Kopi & Teh">Kopi & Teh</button>
+                        <button class="cluster-pill" data-cluster="Susu & Olahannya">Susu & Olahannya</button>
+                        <button class="cluster-pill" data-cluster="Mie Instan">Mie Instan</button>
+                        <button class="cluster-pill" data-cluster="Biskuit & Wafer">Biskuit & Wafer</button>
+                        <button class="cluster-pill" data-cluster="Pembersih Rumah">Pembersih</button>
+                        <button class="cluster-pill" data-cluster="Perawatan Tubuh">Perawatan</button>
                     </div>
 
                     <!-- Product Grid Ecommerce -->
