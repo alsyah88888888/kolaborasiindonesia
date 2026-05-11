@@ -1149,7 +1149,7 @@ a {
 .ecommerce-layout {
     display: grid;
     grid-template-columns: 280px 1fr;
-    gap: 60px;
+    gap: 40px;
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 40px;
@@ -1160,7 +1160,11 @@ a {
     position: sticky;
     top: 100px;
     height: fit-content;
-    padding-bottom: 50px;
+    background: white;
+    padding: 30px;
+    border-radius: 24px;
+    border: 1px solid #f1f5f9;
+    box-shadow: 0 15px 50px rgba(0,0,0,0.03);
 }
 
 .filter-header {
@@ -1333,13 +1337,15 @@ a {
 .sort-box select:hover {
     border-color: var(--primary);
 }
-    font-size: 0.95rem;
-}
 
 .product-info-bar {
-    margin-bottom: 20px;
-    color: var(--muted);
-    font-size: 0.95rem;
+    margin-bottom: 25px;
+    color: #64748b;
+    font-size: 0.9rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 /* Ecommerce Product Grid */
