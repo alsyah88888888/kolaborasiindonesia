@@ -1206,7 +1206,7 @@ a {
     font-weight: 800;
 }
 
-/* Professional Control Center */
+/* Professional Control Center Refined */
 .catalog-header-panel {
     background: white;
     padding: 35px;
@@ -1222,6 +1222,69 @@ a {
     align-items: center;
     gap: 30px;
     margin-bottom: 30px;
+}
+
+/* Cluster Quick Filters (Pills) */
+.cluster-container {
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+    padding-bottom: 5px;
+    scrollbar-width: none;
+}
+
+.cluster-container::-webkit-scrollbar {
+    display: none;
+}
+
+.cluster-pill {
+    white-space: nowrap;
+    padding: 10px 22px;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #64748b;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.cluster-pill:hover {
+    background: white;
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+.cluster-pill.active {
+    background: var(--primary);
+    color: white;
+    border-color: var(--primary);
+    box-shadow: 0 4px 12px rgba(255, 122, 0, 0.2);
+}
+
+/* Sidebar Elements Fix */
+.custom-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    color: #4b5563;
+    transition: all 0.2s ease;
+    width: 100%; /* Force vertical list */
+}
+
+.custom-checkbox input {
+    width: 18px;
+    height: 18px;
+    accent-color: var(--primary);
+    flex-shrink: 0;
+}
+
+.custom-checkbox:hover {
+    color: var(--primary);
 }
 
 .search-box {
