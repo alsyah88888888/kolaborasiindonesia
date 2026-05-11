@@ -1137,67 +1137,46 @@ a {
     .carousel-arrow { display: none; }
 }
 
-/* Premium Ecommerce Layout */
+/* ==========================================================================
+   ULTIMATE ECOMMERCE CATALOG UI
+   ========================================================================== */
+
 .ecommerce-section {
     padding: 60px 0;
-    background: #ffffff;
+    background: #fdfdfd;
 }
 
 .ecommerce-layout {
     display: grid;
     grid-template-columns: 280px 1fr;
-    gap: 50px;
-    max-width: 1400px;
+    gap: 60px;
+    max-width: 1440px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 40px;
 }
 
+/* Elegant Sticky Sidebar */
 .ecommerce-sidebar {
     position: sticky;
-    top: 120px;
+    top: 100px;
     height: fit-content;
-    padding-right: 30px;
-    border-right: 1px solid #f1f5f9;
-}
-
-.filter-header h3 {
-    font-size: 1.1rem;
-    font-weight: 700;
-    color: var(--dark);
-    margin: 0;
-}
-
-.filter-group h4 {
-    font-size: 0.85rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: var(--primary);
-    margin: 30px 0 15px 0;
-    font-weight: 800;
-}
-
-/* Sidebar Filters */
-.ecommerce-sidebar {
-    background: #fcfcfc;
-    padding: 30px;
-    border-right: 1px solid #f1f5f9;
-    height: 100%;
-    overflow-y: auto; /* Scrollable filter list if needed */
+    padding-bottom: 50px;
 }
 
 .filter-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 25px;
-    padding-bottom: 15px;
-    border-bottom: 1px solid #E5E7EB;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f1f5f9;
 }
 
 .filter-header h3 {
-    font-size: 1.2rem;
+    font-size: 1.25rem;
+    font-weight: 700;
     color: var(--dark);
-    font-weight: 600;
+    margin: 0;
 }
 
 .btn-reset {
@@ -1205,149 +1184,92 @@ a {
     border: none;
     color: var(--primary);
     font-weight: 600;
-    cursor: pointer;
     font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
 }
 
 .btn-reset:hover {
-    text-decoration: underline;
+    opacity: 0.7;
 }
 
 .filter-group {
-    margin-bottom: 25px;
+    margin-bottom: 40px;
 }
 
 .filter-group h4 {
-    font-size: 1rem;
-    margin-bottom: 15px;
-    color: var(--dark);
-    font-weight: 600;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #94a3b8;
+    margin-bottom: 20px;
+    font-weight: 800;
 }
 
-.custom-checkbox {
-    display: flex;
-    align-items: center;
-    margin-bottom: 12px;
-    cursor: pointer;
-    color: var(--muted);
-    font-size: 0.95rem;
-    transition: var(--transition);
+/* Professional Control Center */
+.catalog-header-panel {
+    background: white;
+    padding: 35px;
+    border-radius: 24px;
+    border: 1px solid #f1f5f9;
+    box-shadow: 0 15px 50px rgba(0,0,0,0.03);
+    margin-bottom: 50px;
 }
 
-.custom-checkbox:hover {
-    color: var(--dark);
-}
-
-.custom-checkbox input {
-    margin-right: 12px;
-    width: 18px;
-    height: 18px;
-    accent-color: var(--primary);
-    cursor: pointer;
-}
-
-.price-input {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.price-input input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #E5E7EB;
-    border-radius: 6px;
-    outline: none;
-    font-family: inherit;
-    font-size: 0.9rem;
-    transition: var(--transition);
-}
-
-.price-input input:focus {
-    border-color: var(--primary);
-    box-shadow: 0 0 0 3px rgba(255, 122, 0, 0.1);
-}
-
-.color-star {
-    color: #FBBF24;
-}
-
-/* Topbar Ecommerce */
-.ecommerce-main {
-    flex: 1;
-}
-
-.ecommerce-topbar {
-    position: sticky;
-    top: 80px;
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(10px);
-    padding: 20px 0;
-    margin-bottom: 30px;
-    z-index: 100;
+.top-controls {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #f8fafc;
-}
-
-.ecommerce-scroll-area {
-    /* No more internal scroll */
+    gap: 30px;
+    margin-bottom: 30px;
 }
 
 .search-box {
-    position: relative;
     flex: 1;
-    min-width: 250px;
-    max-width: 500px;
-}
-
-.search-box input {
-    width: 100%;
-    padding: 12px 20px 12px 45px;
-    border-radius: 30px;
-    border: 1px solid #E5E7EB;
-    outline: none;
-    font-family: inherit;
-    font-size: 0.95rem;
-    transition: var(--transition);
-    background-color: var(--white);
-}
-
-.search-box input:focus {
-    border-color: var(--primary);
-    box-shadow: 0 0 0 3px rgba(255, 122, 0, 0.1);
+    position: relative;
 }
 
 .search-box i {
     position: absolute;
-    left: 20px;
+    left: 25px;
     top: 50%;
     transform: translateY(-50%);
-    color: #9CA3AF;
+    color: #94a3b8;
+    font-size: 1.1rem;
 }
 
-.sort-box {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+.search-box input {
+    width: 100%;
+    padding: 16px 25px 16px 65px;
+    border-radius: 16px;
+    border: 1px solid #e2e8f0;
+    background: #f8fafc;
+    font-size: 1rem;
+    transition: all 0.3s ease;
 }
 
-.sort-label {
-    font-weight: 500;
-    color: var(--dark);
-    font-size: 0.95rem;
+.search-box input:focus {
+    background: white;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 4px rgba(255, 122, 0, 0.1);
+    outline: none;
 }
 
 .sort-box select {
-    padding: 10px 15px;
-    border-radius: 8px;
-    border: 1px solid #E5E7EB;
-    outline: none;
-    font-family: inherit;
-    cursor: pointer;
-    background-color: var(--white);
+    padding: 15px 25px;
+    border-radius: 16px;
+    border: 1px solid #e2e8f0;
+    background: white;
     color: var(--dark);
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.sort-box select:hover {
+    border-color: var(--primary);
+}
     font-size: 0.95rem;
 }
 
@@ -2058,140 +1980,66 @@ a {
     .ecommerce-card .prod-name { font-size: 0.85rem; }
 }
 
-/* Premium Sidebar & Pagination */
-.ecommerce-sidebar {
-    background: white;
-    padding: 25px;
-    border-radius: 20px;
-    border: 1px solid rgba(0,0,0,0.05);
-    box-shadow: 0 10px 30px rgba(0,0,0,0.02);
-}
-
-.filter-group h4 {
-    font-size: 1rem;
-    font-weight: 800;
-    margin-bottom: 15px;
-    color: var(--dark);
+/* Professional Pagination */
+.pagination {
     display: flex;
-    align-items: center;
+    justify-content: center;
     gap: 8px;
+    margin-top: 60px;
 }
 
-.filter-group h4::before {
-    content: '';
-    width: 4px;
-    height: 16px;
-    background: var(--primary);
-    border-radius: 2px;
-}
-
-.filter-group label {
+.page-btn {
+    width: 45px;
+    height: 45px;
     display: flex;
     align-items: center;
-    gap: 10px;
-    margin-bottom: 12px;
+    justify-content: center;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    background: white;
+    color: var(--dark);
+    font-weight: 600;
     cursor: pointer;
-    font-size: 0.95rem;
-    color: var(--muted);
-    transition: all 0.2s ease;
+    transition: all 0.3s ease;
 }
 
-.brand-scroll-list {
-    max-height: 200px;
-    overflow-y: auto;
-    padding-right: 5px;
+.page-btn:hover:not(.disabled) {
+    border-color: var(--primary);
+    color: var(--primary);
+    background: #fffaf0;
 }
 
-.brand-scroll-list::-webkit-scrollbar {
-    width: 4px;
+.page-btn.active {
+    background: var(--primary);
+    color: white;
+    border-color: var(--primary);
 }
 
-.brand-scroll-list::-webkit-scrollbar-thumb {
-    background: #ddd;
-    border-radius: 10px;
+.page-btn.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
 }
 
-/* Cluster Pills */
-.cluster-container {
-    display: flex;
-    gap: 10px;
-    overflow-x: auto;
-    padding: 10px 0 20px 0;
-    margin-bottom: 10px;
-    scrollbar-width: none;
+@media (max-width: 1024px) {
+    .ecommerce-layout {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .ecommerce-sidebar {
+        position: static;
+        padding-bottom: 20px;
+    }
 }
 
-.cluster-container::-webkit-scrollbar {
-    display: none;
-}
-
-.cluster-pill {
     white-space: nowrap;
     padding: 8px 18px;
     background: #f8fafc;
     border: 1px solid #e2e8f0;
     border-radius: 10px;
-    font-size: 0.85rem;
-    font-weight: 500;
-    color: #64748b;
-    cursor: pointer;
-    transition: all 0.2s ease;
+    /* Dashboard & Grid styles preserved above */
 }
 
-.cluster-pill:hover {
-    background: #f1f5f9;
-    color: var(--primary);
-}
-
-.cluster-pill.active {
-    background: var(--primary);
-    color: white;
-    border-color: var(--primary);
-    box-shadow: 0 4px 10px rgba(255, 122, 0, 0.15);
-}
-
-.product-info-bar {
-    margin-bottom: 15px;
-    font-size: 0.85rem;
-    color: #94a3b8;
-    font-weight: 500;
-}
-
-.custom-checkbox {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 12px;
-    cursor: pointer;
-    font-size: 0.9rem;
-    color: #4b5563;
-    transition: var(--transition);
-}
-
-.custom-checkbox:hover {
-    color: var(--primary);
-}
-
-.ecommerce-topbar {
-    background: white;
-    padding: 15px 20px;
-    border-radius: 15px;
-    margin-bottom: 25px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 1px solid rgba(0,0,0,0.05);
-}
-
-.search-box {
-    position: relative;
-    flex-grow: 1;
-    max-width: 400px;
-}
-
-.search-box input {
-    width: 100%;
-    padding: 12px 15px 12px 45px;
     border-radius: 12px;
     border: 1px solid #e5e7eb;
     background: #f9fafb;
