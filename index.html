@@ -70,13 +70,22 @@
     <link rel="icon" type="image/png" href="logokoboi.png">
     <link rel="apple-touch-icon" href="logokoboi.png">
 
-    <!-- Google Analytics (Placeholder - Ganti ID dengan ID Anda) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NKNYTFX24R"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-        gtag('config', 'G-XXXXXXXXXX');
+        gtag('config', 'G-NKNYTFX24R');
+
+        // Global Event Tracking Helper
+        function trackEvent(action, category, label) {
+            gtag('event', action, {
+                'event_category': category,
+                'event_label': label
+            });
+            console.log(`Event Tracked: ${action} - ${category} - ${label}`);
+        }
     </script>
 
     <!-- Google Fonts -->

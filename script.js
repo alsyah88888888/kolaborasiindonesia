@@ -55,25 +55,37 @@ function renderProducts(filter = 'all') {
         const card = document.createElement('div');
         card.className = 'product-card reveal';
         
+        // Add click tracking for the whole card
+        card.addEventListener('click', () => {
+            trackEvent('view_product', 'Catalog', product.name);
+        });
+
         card.innerHTML = `
             <div class="product-img-wrapper">
+                <div class="product-badge">${product.sold > 1000 ? 'Top Seller' : 'Original'}</div>
                 <img src="${product.img}" alt="${product.name}" class="product-img" loading="lazy">
                 <div class="product-overlay">
-                    <a href="https://wa.me/6285774444805?text=Halo%20KOBOI,%20saya%20tertarik%20dengan%20produk%20${encodeURIComponent(product.name)}" target="_blank" class="btn-inquiry">
-                        <i class="fab fa-whatsapp"></i> Tanya Stok
+                    <a href="https://wa.me/6285774444805?text=Halo%20KOBOI,%20saya%20tertarik%20dengan%20produk%20${encodeURIComponent(product.name)}" 
+                       target="_blank" 
+                       class="btn-inquiry"
+                       onclick="trackEvent('whatsapp_inquiry', 'Leads', '${product.name}')">
+                        <i class="fab fa-whatsapp"></i> Tanya Grosir
                     </a>
                 </div>
             </div>
             <div class="product-info">
                 <span class="product-category-label">${categoryLabels[product.category] || 'Umum'}</span>
                 <h3>${product.name}</h3>
+                <div class="product-meta">
+                    <span class="price-retail">Harga Bersaing</span>
+                    <span class="sold-count">${product.sold}+ Terjual</span>
+                </div>
                 <div class="product-footer">
-                    <span class="quality-label"><i class="fas fa-check-circle"></i> Produk Original</span>
-                    <span class="stock-status">Ready</span>
+                    <span class="quality-label"><i class="fas fa-shield-check"></i> Verified Partner</span>
+                    <span class="stock-status in-stock">Ready Stock</span>
                 </div>
             </div>
         `;
-
 
         productGrid.appendChild(card);
     });
@@ -189,6 +201,9 @@ if (footerForm) {
         const name = document.getElementById('fcName').value;
         const email = document.getElementById('fcEmail').value;
         const msg = document.getElementById('fcMessage').value;
+        
+        // Track form submission
+        trackEvent('form_submission', 'Contact', 'Footer Form');
         
         const waText = encodeURIComponent(`Halo Tim KOBOI, saya memiliki pertanyaan via Formulir Website.\n\n*Nama:* ${name}\n*Email:* ${email}\n\n*Pesan:*\n${msg}`);
         window.open(`https://wa.me/6285774444805?text=${waText}`, '_blank');
