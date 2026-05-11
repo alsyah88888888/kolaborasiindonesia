@@ -5088,8 +5088,12 @@ function applyFilters(keepPage = false) {
     if (!keepPage) currentPage = 1;
 
     let filtered = ecommerceProducts.filter(p => {
-        if (currentCategoryFilters.length > 0 && !currentCategoryFilters.includes(p.category)) return false;
+        // Filter Category
+        if (currentCategoryFilters.length > 0) {
+            if (!currentCategoryFilters.includes(p.category)) return false;
+        }
 
+        // Filter Search
         if (currentSearch) {
             const searchLower = currentSearch.toLowerCase();
             const matchesName = p.name ? p.name.toLowerCase().includes(searchLower) : false;
@@ -5097,24 +5101,25 @@ function applyFilters(keepPage = false) {
             if (!matchesName && !matchesSku) return false;
         }
 
-
         return true;
     });
 
-    renderSkeletons();
+    // Sorting Logic
+    if (currentSort === 'terbaru') {
+        filtered.sort((a, b) => b.id - a.id);
+    }
 
-    setTimeout(() => {
-        const totalCount = filtered.length;
-        const startIndex = (currentPage - 1) * itemsPerPage;
-        const paginatedItems = filtered.slice(startIndex, startIndex + itemsPerPage);
+    const totalCount = filtered.length;
+    const startIndex = (currentPage - 1) * itemsPerPage;
+    const paginatedItems = filtered.slice(startIndex, startIndex + itemsPerPage);
 
-        renderEcommerce(paginatedItems, totalCount);
-        renderPagination(totalCount);
+    // Render logic (Removed artificial delay for instant updates)
+    renderEcommerce(paginatedItems, totalCount);
+    renderPagination(totalCount);
 
-        if (keepPage) {
-            window.scrollTo({ top: grid.offsetTop - 100, behavior: 'smooth' });
-        }
-    }, 400); // Artificial delay for skeleton effect
+    if (keepPage) {
+        window.scrollTo({ top: grid.offsetTop - 100, behavior: 'smooth' });
+    }
 }
 
 // Event Listeners
