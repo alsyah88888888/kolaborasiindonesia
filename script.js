@@ -34,7 +34,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 // Product Catalog Data & Filtering
-const featuredProductIds = [1, 4, 10, 12, 16, 18, 21, 46, 90]; 
+const featuredProductIds = [1, 4, 16, 21, 55, 85, 90, 48, 80, 81, 359, 360, 411, 412]; 
 let displayLimit = 20;
 let currentProducts = [];
 
@@ -100,6 +100,11 @@ function renderProducts(filter = 'all', limit = displayLimit) {
 
         productGrid.appendChild(card);
     });
+
+    // Re-initialize GSAP Reveal for new elements
+    if (typeof gsap !== 'undefined' && typeof ScrollTrigger !== 'undefined') {
+        initProductReveal();
+    }
 
     // Add Load More Button if needed
     updateLoadMoreButton(filtered.length > limit);
@@ -280,28 +285,37 @@ if (document.querySelector('.hero-content h1')) {
 }
 
 // 3D Entrance for Reveal Elements
-const revealElements = document.querySelectorAll('.reveal');
-revealElements.forEach(el => {
-    gsap.fromTo(el, 
-        { 
-            opacity: 0, 
-            z: -200, 
-            y: 50 
-        }, 
-        {
-            scrollTrigger: {
-                trigger: el,
-                start: 'top 90%',
-                toggleActions: 'play none none reverse'
-            },
-            opacity: 1,
-            z: 0,
-            y: 0,
-            duration: 1,
-            ease: 'power3.out'
-        }
-    );
-});
+function initProductReveal() {
+    const revealElements = document.querySelectorAll('.reveal');
+    revealElements.forEach(el => {
+        // Only apply if not already initialized
+        if (el.dataset.revealed) return;
+        el.dataset.revealed = "true";
+
+        gsap.fromTo(el, 
+            { 
+                opacity: 0, 
+                z: -200, 
+                y: 50 
+            }, 
+            {
+                scrollTrigger: {
+                    trigger: el,
+                    start: 'top 90%',
+                    toggleActions: 'play none none reverse'
+                },
+                opacity: 1,
+                z: 0,
+                y: 0,
+                duration: 1,
+                ease: 'power3.out'
+            }
+        );
+    });
+}
+
+// Initial call
+initProductReveal();
 
 // Quick Order Portal Removed for stability
 
