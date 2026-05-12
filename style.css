@@ -174,10 +174,34 @@ a {
     color: var(--primary);
 }
 
-.navbar:not(.sticky) .nav-links a,
-.navbar:not(.sticky) .logo,
-.navbar:not(.sticky) .theme-toggle i {
+/* Only force white text on index page hero (where body doesn't have page-katalog) */
+body:not(.page-katalog) .navbar:not(.sticky) .nav-links a,
+body:not(.page-katalog) .navbar:not(.sticky) .logo,
+body:not(.page-katalog) .navbar:not(.sticky) .theme-toggle i {
     color: var(--white) !important;
+}
+
+/* Ensure katalog page navbar is always readable */
+.page-katalog .navbar {
+    background: var(--glass-bg);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: var(--glass-shadow);
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.page-katalog .navbar .nav-links a,
+.page-katalog .navbar .logo,
+.page-katalog .navbar .theme-toggle i {
+    color: var(--dark) !important;
+}
+
+.page-katalog .navbar .nav-links a[style*="color: var(--primary)"] {
+    color: var(--primary) !important;
+}
+
+.page-katalog .navbar .nav-links a:hover {
+    color: var(--primary) !important;
 }
 
 .menu-toggle {
