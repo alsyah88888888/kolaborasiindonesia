@@ -34,15 +34,15 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 // Product Catalog Data & Filtering
-const featuredProductIds = [1, 4, 16, 21, 55, 85, 90, 48, 80, 81, 359, 360, 411, 412]; 
-let displayLimit = 20;
+const featuredProductIds = [243, 86, 32, 92, 98, 97]; 
+let displayLimit = 6;
 let currentProducts = [];
 
 function initProducts() {
     if (typeof ecommerceProducts !== 'undefined') {
         const isHomePage = !window.location.pathname.includes('katalog.html');
         if (isHomePage) {
-            currentProducts = ecommerceProducts.filter(p => featuredProductIds.includes(p.id));
+            currentProducts = featuredProductIds.map(id => ecommerceProducts.find(p => p.id === id)).filter(p => p !== undefined);
         } else {
             currentProducts = ecommerceProducts;
         }
