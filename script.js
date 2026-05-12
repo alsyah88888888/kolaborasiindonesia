@@ -89,7 +89,6 @@ function renderProducts(filter = 'all', limit = displayLimit) {
                 <h3>${product.name}</h3>
                 <div class="product-meta">
                     <span class="price-retail">Harga Bersaing</span>
-                    <span class="sold-count">${product.sold}+ Terjual</span>
                 </div>
                 <div class="product-footer">
                     <span class="quality-label"><i class="fas fa-shield-check"></i> Verified Partner</span>
