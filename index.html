@@ -126,18 +126,23 @@
         <div class="container nav-container">
             <a href="#" class="logo">Kola Borasi Indonesia</a>
             <ul class="nav-links">
-                <li><a href="#hero">Beranda</a></li>
-                <li><a href="#about">Tentang Kami</a></li>
-                <li><a href="#philosophy">Keunggulan</a></li>
-                <li><a href="katalog.html">Katalog</a></li>
-                <li><a href="#fleet">Armada</a></li>
+                <li><a href="#hero" data-i18n="nav-home">Beranda</a></li>
+                <li><a href="#about" data-i18n="nav-about">Tentang Kami</a></li>
+                <li><a href="#philosophy" data-i18n="nav-features">Keunggulan</a></li>
+                <li><a href="katalog.html" data-i18n="nav-catalog">Katalog</a></li>
+                <li><a href="#fleet" data-i18n="nav-fleet">Armada</a></li>
             </ul>
             <div style="display: flex; align-items: center; gap: 15px;">
+                <div class="lang-switcher" style="display: flex; gap: 5px; background: rgba(0,0,0,0.05); padding: 5px; border-radius: 20px;">
+                    <button class="lang-btn" data-lang="id" title="Bahasa Indonesia" style="border: none; background: transparent; cursor: pointer; padding: 2px 5px; font-size: 0.8rem; font-weight: 600; border-radius: 50%;">ID</button>
+                    <button class="lang-btn" data-lang="en" title="English" style="border: none; background: transparent; cursor: pointer; padding: 2px 5px; font-size: 0.8rem; font-weight: 600; border-radius: 50%;">EN</button>
+                    <button class="lang-btn" data-lang="jp" title="日本語" style="border: none; background: transparent; cursor: pointer; padding: 2px 5px; font-size: 0.8rem; font-weight: 600; border-radius: 50%;">JP</button>
+                </div>
                 <div class="theme-toggle" id="themeToggle"
                     style="cursor: pointer; font-size: 1.2rem; color: var(--dark); transition: var(--transition);">
                     <i class="fas fa-moon"></i>
                 </div>
-                <a href="https://wa.me/6285774444805" target="_blank" class="btn-primary-sm">Kontak</a>
+                <a href="https://wa.me/6285774444805" target="_blank" class="btn-primary-sm" data-i18n="nav-contact">Kontak</a>
             </div>
             <div class="menu-toggle" id="mobile-menu">
                 <i class="fas fa-bars"></i>
@@ -152,13 +157,13 @@
         </video>
         <div class="hero-overlay"></div>
         <div class="container hero-content">
-            <h1 class="bounce-in">MITRA FMCG NUSANTARA</h1>
-            <p class="fade-in-up"><strong>PT. Kola Borasi Indonesia</strong> hadir dengan komitmen sebagai
+            <h1 class="bounce-in" data-i18n="hero-title">MITRA FMCG NUSANTARA</h1>
+            <p class="fade-in-up" data-i18n="hero-desc" data-i18n-html="true"><strong>PT. Kola Borasi Indonesia</strong> hadir dengan komitmen sebagai
                 <strong>Mitra FMCG Nusantara</strong> yang mendefinisikan ulang cara distribusi bekerja.
                 Kami menghubungkan produk esensial berkualitas dengan cara yang lebih cepat
                 dan efisien, menjadikannya terjangkau bagi siapa saja, di mana saja.
             </p>
-            <a href="https://wa.me/6285774444805" target="_blank" class="btn-primary fade-in-up delay-1">Hubungi
+            <a href="https://wa.me/6285774444805" target="_blank" class="btn-primary fade-in-up delay-1" data-i18n="hero-cta">Hubungi
                 Kami</a>
         </div>
     </section>
@@ -168,25 +173,25 @@
     <section id="about" class="about section-padding">
         <div class="container">
             <div class="section-title reveal">
-                <h2>Tentang Kami</h2>
+                <h2 data-i18n="about-title">Tentang Kami</h2>
                 <div class="underline"></div>
             </div>
             <div class="about-content">
                 <div class="about-text">
-                    <h3 class="reveal" style="text-transform: uppercase;">PT. Kola Borasi Indonesia</h3>
-                    <p class="reveal">Didirikan pada tahun 2020, PT. Kola Borasi Indonesia berdedikasi untuk menjadi
+                    <h3 class="reveal" style="text-transform: uppercase;" data-i18n="about-subtitle">PT. Kola Borasi Indonesia</h3>
+                    <p class="reveal" data-i18n="about-desc">Didirikan pada tahun 2020, PT. Kola Borasi Indonesia berdedikasi untuk menjadi
                         penghubung utama antara
                         produsen dan konsumen.</p>
 
                     <p class="reveal"
-                        style="margin-top: 30px; font-size: 1.2rem; color: var(--primary); font-weight: 600;">VISI KAMI
+                        style="margin-top: 30px; font-size: 1.2rem; color: var(--primary); font-weight: 600;" data-i18n="visi-title">VISI KAMI
                     </p>
-                    <p class="reveal" style="font-style: italic; font-size: 1.1rem; line-height: 1.8;">"Menjadi pusat
+                    <p class="reveal" style="font-style: italic; font-size: 1.1rem; line-height: 1.8;" data-i18n="visi-desc">"Menjadi pusat
                         distribusi FMCG terkemuka di Indonesia yang mendefinisikan ulang keterjangkauan dan kualitas,
                         guna meningkatkan taraf hidup komunitas melalui akses produk esensial yang merata."</p>
 
                     <p class="reveal"
-                        style="margin-top: 30px; font-size: 1.2rem; color: var(--primary); font-weight: 600;">MISI KAMI
+                        style="margin-top: 30px; font-size: 1.2rem; color: var(--primary); font-weight: 600;" data-i18n="misi-title">MISI KAMI
                     </p>
                     <ul class="misi-list reveal"
                         style="text-align: left; max-width: 800px; margin: 0 auto; list-style: none; padding: 0;">
@@ -194,31 +199,31 @@
                             style="margin-bottom: 15px; position: relative; padding-left: 25px; line-height: 1.8; color: var(--muted);">
                             <i class="fas fa-check-circle"
                                 style="color: var(--primary); position: absolute; left: 0; top: 5px;"></i> <strong
-                                style="color: var(--dark);">Efisiensi Rantai Pasok:</strong> Mengoptimalkan distribusi
+                                style="color: var(--dark);" data-i18n="misi-1-title">Efisiensi Rantai Pasok:</strong> <span data-i18n="misi-1-desc">Mengoptimalkan distribusi
                             melalui sistem logistik mandiri untuk menjamin pengiriman cepat dan tepat waktu ke seluruh
-                            penjuru nusantara.
+                            penjuru nusantara.</span>
                         </li>
                         <li
                             style="margin-bottom: 15px; position: relative; padding-left: 25px; line-height: 1.8; color: var(--muted);">
                             <i class="fas fa-check-circle"
                                 style="color: var(--primary); position: absolute; left: 0; top: 5px;"></i> <strong
-                                style="color: var(--dark);">Keunggulan Harga:</strong> Memastikan setiap produk tetap
-                            terjangkau (low-cost) dengan strategi pengadaan dan analisis pasar yang tajam.
+                                style="color: var(--dark);" data-i18n="misi-2-title">Keunggulan Harga:</strong> <span data-i18n="misi-2-desc">Memastikan setiap produk tetap
+                            terjangkau (low-cost) dengan strategi pengadaan dan analisis pasar yang tajam.</span>
                         </li>
                         <li
                             style="margin-bottom: 15px; position: relative; padding-left: 25px; line-height: 1.8; color: var(--muted);">
                             <i class="fas fa-check-circle"
                                 style="color: var(--primary); position: absolute; left: 0; top: 5px;"></i> <strong
-                                style="color: var(--dark);">Inovasi Produk:</strong> Terus melakukan diversifikasi
+                                style="color: var(--dark);" data-i18n="misi-3-title">Inovasi Produk:</strong> <span data-i18n="misi-3-desc">Terus melakukan diversifikasi
                             portofolio, termasuk sektor kebutuhan rumah tangga dan kosmetik, sesuai dengan tren pasar
-                            nasional.
+                            nasional.</span>
                         </li>
                         <li
                             style="margin-bottom: 15px; position: relative; padding-left: 25px; line-height: 1.8; color: var(--muted);">
                             <i class="fas fa-check-circle"
                                 style="color: var(--primary); position: absolute; left: 0; top: 5px;"></i> <strong
-                                style="color: var(--dark);">Kemitraan Terpercaya:</strong> Membangun ekosistem bisnis
-                            yang saling menguntungkan dengan lebih dari 800 jaringan toko ritel di Indonesia.
+                                style="color: var(--dark);" data-i18n="misi-4-title">Kemitraan Terpercaya:</strong> <span data-i18n="misi-4-desc">Membangun ekosistem bisnis
+                            yang saling menguntungkan dengan lebih dari 800 jaringan toko ritel di Indonesia.</span>
                         </li>
                     </ul>
                 </div>
@@ -230,26 +235,26 @@
     <section class="section-padding bg-light" id="features">
         <div class="container">
             <div class="section-title reveal">
-                <span class="subtitle">Kenapa Bermitra dengan Kami?</span>
-                <h2>Solusi Distribusi Terbaik untuk Bisnis Ritel Anda</h2>
+                <span class="subtitle" data-i18n="feat-subtitle">Kenapa Bermitra dengan Kami?</span>
+                <h2 data-i18n="feat-title">Solusi Distribusi Terbaik untuk Bisnis Ritel Anda</h2>
             </div>
             <div class="grid-3">
                 <div class="feature-card reveal">
                     <div class="feature-icon"><i class="fas fa-truck-loading"></i></div>
-                    <h3>Pengiriman Cepat</h3>
-                    <p>Sistem logistik terintegrasi memastikan barang sampai di toko Anda dalam waktu 24 jam setelah
+                    <h3 data-i18n="feat-1-title">Pengiriman Cepat</h3>
+                    <p data-i18n="feat-1-desc">Sistem logistik terintegrasi memastikan barang sampai di toko Anda dalam waktu 24 jam setelah
                         pemesanan.</p>
                 </div>
                 <div class="feature-card reveal">
                     <div class="feature-icon"><i class="fas fa-tags"></i></div>
-                    <h3>Harga Grosir Langsung</h3>
-                    <p>Dapatkan margin keuntungan lebih besar dengan harga tangan pertama langsung dari distributor
+                    <h3 data-i18n="feat-2-title">Harga Grosir Langsung</h3>
+                    <p data-i18n="feat-2-desc">Dapatkan margin keuntungan lebih besar dengan harga tangan pertama langsung dari distributor
                         resmi.</p>
                 </div>
                 <div class="feature-card reveal">
                     <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
-                    <h3>Jaminan Stok Ready</h3>
-                    <p>Manajemen gudang modern kami memastikan ketersediaan stok barang esensial selalu terjaga untuk
+                    <h3 data-i18n="feat-3-title">Jaminan Stok Ready</h3>
+                    <p data-i18n="feat-3-desc">Manajemen gudang modern kami memastikan ketersediaan stok barang esensial selalu terjaga untuk
                         Anda.</p>
                 </div>
             </div>
@@ -265,22 +270,22 @@
                 <div class="stat-item">
                     <div class="stat-icon"><i class="fas fa-store"></i></div>
                     <div class="counter" data-target="800">0</div>
-                    <span>Toko Ritel Mitra</span>
+                    <span data-i18n="stat-stores">Toko Ritel Mitra</span>
                 </div>
                 <div class="stat-item">
                     <div class="stat-icon"><i class="fas fa-box-open"></i></div>
                     <div class="counter" data-target="150">0</div>
-                    <span>Varian Produk Tersedia</span>
+                    <span data-i18n="stat-products">Varian Produk Tersedia</span>
                 </div>
                 <div class="stat-item">
                     <div class="stat-icon"><i class="fas fa-truck-fast"></i></div>
                     <div class="counter" data-target="10000">0</div>
-                    <span>Pengiriman Sukses</span>
+                    <span data-i18n="stat-deliveries">Pengiriman Sukses</span>
                 </div>
                 <div class="stat-item">
                     <div class="stat-icon"><i class="fas fa-calendar-alt"></i></div>
                     <div class="counter" data-target="5">0</div>
-                    <span>Tahun Pengalaman Distribusi</span>
+                    <span data-i18n="stat-experience">Tahun Pengalaman Distribusi</span>
                 </div>
             </div>
         </div>
@@ -290,7 +295,7 @@
     <section id="brands" class="brands-section">
         <div class="container reveal">
             <div class="section-title" style="margin-bottom: 30px;">
-                <h2 style="font-size: 1.5rem; opacity: 0.7;">Lini Produk & Brand Partner</h2>
+                <h2 style="font-size: 1.5rem; opacity: 0.7;" data-i18n="brands-title">Lini Produk & Brand Partner</h2>
             </div>
             <div class="brand-wrapper">
                 <div class="marquee-content">
@@ -344,27 +349,27 @@
     <section id="catalog" class="catalog section-padding bg-light">
         <div class="container">
             <div class="section-title reveal">
-                <h2>Produk Pilihan Kami</h2>
+                <h2 data-i18n="catalog-title">Produk Pilihan Kami</h2>
                 <div class="underline"></div>
             </div>
-            <p class="catalog-header-text reveal">
+            <p class="catalog-header-text reveal" data-i18n="catalog-desc">
                 Jelajahi koleksi produk esensial terbaik kami. Dari kebutuhan harian hingga perlengkapan rumah tangga,
                 kami menjamin ketersediaan stok dengan harga yang paling kompetitif untuk bisnis Anda.
             </p>
 
             <div class="filter-controls reveal">
-                <button class="filter-btn active" data-filter="all">Semua Kategori</button>
-                <button class="filter-btn" data-filter="minuman">Minuman</button>
-                <button class="filter-btn" data-filter="makanan">Makanan</button>
-                <button class="filter-btn" data-filter="rt">Rumah Tangga</button>
-                <button class="filter-btn" data-filter="harian">Lainnya</button>
+                <button class="filter-btn active" data-filter="all" data-i18n="cat-all">Semua Kategori</button>
+                <button class="filter-btn" data-filter="minuman" data-i18n="cat-drink">Minuman</button>
+                <button class="filter-btn" data-filter="makanan" data-i18n="cat-food">Makanan</button>
+                <button class="filter-btn" data-filter="rt" data-i18n="cat-rt">Rumah Tangga</button>
+                <button class="filter-btn" data-filter="harian" data-i18n="cat-other">Lainnya</button>
             </div>
 
             <!-- Dynamic Grid Generated by script.js -->
             <div class="product-grid" id="productGrid"></div>
 
             <div style="text-align: center; margin-top: 40px;" class="reveal">
-                <a href="katalog.html" class="btn-primary">Lihat Katalog E-Commerce Lebih Lengkap <i
+                <a href="katalog.html" class="btn-primary" data-i18n="cat-view-all">Lihat Katalog E-Commerce Lebih Lengkap <i
                         class="fas fa-arrow-right" style="margin-left: 5px;"></i></a>
             </div>
         </div>
@@ -374,30 +379,30 @@
     <section id="fleet" class="fleet section-padding">
         <div class="container">
             <div class="section-title reveal">
-                <h2>Kekuatan Armada</h2>
-                <p>Didukung oleh mitra Borcelle Logistics untuk jangkauan luas</p>
+                <h2 data-i18n="fleet-title">Kekuatan Armada</h2>
+                <p data-i18n="fleet-desc">Didukung oleh mitra Borcelle Logistics untuk jangkauan luas</p>
                 <div class="underline"></div>
             </div>
             <div class="fleet-list reveal">
                 <div class="fleet-item">
                     <div class="fleet-icon"><i class="fas fa-truck-moving"></i></div>
-                    <h3>Double Bak</h3>
+                    <h3 data-i18n="fleet-1">Double Bak</h3>
                 </div>
                 <div class="fleet-item">
                     <div class="fleet-icon"><i class="fas fa-truck"></i></div>
-                    <h3>Double Box</h3>
+                    <h3 data-i18n="fleet-2">Double Box</h3>
                 </div>
                 <div class="fleet-item">
                     <div class="fleet-icon"><i class="fas fa-truck-fast"></i></div>
-                    <h3>Mobil Box Engkel</h3>
+                    <h3 data-i18n="fleet-3">Mobil Box Engkel</h3>
                 </div>
                 <div class="fleet-item">
                     <div class="fleet-icon"><i class="fas fa-truck-pickup"></i></div>
-                    <h3>Mobil Pick Up</h3>
+                    <h3 data-i18n="fleet-4">Mobil Pick Up</h3>
                 </div>
                 <div class="fleet-item">
                     <div class="fleet-icon"><i class="fas fa-van-shuttle"></i></div>
-                    <h3>Mobil Box</h3>
+                    <h3 data-i18n="fleet-5">Mobil Box</h3>
                 </div>
             </div>
         </div>
@@ -407,7 +412,7 @@
     <section id="timeline" class="timeline-section section-padding bg-light">
         <div class="container">
             <div class="section-title reveal">
-                <h2>Timeline Pertumbuhan</h2>
+                <h2 data-i18n="timeline-title">Timeline Pertumbuhan</h2>
                 <div class="underline"></div>
             </div>
             <div class="timeline">
@@ -415,7 +420,7 @@
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
                         <h3>2020</h3>
-                        <p>PT. Kola Borasi Indonesia didirikan di tengah meningkatnya
+                        <p data-i18n="time-2020-desc">PT. Kola Borasi Indonesia didirikan di tengah meningkatnya
                             kebutuhan logistik.</p>
                     </div>
                 </div>
@@ -423,7 +428,7 @@
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
                         <h3>2022</h3>
-                        <p>Ekspansi jaringan distribusi mencapai lebih dari 300 toko ritel di wilayah strategis
+                        <p data-i18n="time-2022-desc">Ekspansi jaringan distribusi mencapai lebih dari 300 toko ritel di wilayah strategis
                             operasional.</p>
                     </div>
                 </div>
@@ -431,14 +436,14 @@
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
                         <h3>2024</h3>
-                        <p>Kemitraan dengan Borcelle Logistics ditandatangani dan menjangkau 800+ toko ritel aktif.</p>
+                        <p data-i18n="time-2024-desc">Kemitraan dengan Borcelle Logistics ditandatangani dan menjangkau 800+ toko ritel aktif.</p>
                     </div>
                 </div>
                 <div class="timeline-item reveal">
                     <div class="timeline-dot"></div>
                     <div class="timeline-content">
                         <h3>2025 (Proyeksi)</h3>
-                        <p>Menjadi pusat distribusi terkemuka tingkat nasional dengan layanan pelanggan terintegrasi
+                        <p data-i18n="time-2025-desc">Menjadi pusat distribusi terkemuka tingkat nasional dengan layanan pelanggan terintegrasi
                             inovatif.</p>
                     </div>
                 </div>
@@ -453,7 +458,7 @@
             <!-- Kolom 1: Perusahaan & Kontak -->
             <div class="footer-col">
                 <h3>PT. Kola Borasi Indonesia</h3>
-                <p>Mendemokratisasi akses produk esensial logistik FMCG untuk pahlawan ritel masyarakat.</p>
+                <p data-i18n="footer-desc">Mendemokratisasi akses produk esensial logistik FMCG untuk pahlawan ritel masyarakat.</p>
                 <p><i class="fas fa-map-marker-alt"></i> Green Kartika Residence, Cibinong, Bogor</p>
                 <p><i class="fas fa-phone-alt"></i> +62 857-7444-4805</p>
                 <div class="social-links">
@@ -465,28 +470,28 @@
 
             <!-- Kolom 2: Tautan -->
             <div class="footer-col">
-                <h3>Tautan Cepat</h3>
+                <h3 data-i18n="footer-links-title">Tautan Cepat</h3>
                 <ul class="footer-links">
-                    <li><a href="#about">Tentang Kami</a></li>
-                    <li><a href="#philosophy">Keunggulan</a></li>
-                    <li><a href="katalog.html">Katalog Produk</a></li>
-                    <li><a href="#fleet">Armada Logistik</a></li>
+                    <li><a href="#about" data-i18n="nav-about">Tentang Kami</a></li>
+                    <li><a href="#philosophy" data-i18n="nav-features">Keunggulan</a></li>
+                    <li><a href="katalog.html" data-i18n="nav-catalog">Katalog Produk</a></li>
+                    <li><a href="#fleet" data-i18n="nav-fleet">Armada Logistik</a></li>
                 </ul>
             </div>
 
             <!-- Kolom 3: Form Kontak -->
             <div class="footer-col">
-                <h3>Tinggalkan Pesan</h3>
+                <h3 data-i18n="footer-form-title">Tinggalkan Pesan</h3>
                 <form id="footerContactForm" class="footer-form">
-                    <input type="text" id="fcName" placeholder="Nama Anda" required>
-                    <input type="email" id="fcEmail" placeholder="Email Anda" required>
-                    <textarea id="fcMessage" placeholder="Tuliskan pesan Anda..." rows="3" required></textarea>
-                    <button type="submit" class="btn-primary">Kirim Pesan</button>
+                    <input type="text" id="fcName" placeholder="Nama Anda" data-i18n="footer-form-name" required>
+                    <input type="email" id="fcEmail" placeholder="Email Anda" data-i18n="footer-form-email" required>
+                    <textarea id="fcMessage" placeholder="Tuliskan pesan Anda..." rows="3" data-i18n="footer-form-msg" required></textarea>
+                    <button type="submit" class="btn-primary" data-i18n="footer-form-btn">Kirim Pesan</button>
                 </form>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2025 PT. Kola Borasi Indonesia. All rights reserved.</p>
+            <p data-i18n="footer-copy">&copy; 2025 PT. Kola Borasi Indonesia. All rights reserved.</p>
         </div>
     </footer>
 
@@ -497,6 +502,8 @@
 
 
     <!-- Data & Custom Script -->
+    <script src="translations.js"></script>
+    <script src="i18n.js"></script>
     <script src="katalog.js"></script>
     <script src="script.js"></script>
     <script src="ai-agent.js"></script>

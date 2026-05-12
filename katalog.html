@@ -52,18 +52,23 @@
         <div class="container nav-container">
             <a href="index.html" class="logo">Kola Borasi</a>
             <ul class="nav-links">
-                <li><a href="index.html#hero">Beranda</a></li>
-                <li><a href="index.html#about">Tentang Kami</a></li>
-                <li><a href="index.html#philosophy">Keunggulan</a></li>
-                <li><a href="katalog.html" style="color: var(--primary)">Katalog</a></li>
-                <li><a href="index.html#fleet">Armada</a></li>
+                <li><a href="index.html#hero" data-i18n="nav-home">Beranda</a></li>
+                <li><a href="index.html#about" data-i18n="nav-about">Tentang Kami</a></li>
+                <li><a href="index.html#philosophy" data-i18n="nav-features">Keunggulan</a></li>
+                <li><a href="katalog.html" style="color: var(--primary)" data-i18n="nav-catalog">Katalog</a></li>
+                <li><a href="index.html#fleet" data-i18n="nav-fleet">Armada</a></li>
             </ul>
             <div style="display: flex; align-items: center; gap: 15px;">
+                <div class="lang-switcher" style="display: flex; gap: 5px; background: rgba(0,0,0,0.05); padding: 5px; border-radius: 20px;">
+                    <button class="lang-btn" data-lang="id" title="Bahasa Indonesia" style="border: none; background: transparent; cursor: pointer; padding: 2px 5px; font-size: 0.8rem; font-weight: 600; border-radius: 50%;">ID</button>
+                    <button class="lang-btn" data-lang="en" title="English" style="border: none; background: transparent; cursor: pointer; padding: 2px 5px; font-size: 0.8rem; font-weight: 600; border-radius: 50%;">EN</button>
+                    <button class="lang-btn" data-lang="jp" title="日本語" style="border: none; background: transparent; cursor: pointer; padding: 2px 5px; font-size: 0.8rem; font-weight: 600; border-radius: 50%;">JP</button>
+                </div>
                 <div class="theme-toggle" id="themeToggle"
                     style="cursor: pointer; font-size: 1.2rem; color: var(--dark); transition: var(--transition);">
                     <i class="fas fa-moon"></i>
                 </div>
-                <a href="https://wa.me/6285774444805" target="_blank" class="btn-primary-sm">Kontak</a>
+                <a href="https://wa.me/6285774444805" target="_blank" class="btn-primary-sm" data-i18n="nav-contact">Kontak</a>
             </div>
             <div class="menu-toggle" id="mobile-menu">
                 <i class="fas fa-bars"></i>
@@ -136,7 +141,7 @@
             <!-- Sidebar Filter -->
             <aside class="ecommerce-sidebar">
                 <div class="filter-header">
-                    <h3>Filter Pencarian</h3>
+                    <h3 data-i18n="filter-title">Filter Pencarian</h3>
                     <button id="resetFilter" class="btn-reset">Reset</button>
                 </div>
 
@@ -184,12 +189,12 @@
                     <div class="top-controls">
                         <div class="search-box">
                             <i class="fas fa-search"></i>
-                            <input type="text" id="searchInput" placeholder="Cari nama barang atau SKU produk...">
+                            <input type="text" id="searchInput" placeholder="Cari nama barang atau SKU produk..." data-i18n="search-placeholder">
                         </div>
                         <div class="sort-box">
                             <select id="sortSelect">
-                                <option value="relevan">Urutkan: Paling Sesuai</option>
-                                <option value="terbaru">Urutkan: Terbaru</option>
+                                <option value="relevan" data-i18n="sort-latest">Urutkan: Paling Sesuai</option>
+                                <option value="terbaru" data-i18n="sort-latest">Urutkan: Terbaru</option>
                             </select>
                         </div>
                     </div>
@@ -227,7 +232,7 @@
             <!-- Kolom 1: Perusahaan & Kontak -->
             <div class="footer-col">
                 <h3>PT. Kola Borasi Indonesia</h3>
-                <p>Mendemokratisasi akses produk esensial logistik FMCG untuk pahlawan ritel masyarakat.</p>
+                <p data-i18n="footer-desc">Mendemokratisasi akses produk esensial logistik FMCG untuk pahlawan ritel masyarakat.</p>
                 <p><i class="fas fa-map-marker-alt"></i> Green Kartika Residence, Cibinong, Bogor</p>
                 <p><i class="fas fa-phone-alt"></i> +62 857-7444-4805</p>
                 <div class="social-links">
@@ -239,28 +244,28 @@
 
             <!-- Kolom 2: Tautan -->
             <div class="footer-col">
-                <h3>Tautan Cepat</h3>
+                <h3 data-i18n="footer-links-title">Tautan Cepat</h3>
                 <ul class="footer-links">
-                    <li><a href="index.html#about">Tentang Kami</a></li>
-                    <li><a href="index.html#philosophy">Keunggulan</a></li>
-                    <li><a href="katalog.html">Katalog Produk</a></li>
-                    <li><a href="index.html#fleet">Armada Logistik</a></li>
+                    <li><a href="index.html#about" data-i18n="nav-about">Tentang Kami</a></li>
+                    <li><a href="index.html#philosophy" data-i18n="nav-features">Keunggulan</a></li>
+                    <li><a href="katalog.html" data-i18n="nav-catalog">Katalog Produk</a></li>
+                    <li><a href="index.html#fleet" data-i18n="nav-fleet">Armada Logistik</a></li>
                 </ul>
             </div>
 
             <!-- Kolom 3: Form Kontak -->
             <div class="footer-col">
-                <h3>Tinggalkan Pesan</h3>
+                <h3 data-i18n="footer-form-title">Tinggalkan Pesan</h3>
                 <form id="footerContactForm" class="footer-form">
-                    <input type="text" id="fcName" placeholder="Nama Anda" required>
-                    <input type="email" id="fcEmail" placeholder="Email Anda" required>
-                    <textarea id="fcMessage" placeholder="Tuliskan pesan Anda..." rows="3" required></textarea>
-                    <button type="submit" class="btn-primary">Kirim Pesan</button>
+                    <input type="text" id="fcName" placeholder="Nama Anda" data-i18n="footer-form-name" required>
+                    <input type="email" id="fcEmail" placeholder="Email Anda" data-i18n="footer-form-email" required>
+                    <textarea id="fcMessage" placeholder="Tuliskan pesan Anda..." rows="3" data-i18n="footer-form-msg" required></textarea>
+                    <button type="submit" class="btn-primary" data-i18n="footer-form-btn">Kirim Pesan</button>
                 </form>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2025 PT. Kola Borasi Indonesia. All rights reserved.</p>
+            <p data-i18n="footer-copy">&copy; 2025 PT. Kola Borasi Indonesia. All rights reserved.</p>
         </div>
     </footer>
 
@@ -271,6 +276,8 @@
 
 
     <!-- Scripts (Using separate ecommerce js logic) -->
+    <script src="translations.js"></script>
+    <script src="i18n.js"></script>
     <script src="katalog.js"></script>
     <script src="script.js"></script>
     <script src="ai-agent.js"></script>

@@ -145,6 +145,15 @@ a {
     padding: 15px 0;
 }
 
+.lang-btn.active {
+    background: var(--primary) !important;
+    color: var(--white) !important;
+}
+
+.lang-btn:hover:not(.active) {
+    background: rgba(0,0,0,0.1) !important;
+}
+
 .nav-container {
     display: flex;
     justify-content: space-between;
