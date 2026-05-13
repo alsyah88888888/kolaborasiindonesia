@@ -82,7 +82,7 @@ const translations = {
         "footer-form-email": "Email Anda",
         "footer-form-msg": "Tuliskan pesan Anda...",
         "footer-form-btn": "Kirim Pesan",
-        "footer-copy": "&copy; 2025 PT. Kola Borasi Indonesia. All rights reserved.",
+        "footer-copy": "Copyright © 2025 PT. Kola Borasi Indonesia. All rights reserved.",
 
         // Katalog Page Specific
         "katalog-header": "Katalog Produk FMCG",
@@ -179,7 +179,7 @@ const translations = {
         "footer-form-email": "Your Email",
         "footer-form-msg": "Write your message...",
         "footer-form-btn": "Send Message",
-        "footer-copy": "&copy; 2025 PT. Kola Borasi Indonesia. All rights reserved.",
+        "footer-copy": "Copyright © 2025 PT. Kola Borasi Indonesia. All rights reserved.",
 
         // Katalog Page Specific
         "katalog-header": "FMCG Product Catalog",
@@ -276,7 +276,7 @@ const translations = {
         "footer-form-email": "メールアドレス",
         "footer-form-msg": "メッセージを書いてください...",
         "footer-form-btn": "メッセージ送信",
-        "footer-copy": "&copy; 2025 PT. Kola Borasi Indonesia. All rights reserved.",
+        "footer-copy": "Copyright © 2025 PT. Kola Borasi Indonesia. All rights reserved.",
 
         // Katalog Page Specific
         "katalog-header": "FMCG製品カタログ",
