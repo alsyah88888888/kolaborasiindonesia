@@ -377,12 +377,16 @@ window.addEventListener('load', () => {
 
 // Cookie Consent Logic
 function initCookieConsent() {
-    // 1. Cek secara instan, jika sudah ada data, jangan lakukan apa-apa
+    // 1. Cek secara instan, jika sudah ada data (accepted/declined), jangan lakukan apa-apa
     if (localStorage.getItem('cookieConsent')) {
         return;
     }
 
-    // 2. Jika banner sudah ada di halaman, jangan buat lagi
+    // 2. Cegah pengulangan di halaman katalog jika itu bukan halaman pertama yang dibuka
+    // Atau jika Anda ingin cookie HANYA muncul di landing page (index.html), aktifkan baris di bawah:
+    // if (window.location.pathname.includes('katalog.html')) return;
+
+    // 3. Jika banner sudah ada di halaman, jangan buat lagi
     if (document.getElementById('cookieConsentBanner')) return;
 
     const cookieConsent = document.createElement('div');
@@ -391,7 +395,7 @@ function initCookieConsent() {
     cookieConsent.innerHTML = `
         <div class="cookie-content">
             <i class="fas fa-cookie-bite"></i>
-            <p>Website kami menggunakan cookie untuk meningkatkan pengalaman Anda. Dengan klik "Setuju", Anda menyetujui penggunaan cookie kami.</p>
+            <p>Website kami menggunakan cookie untuk meningkatkan pengalaman Anda dan menganalisis trafik kami. Dengan klik "Setuju", Anda menyetujui penggunaan cookie kami.</p>
         </div>
         <div class="cookie-btns">
             <button class="btn-cookie-decline" id="cookieDecline">Tolak</button>
@@ -403,8 +407,9 @@ function initCookieConsent() {
     const acceptBtn = document.getElementById('cookieAccept');
     const declineBtn = document.getElementById('cookieDecline');
 
-    // 3. Hanya munculkan animasi jika memang belum setuju
+    // 4. Munculkan dengan animasi setelah delay singkat
     setTimeout(() => {
+        // Double check sebelum muncul
         if (!localStorage.getItem('cookieConsent')) {
             cookieConsent.classList.add('show');
         } else {
