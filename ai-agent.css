@@ -32,10 +32,18 @@
     box-shadow: 0 5px 20px rgba(255, 122, 0, 0.4);
     z-index: 1000;
     transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    animation: ai-pulse 2s infinite;
+}
+
+@keyframes ai-pulse {
+    0% { box-shadow: 0 0 0 0 rgba(255, 122, 0, 0.7); }
+    70% { box-shadow: 0 0 0 15px rgba(255, 122, 0, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(255, 122, 0, 0); }
 }
 
 .ai-agent-launcher:hover {
     transform: scale(1.1) rotate(5deg);
+    animation: none;
 }
 
 .ai-agent-launcher .badge {

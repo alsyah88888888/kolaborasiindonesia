@@ -11,7 +11,7 @@ const translations = {
         // Hero
         "hero-title": "MITRA FMCG NUSANTARA",
         "hero-desc": "<strong>PT. Kola Borasi Indonesia</strong> hadir dengan komitmen sebagai <strong>Mitra FMCG Nusantara</strong> yang mendefinisikan ulang cara distribusi bekerja. Kami menghubungkan produk esensial berkualitas dengan cara yang lebih cepat dan efisien, menjadikannya terjangkau bagi siapa saja, di mana saja.",
-        "hero-cta": "Hubungi Kami",
+        "hero-cta": "Dapatkan Penawaran Grosir",
 
         // About
         "about-title": "Tentang Kami",
@@ -108,7 +108,7 @@ const translations = {
         // Hero
         "hero-title": "ARCHIPELAGO FMCG PARTNER",
         "hero-desc": "<strong>PT. Kola Borasi Indonesia</strong> is here with a commitment as an <strong>Archipelago FMCG Partner</strong> that redefines how distribution works. We connect quality essential products in a faster and more efficient way, making them affordable for anyone, anywhere.",
-        "hero-cta": "Contact Us",
+        "hero-cta": "Get Wholesale Offer",
 
         // About
         "about-title": "About Us",
@@ -205,7 +205,7 @@ const translations = {
         // Hero
         "hero-title": "群島FMCGパートナー",
         "hero-desc": "<strong>PT. Kola Borasi Indonesia</strong>は、流通の仕組みを再定義する<strong>群島FMCGパートナー</strong>としてのコミットメントを持ってここにいます。高品質な必須製品をより迅速かつ効率的に繋ぎ、いつでも、どこでも、誰にとっても手頃な価格で提供します。",
-        "hero-cta": "お問い合わせ",
+        "hero-cta": "卸売オファーを受ける",
 
         // About
         "about-title": "会社概要",

@@ -21,6 +21,11 @@ const KOBOI_AI = {
         fleet: "Armada kami meliputi: Double Bak, Double Box, Mobil Box Engkel, Mobil Pick Up, dan Mobil Box."
     },
 
+    state: {
+        awaitingContact: false,
+        leadData: { name: '', phone: '' }
+    },
+
     init() {
         this.renderUI();
         this.addEventListeners();
@@ -140,30 +145,40 @@ const KOBOI_AI = {
     async generateResponse(query) {
         const q = query.toLowerCase().trim();
 
-        // 1. Greetings (Ensure immediate response for greetings)
+        // Lead Capture Logic
+        if (this.state.awaitingContact) {
+            this.state.awaitingContact = false;
+            return `Terima kasih! Tim Sales kami akan segera menghubungi Anda. Anda juga bisa langsung chat kami di WhatsApp: https://wa.me/6285774444805?text=Halo%20KOBOI,%20saya%20${encodeURIComponent(query)}`;
+        }
+
+        // 1. Greetings
         if (q === 'hi' || q === 'halo' || q === 'hello' || q === 'p' || q.includes('pagi') || q.includes('siang') || q.includes('sore') || q.includes('malam')) {
             return "Halo! Selamat datang di KOBOI. Ada yang bisa saya bantu terkait produk FMCG atau informasi distribusi kami?";
         }
 
-        // 2. Company Info (Prioritize local knowledge)
+        // 2. Company Info
         if (q.includes('siapa') || q.includes('apa itu') || q.includes('koboi')) return this.knowledge.company;
         if (q.includes('visi') || q.includes('misi')) return `${this.knowledge.vision}\n\nMisi kami: ${this.knowledge.mission}`;
         if (q.includes('kontak') || q.includes('wa') || q.includes('lokasi') || q.includes('alamat')) return this.knowledge.contact;
         if (q.includes('kirim') || q.includes('ongkir') || q.includes('pengiriman')) return this.knowledge.shipping;
-        if (q.includes('order') || q.includes('pesan') || q.includes('cara')) return "Cara order sangat mudah! Anda bisa langsung hubungi WhatsApp kami di +62 857-7444-4805 atau melalui Sales Representative kami yang tersebar di 800+ toko mitra.";
+        
+        if (q.includes('order') || q.includes('pesan') || q.includes('cara') || q.includes('beli') || q.includes('harga')) {
+            this.state.awaitingContact = true;
+            return "Cara order sangat mudah! Bisa melalui Sales kami atau WhatsApp. Boleh saya tahu Nama atau Nomor HP Anda agar tim kami bisa menghubungi Anda dengan penawaran terbaik?";
+        }
 
-        // 3. Catalog Search (Smart Search for anything else)
+        // 3. Catalog Search
         if (typeof ecommerceProducts !== 'undefined') {
-            // Clean the query from filler words
             const searchTerms = q.replace(/produk|barang|jual|cari|ada|mau|tanya|apa|cek|lihat|punya|beli/g, '').trim();
-            const finalTerm = searchTerms || q; // Use original query if searchTerms becomes empty
+            const finalTerm = searchTerms || q;
 
             if (finalTerm.length >= 3) {
                 const found = ecommerceProducts.filter(p => p.name.toLowerCase().includes(finalTerm)).slice(0, 3);
                 if (found.length > 0) {
                     let resp = `Saya menemukan beberapa produk "${finalTerm}" di KOBOI:\n`;
                     found.forEach(p => resp += `- ${p.name}\n`);
-                    resp += `\nSilakan cek menu 'Katalog' untuk detail harga dan stok lengkapnya.`;
+                    resp += `\nApakah Anda tertarik memesan salah satunya? (Boleh tinggalkan Nama/WA Anda di sini)`;
+                    this.state.awaitingContact = true; // Ask for lead after search
                     return resp;
                 }
             }
