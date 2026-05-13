@@ -5910,10 +5910,6 @@ function renderEcommerce(items, totalCount) {
             <div class="card-body">
                 <span class="prod-category">${catLabel}</span>
                 <h3 class="prod-name" title="${prod.name}">${prod.name}</h3>
-                <div class="prod-meta">
-                    <span class="stock-status"><i class="fas fa-check-circle"></i> Stok Tersedia</span>
-                    <span class="prod-location">${prod.location}</span>
-                </div>
             </div>
             <div class="card-footer">
                 <a href="${waUrl}" target="_blank" class="btn-buy">
