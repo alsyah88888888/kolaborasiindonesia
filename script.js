@@ -1,3 +1,14 @@
+// Global Event Tracking Helper (Google Analytics)
+function trackEvent(action, category, label) {
+    if (typeof gtag !== 'undefined') {
+        gtag('event', action, {
+            'event_category': category,
+            'event_label': label
+        });
+        console.log(`Event Tracked: ${action} - ${category} - ${label}`);
+    }
+}
+
 // Sticky Navbar
 const navbar = document.getElementById('navbar');
 window.addEventListener('scroll', () => {
@@ -434,7 +445,18 @@ function initCookieConsent() {
 
 // Start Cookie Consent
 if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', () => {
+    // Global Event Tracking Helper (Google Analytics)
+function trackEvent(action, category, label) {
+    if (typeof gtag !== 'undefined') {
+        gtag('event', action, {
+            'event_category': category,
+            'event_label': label
+        });
+        console.log(`Event Tracked: ${action} - ${category} - ${label}`);
+    }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
         initCookieConsent();
     });
 } else {
