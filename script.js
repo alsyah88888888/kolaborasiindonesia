@@ -431,53 +431,7 @@ function initCookieConsent() {
 if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', () => {
         initCookieConsent();
-        initExcelExport();
     });
 } else {
     initCookieConsent();
-    initExcelExport();
-}
-
-/* =========================================
-   EXCEL EXPORT LOGIC
-   ========================================= */
-function initExcelExport() {
-    const exportBtn = document.getElementById('exportExcelBtn');
-    if (!exportBtn) return;
-
-    exportBtn.addEventListener('click', () => {
-        if (typeof XLSX === 'undefined') {
-            alert('Library Excel belum dimuat. Silakan periksa koneksi internet Anda.');
-            return;
-        }
-
-        // Prepare data for export
-        const dataToExport = ecommerceProducts.map(p => ({
-            'ID': p.id,
-            'Nama Produk': p.name,
-            'Kategori': categoryLabels[p.category] || p.category,
-            'Brand': p.brand,
-            'Cluster': p.cluster,
-            'Harga': p.price,
-            'Harga Coret': p.originalPrice || '-',
-            'Rating': p.rating,
-            'Terjual': p.sold,
-            'Lokasi': p.location,
-            'Tanggal Update': p.dateAdded
-        }));
-
-        // Create workbook and worksheet
-        const ws = XLSX.utils.json_to_sheet(dataToExport);
-        const wb = XLSX.utils.book_new();
-        XLSX.utils.book_append_sheet(wb, ws, "Katalog Produk");
-
-        // Generate filename with date
-        const date = new Date().toISOString().split('T')[0];
-        const filename = `Katalog_KOBOI_${date}.xlsx`;
-
-        // Save file
-        XLSX.writeFile(wb, filename);
-        
-        trackEvent('export_excel', 'Utility', 'Catalog Export');
-    });
 }
