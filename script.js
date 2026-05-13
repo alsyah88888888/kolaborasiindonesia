@@ -81,20 +81,8 @@ function renderProducts(filter = 'all', limit = displayLimit) {
         card.className = 'product-card reveal';
         card.id = `prod-${product.id}`;
         
-        // Calculate discount percentage if originalPrice exists
-        let discountBadge = '';
-        if (product.originalPrice && product.originalPrice > product.price) {
-            const discount = Math.round(((product.originalPrice - product.price) / product.originalPrice) * 100);
-            discountBadge = `<div class="product-badge promo">Hemat ${discount}%</div>`;
-        } else if (product.sold > 1000) {
-            discountBadge = `<div class="product-badge top-seller">Terlaris</div>`;
-        } else {
-            discountBadge = `<div class="product-badge">Original</div>`;
-        }
-        
         card.innerHTML = `
             <div class="product-img-wrapper">
-                ${discountBadge}
                 <img src="${product.img}" alt="${product.name}" class="product-img" loading="lazy" 
                      onerror="this.closest('.product-card').style.display='none'">
                 <div class="product-overlay">
@@ -113,12 +101,7 @@ function renderProducts(filter = 'all', limit = displayLimit) {
                 </div>
                 <h3>${product.name}</h3>
                 <div class="product-meta">
-                    <span class="price-retail">Harga Bersaing</span>
-                    ${product.originalPrice ? `<span class="original-price">Rp ${product.originalPrice.toLocaleString('id-ID')}</span>` : ''}
-                </div>
-                <div class="product-footer">
-                    <span class="sold-count">${product.sold > 0 ? `${product.sold.toLocaleString('id-ID')}+ Terjual` : 'Stok Baru'}</span>
-                    <span class="stock-status in-stock"><i class="fas fa-check-circle"></i> Ready</span>
+                    ${product.originalPrice ? `<span class="original-price" style="display:none;">Rp ${product.originalPrice.toLocaleString('id-ID')}</span>` : ''}
                 </div>
             </div>
         `;
