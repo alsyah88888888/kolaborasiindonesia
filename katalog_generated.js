@@ -7561,20 +7561,6 @@ const ecommerceProducts = [
         "cluster": "Biskuit & Wafer"
     },
     {
-        "id": 541,
-        "name": "Test Product Jetski",
-        "category": "rt",
-        "img": "images/catalog/products/Test Product Jetski.jpg",
-        "price": 230000,
-        "originalPrice": null,
-        "rating": 4.5,
-        "sold": 2209,
-        "location": "Gudang Utama",
-        "dateAdded": "2024-04-15",
-        "brand": "Test",
-        "cluster": "Lainnya"
-    },
-    {
         "id": 542,
         "name": "Redoxon Zinc Eff Orange 10S Tube",
         "category": "kosmetik",
