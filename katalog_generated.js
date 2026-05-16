@@ -3,7 +3,7 @@ const ecommerceProducts = [
     {
         "id": 1,
         "name": "Chocolatos Drink Creamy Chocolate 24Gr",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/chocolatos-drink-creamy-chocolate-24gr.jpg",
         "price": 175000,
         "originalPrice": null,
@@ -17,11 +17,11 @@ const ecommerceProducts = [
     {
         "id": 2,
         "name": "Ultra Milk Uht Caramel 200ML",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/ultra-milk-uht-caramel-200mi.jpg",
         "price": 200000,
         "originalPrice": null,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 400,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -31,7 +31,7 @@ const ecommerceProducts = [
     {
         "id": 3,
         "name": "Ultra Milk Plain 1000ML",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/ultra-milk-plain-1000mi.jpg",
         "price": 235000,
         "originalPrice": null,
@@ -45,11 +45,11 @@ const ecommerceProducts = [
     {
         "id": 4,
         "name": "Teh Pucuk 500ML",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/teh-pucuk-500mi.jpg",
         "price": 110000,
         "originalPrice": null,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 4904,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -59,7 +59,7 @@ const ecommerceProducts = [
     {
         "id": 5,
         "name": "Teh Kotak 300MI",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/teh-kotak-300mi.jpg",
         "price": 205000,
         "originalPrice": null,
@@ -73,7 +73,7 @@ const ecommerceProducts = [
     {
         "id": 6,
         "name": "Teh Botol Sosro Original 24X450ML",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/teh-botol-sosro-original-24x450mi.jpg",
         "price": 120000,
         "originalPrice": 144000,
@@ -87,7 +87,7 @@ const ecommerceProducts = [
     {
         "id": 7,
         "name": "Sprite Soft Drink (24 Cans X 250 MI)",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/sprite-soft-drink-24-cans-x-250-mi.jpg",
         "price": 120000,
         "originalPrice": null,
@@ -101,7 +101,7 @@ const ecommerceProducts = [
     {
         "id": 8,
         "name": "Sprite Soft Drink (12 Bottles X 250 MI)",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/sprite-soft-drink-12-bottles-x-250-mi.jpg",
         "price": 250000,
         "originalPrice": 300000,
@@ -115,7 +115,7 @@ const ecommerceProducts = [
     {
         "id": 9,
         "name": "Sariwangi Tea Asli 48 X 25S X 1.85Gr",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/sariwangi-tea-asli-48-x-25s-x-1-85gr.jpg",
         "price": 245000,
         "originalPrice": 294000,
@@ -129,7 +129,7 @@ const ecommerceProducts = [
     {
         "id": 10,
         "name": "Oatside Oat Milk Coffee Caps",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/oatside-oat-milk-coffee-caps.jpg",
         "price": 180000,
         "originalPrice": 216000,
@@ -143,7 +143,7 @@ const ecommerceProducts = [
     {
         "id": 11,
         "name": "Oatside Oat Milk Chocolate Caps",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/oatside-oat-milk-chocolate-caps.jpg",
         "price": 165000,
         "originalPrice": null,
@@ -157,7 +157,7 @@ const ecommerceProducts = [
     {
         "id": 12,
         "name": "Oatside Oat Milk Barista Blend Caps",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/oatside-oat-milk-barista-blend-caps.jpg",
         "price": 195000,
         "originalPrice": 234000,
@@ -171,7 +171,7 @@ const ecommerceProducts = [
     {
         "id": 13,
         "name": "Oatside Milk Plain Barista Straw 200ML",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/oatside-milk-plain-barista-straw-200mi.jpg",
         "price": 160000,
         "originalPrice": null,
@@ -185,7 +185,7 @@ const ecommerceProducts = [
     {
         "id": 14,
         "name": "Oatside Milk Chocolate Straw 200ML",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/oatside-milk-chocolate-straw-200mi.jpg",
         "price": 130000,
         "originalPrice": 156000,
@@ -199,7 +199,7 @@ const ecommerceProducts = [
     {
         "id": 15,
         "name": "Nescafe Kopi Classic 10X(60X2Gr)",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/nescafe-kopi-classic-10x-60x2gr.jpg",
         "price": 140000,
         "originalPrice": 168000,
@@ -213,11 +213,11 @@ const ecommerceProducts = [
     {
         "id": 16,
         "name": "Nescafe Kit Kat Drink Latte 220ML",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/nescafe-kit-kat-drink-latte-220mi.jpg",
         "price": 60000,
         "originalPrice": 72000,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 3661,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -227,7 +227,7 @@ const ecommerceProducts = [
     {
         "id": 17,
         "name": "Nescafe Coffee Ready To Drink Latte 220ML",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/nescafe-coffee-ready-to-drink-latte-220mi.jpg",
         "price": 105000,
         "originalPrice": 126000,
@@ -241,7 +241,7 @@ const ecommerceProducts = [
     {
         "id": 18,
         "name": "Nescafe Coffee Ready To Drink Caramel Macchiato 220ML",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/nescafe-coffee-ready-to-drink-caramel-macchiato-220mi.jpg",
         "price": 205000,
         "originalPrice": 246000,
@@ -255,7 +255,7 @@ const ecommerceProducts = [
     {
         "id": 19,
         "name": "Nescafe Coffee Ready To Drink Cappuccino 220ML",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/nescafe-coffee-ready-to-drink-cappuccino-220mi.jpg",
         "price": 50000,
         "originalPrice": 60000,
@@ -269,7 +269,7 @@ const ecommerceProducts = [
     {
         "id": 20,
         "name": "Nescafe Coffee Ready To Drink Black 220ML",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/nescafe-coffee-ready-to-drink-black-220mi.jpg",
         "price": 250000,
         "originalPrice": null,
@@ -283,7 +283,7 @@ const ecommerceProducts = [
     {
         "id": 21,
         "name": "Milo Uht Milk 36X110ML",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/milo-uht-milk-36x110mi.jpg",
         "price": 250000,
         "originalPrice": null,
@@ -297,7 +297,7 @@ const ecommerceProducts = [
     {
         "id": 22,
         "name": "Downy 1000 Milky Touch Baby (Putih)",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/downy-1000-milky-touch-baby-putih.jpg",
         "price": 105000,
         "originalPrice": 126000,
@@ -311,7 +311,7 @@ const ecommerceProducts = [
     {
         "id": 23,
         "name": "Kopi Top Susu Gula Aren (3In1) 20 X 6 X 27 G",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/kopi-top-susu-gula-aren-3in1-20-x-6-x-27-g.jpg",
         "price": 165000,
         "originalPrice": 198000,
@@ -325,7 +325,7 @@ const ecommerceProducts = [
     {
         "id": 24,
         "name": "Kopi Top Mokachinno Pack 20 X 6 X 22 Gr",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/kopi-top-mokachinno-pack-20-x-6-x-22-gr.jpg",
         "price": 160000,
         "originalPrice": null,
@@ -339,7 +339,7 @@ const ecommerceProducts = [
     {
         "id": 25,
         "name": "Kopi Top Gula Aren Pack 20 X 6 X 22 G",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/kopi-top-gula-aren-pack-20-x-6-x-22-g.jpg",
         "price": 80000,
         "originalPrice": null,
@@ -353,7 +353,7 @@ const ecommerceProducts = [
     {
         "id": 26,
         "name": "Kopi Top Capuccino 25Gr Bag 10",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/kopi-top-capuccino-25gr-bag-10.jpg",
         "price": 210000,
         "originalPrice": 252000,
@@ -367,7 +367,7 @@ const ecommerceProducts = [
     {
         "id": 27,
         "name": "Kopi Top Cappuccino Pack 20 X 6 X 25 Gr",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/kopi-top-cappuccino-pack-20-x-6-x-25-gr.jpg",
         "price": 90000,
         "originalPrice": 108000,
@@ -381,7 +381,7 @@ const ecommerceProducts = [
     {
         "id": 28,
         "name": "Kopi Neo Tiramisu 20G Pack20",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/kopi-neo-tiramisu-20g-pack20.jpg",
         "price": 205000,
         "originalPrice": 246000,
@@ -395,7 +395,7 @@ const ecommerceProducts = [
     {
         "id": 29,
         "name": "Kopi Neo Moccachino 20G Pack20",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/kopi-neo-moccachino-20g-pack20.jpg",
         "price": 160000,
         "originalPrice": 192000,
@@ -409,7 +409,7 @@ const ecommerceProducts = [
     {
         "id": 30,
         "name": "Kopi Kapal Api Spesial Mix Bag 6X20X23Gr",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/kopi-kapal-api-spesial-mix-bag-6x20x23gr.jpg",
         "price": 95000,
         "originalPrice": 114000,
@@ -423,7 +423,7 @@ const ecommerceProducts = [
     {
         "id": 31,
         "name": "Kopi Kapal Api Spesial 165Gr",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/kopi-kapal-api-spesial-165gr.jpg",
         "price": 250000,
         "originalPrice": null,
@@ -437,7 +437,7 @@ const ecommerceProducts = [
     {
         "id": 32,
         "name": "Kopi Abc Susu Bag",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/kopi-abc-susu-bag.jpg",
         "price": 90000,
         "originalPrice": null,
@@ -451,7 +451,7 @@ const ecommerceProducts = [
     {
         "id": 33,
         "name": "Kit Kat Chocolate Drink 220ML X 24",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/kit-kat-chocolate-drink-220mi.jpg",
         "price": 100000,
         "originalPrice": 120000,
@@ -465,7 +465,7 @@ const ecommerceProducts = [
     {
         "id": 34,
         "name": "Hello Panda Milk Vanilla 42Gr",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/hello-panda-milk-vanilla-42gr.jpg",
         "price": 115000,
         "originalPrice": null,
@@ -479,7 +479,7 @@ const ecommerceProducts = [
     {
         "id": 35,
         "name": "Fanta Strawberry Soft Drink (24 Cans X 250 MI)",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/fanta-strawberry-soft-drink-24-cans-x-250-mi.jpg",
         "price": 50000,
         "originalPrice": 60000,
@@ -493,7 +493,7 @@ const ecommerceProducts = [
     {
         "id": 36,
         "name": "Fanta Strawberry Soft Drink (12 Bottles X 250 MI)",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/fanta-strawberry-soft-drink-12-bottles-x-250-mi.jpg",
         "price": 65000,
         "originalPrice": null,
@@ -507,7 +507,7 @@ const ecommerceProducts = [
     {
         "id": 37,
         "name": "Chocolatos Chocolate Drink 27Gra",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/chocolatos-chocolate-drink-27gra.jpg",
         "price": 240000,
         "originalPrice": 288000,
@@ -521,7 +521,7 @@ const ecommerceProducts = [
     {
         "id": 38,
         "name": "Chocolatos Matcha Drink 24Gr",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/chocolatos-matcha-drink-24gr.jpg",
         "price": 100000,
         "originalPrice": 120000,
@@ -535,7 +535,7 @@ const ecommerceProducts = [
     {
         "id": 39,
         "name": "Pikopi 3ln1 Coffeemix Bag",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/pikopi-3ln1-coffeemix-bag.jpg",
         "price": 185000,
         "originalPrice": 222000,
@@ -549,7 +549,7 @@ const ecommerceProducts = [
     {
         "id": 40,
         "name": "Coca Cola Soft Drink (12 Bottles X 250 MI)",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/coca-cola-soft-drink-12-bottles-x-250-mi.jpg",
         "price": 100000,
         "originalPrice": 120000,
@@ -563,7 +563,7 @@ const ecommerceProducts = [
     {
         "id": 41,
         "name": "Coca Cola Soft Drink (24 Cans X 250 MI)",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/coca-cola-soft-drink-24-cans-x-250-mi.jpg",
         "price": 100000,
         "originalPrice": 120000,
@@ -577,7 +577,7 @@ const ecommerceProducts = [
     {
         "id": 42,
         "name": "Coca Cola Zero Soft Drink (24 Cans X 250 MI)",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/coca-cola-zero-soft-drink-24-cans-x-250-mi.jpg",
         "price": 220000,
         "originalPrice": null,
@@ -591,11 +591,11 @@ const ecommerceProducts = [
     {
         "id": 43,
         "name": "Zoda Groovy Air Soda 250ML",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/zoda-groovy-air-soda-250mi.jpg",
         "price": 160000,
         "originalPrice": null,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 184,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -605,7 +605,7 @@ const ecommerceProducts = [
     {
         "id": 44,
         "name": "Ultra Milk Uht Taro 200ML",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/ultra-milk-uht-taro-200mi.jpg",
         "price": 195000,
         "originalPrice": 234000,
@@ -619,7 +619,7 @@ const ecommerceProducts = [
     {
         "id": 45,
         "name": "Ultra Milk Uht Strawberry 200ML",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/ultra-milk-uht-strawberry-200mi.jpg",
         "price": 225000,
         "originalPrice": 270000,
@@ -633,7 +633,7 @@ const ecommerceProducts = [
     {
         "id": 46,
         "name": "Ultra Milk Uht Chocolate 200ML",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/ultra-milk-uht-chocolate-200mi.jpg",
         "price": 245000,
         "originalPrice": 294000,
@@ -647,7 +647,7 @@ const ecommerceProducts = [
     {
         "id": 47,
         "name": "Milo Active Original Go 220ML",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/milo-active-original-go-220mi.jpg",
         "price": 50000,
         "originalPrice": 60000,
@@ -661,7 +661,7 @@ const ecommerceProducts = [
     {
         "id": 48,
         "name": "Kapal Api Spesial Mix Bag 12x10x24gr",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/kapal-api-spesial-mix-bag-12x10x24gr.jpg",
         "price": 190000,
         "originalPrice": null,
@@ -675,7 +675,7 @@ const ecommerceProducts = [
     {
         "id": 49,
         "name": "YOU C 1000 Orange Water 500ML",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/you-c-1000-orange-water-500ml.jpg",
         "price": 205000,
         "originalPrice": 246000,
@@ -689,7 +689,7 @@ const ecommerceProducts = [
     {
         "id": 50,
         "name": "Milo Cube Pouch 20X25X2.7Gr",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/milo-cube-pouch-20x25x2-7gr.jpg",
         "price": 230000,
         "originalPrice": null,
@@ -703,7 +703,7 @@ const ecommerceProducts = [
     {
         "id": 51,
         "name": "MARJAN SIRUP LYCHEE 460ML",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/marjan-sirup-lychee-460ml.jpg",
         "price": 180000,
         "originalPrice": null,
@@ -717,7 +717,7 @@ const ecommerceProducts = [
     {
         "id": 52,
         "name": "Milo Actigen E Uht180ML",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/Milo Actigen E Uht180MI.jpg",
         "price": 165000,
         "originalPrice": null,
@@ -731,7 +731,7 @@ const ecommerceProducts = [
     {
         "id": 53,
         "name": "NESCAFE ICE COFFEE ORIGINAL 24x220ML",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/nescafe-ice-coffee-original-24x220ml.jpg",
         "price": 140000,
         "originalPrice": 168000,
@@ -745,7 +745,7 @@ const ecommerceProducts = [
     {
         "id": 54,
         "name": "MARJAN SIRUP ORANGE 460ML",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/marjan-sirup-orange-460ml.jpg",
         "price": 195000,
         "originalPrice": null,
@@ -759,7 +759,7 @@ const ecommerceProducts = [
     {
         "id": 55,
         "name": "Khonguan Kogen Wafer Stick Strawberry",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/khonguan-kogen-wafer-stick-strawberry.jpg",
         "price": 235000,
         "originalPrice": null,
@@ -773,11 +773,11 @@ const ecommerceProducts = [
     {
         "id": 56,
         "name": "DANCOW FORTIGO CHOCOLATE SCHT 10x38gr",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/dancow-fortigo-chocolate-scht-10x38gr.jpg",
         "price": 110000,
         "originalPrice": null,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 4154,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -787,7 +787,7 @@ const ecommerceProducts = [
     {
         "id": 57,
         "name": "POCARI ION WATER PET 900ML",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/POCARI ION WATER PET 900ML.jpg",
         "price": 125000,
         "originalPrice": null,
@@ -801,7 +801,7 @@ const ecommerceProducts = [
     {
         "id": 58,
         "name": "POCARI ION WATER 24x350ML",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/POCARI ION WATER 24x350ML.jpg",
         "price": 75000,
         "originalPrice": 90000,
@@ -815,7 +815,7 @@ const ecommerceProducts = [
     {
         "id": 59,
         "name": "POCARI ION WATER 6x2000ML",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/pocari-ion-water-6x2000ml.jpg",
         "price": 65000,
         "originalPrice": 78000,
@@ -829,7 +829,7 @@ const ecommerceProducts = [
     {
         "id": 60,
         "name": "POCARI ION WATER 24x500ML",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/pocari-ion-water-24x500ml.jpg",
         "price": 135000,
         "originalPrice": null,
@@ -843,7 +843,7 @@ const ecommerceProducts = [
     {
         "id": 61,
         "name": "NESCAFE Caramel Macchiato 24x220ml",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/nescafe-caramel-macchiato-24x220ml.jpg",
         "price": 195000,
         "originalPrice": null,
@@ -857,7 +857,7 @@ const ecommerceProducts = [
     {
         "id": 62,
         "name": "Nescafe Ice Coffee Mocha 240ml",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/nescafe-ice-coffee-mocha-240ml.jpg",
         "price": 75000,
         "originalPrice": 90000,
@@ -871,7 +871,7 @@ const ecommerceProducts = [
     {
         "id": 63,
         "name": "CHILKID MADU 780GR",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/chilkid-madu-780gr.jpg",
         "price": 120000,
         "originalPrice": 144000,
@@ -885,7 +885,7 @@ const ecommerceProducts = [
     {
         "id": 64,
         "name": "CHILKID VANILA 780GR",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/CHILKID-VANILA-780GR.jpg",
         "price": 235000,
         "originalPrice": null,
@@ -899,11 +899,11 @@ const ecommerceProducts = [
     {
         "id": 65,
         "name": "Milo Activ-Go Healthy Drink Can 220 ml",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/milo-activ-go-healthy-drink-can-220-ml.jpg",
         "price": 175000,
         "originalPrice": null,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 4344,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -913,7 +913,7 @@ const ecommerceProducts = [
     {
         "id": 66,
         "name": "Nescafe Ice Coffee Latte Can 220 ml",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/nescafe-ice-coffee-latte-can-220-ml.jpg",
         "price": 200000,
         "originalPrice": 240000,
@@ -927,7 +927,7 @@ const ecommerceProducts = [
     {
         "id": 67,
         "name": "Coca-Cola 1500 ML (1.5 LITER)",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/coca-cola-1500-ml-1-5-liter.jpg",
         "price": 200000,
         "originalPrice": null,
@@ -941,7 +941,7 @@ const ecommerceProducts = [
     {
         "id": 68,
         "name": "Sprite Soft Drink Pet - 1500 ml",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/sprite-soft-drink-pet-1500-ml.jpg.jpg",
         "price": 110000,
         "originalPrice": null,
@@ -955,11 +955,11 @@ const ecommerceProducts = [
     {
         "id": 69,
         "name": "Nu Green Tea Royal Jasmine 450ML",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/nu-green-tea-royal-jasmine-450mi.jpg",
         "price": 150000,
         "originalPrice": 180000,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 2522,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -969,7 +969,7 @@ const ecommerceProducts = [
     {
         "id": 70,
         "name": "Nu Green Tea Honey 450ML",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/Nu Green Tea Honey 450MI.jpg",
         "price": 220000,
         "originalPrice": 264000,
@@ -997,7 +997,7 @@ const ecommerceProducts = [
     {
         "id": 72,
         "name": "FRISIAN FLAG VANILLA 120x37gr",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/frisian-flag-vanilla-120x37gr.jpg",
         "price": 190000,
         "originalPrice": null,
@@ -1010,8 +1010,8 @@ const ecommerceProducts = [
     },
     {
         "id": 73,
-        "name": "NESCAF\u00c9 CLASSIC KOPI INSTANT SACHET 17.5GR",
-        "category": "harian",
+        "name": "NESCAFÉ CLASSIC KOPI INSTANT SACHET 17.5GR",
+        "category": "minuman",
         "img": "images/catalog/products/nescaf-classic-kopi-instant-sachet-17-5gr.jpg",
         "price": 240000,
         "originalPrice": 288000,
@@ -1019,13 +1019,13 @@ const ecommerceProducts = [
         "sold": 3935,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
-        "brand": "NESCAF\u00c9",
+        "brand": "NESCAFÉ",
         "cluster": "Kopi & Teh"
     },
     {
         "id": 74,
         "name": "SariWangi Teh Celup Asli TB 50",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/sariwangi-teh-celup-asli-tb-50.jpg",
         "price": 180000,
         "originalPrice": 216000,
@@ -1039,7 +1039,7 @@ const ecommerceProducts = [
     {
         "id": 75,
         "name": "MARJAN SIRUP COCOPANDAN 460ML",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/marjan-sirup-cocopandan-460ml.jpg",
         "price": 115000,
         "originalPrice": 138000,
@@ -1053,7 +1053,7 @@ const ecommerceProducts = [
     {
         "id": 76,
         "name": "MARJAN SIRUP MELON 460ML",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/MARJAN SIRUP MELON 460ML.jpg",
         "price": 150000,
         "originalPrice": 180000,
@@ -1067,7 +1067,7 @@ const ecommerceProducts = [
     {
         "id": 77,
         "name": "FRISIAN FLAG SACHET CHOCOLATE 120x37gr",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/FRISIAN FLAG SACHET CHOCOLATE 120x37gr.jpg",
         "price": 55000,
         "originalPrice": 66000,
@@ -1081,7 +1081,7 @@ const ecommerceProducts = [
     {
         "id": 78,
         "name": "MARJAN SIRUP SIRSAK 460ML",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/marjan-sirup-sirsak-460ml.jpg",
         "price": 50000,
         "originalPrice": null,
@@ -1095,7 +1095,7 @@ const ecommerceProducts = [
     {
         "id": 79,
         "name": "Nestle Combo Pack Milo Ball 32Gr",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/nestle-combo-pack-milo-ball-32gr.jpg",
         "price": 175000,
         "originalPrice": null,
@@ -1109,7 +1109,7 @@ const ecommerceProducts = [
     {
         "id": 80,
         "name": "Rexona Women Powder Dry Stick Deodorant 40 ml",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/rexona-women-powder-dry-stick-deodorant-40-ml.jpg",
         "price": 110000,
         "originalPrice": 132000,
@@ -1123,7 +1123,7 @@ const ecommerceProducts = [
     {
         "id": 81,
         "name": "Rexona Free Spirit (Antiperspirant Deodoran Roll On) 50ml",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/rexona-free-spirit-antiperspirant-deodoran-roll-on-50ml.jpg",
         "price": 65000,
         "originalPrice": 78000,
@@ -1137,7 +1137,7 @@ const ecommerceProducts = [
     {
         "id": 82,
         "name": "REXONA SHOWER CLEAN 50ML",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/rexona-shower-clean-50ml.jpg",
         "price": 65000,
         "originalPrice": 78000,
@@ -1151,7 +1151,7 @@ const ecommerceProducts = [
     {
         "id": 83,
         "name": "Rexona Women Whitening Spray Anti-perspirant 45ml",
-        "category": "kosmetik",
+        "category": "rt",
         "img": "images/catalog/products/rexona-women-whitening-spray-anti-perspirant-45ml.jpg",
         "price": 120000,
         "originalPrice": null,
@@ -1165,7 +1165,7 @@ const ecommerceProducts = [
     {
         "id": 84,
         "name": "Larutan Cap Kaki 3 Strawberry 320ML",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/larutan-cap-kaki-3-strawberry-320mi.jpg",
         "price": 170000,
         "originalPrice": 204000,
@@ -1179,7 +1179,7 @@ const ecommerceProducts = [
     {
         "id": 85,
         "name": "Lays Seaweed 64Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/lays-seaweed-64gr.jpg",
         "price": 85000,
         "originalPrice": null,
@@ -1193,7 +1193,7 @@ const ecommerceProducts = [
     {
         "id": 86,
         "name": "Doritos Snack Jagung Bakar (Roasted Corn) 120Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/doritos-snack-jagung-bakar-roasted-corn-120gr.jpg",
         "price": 185000,
         "originalPrice": 222000,
@@ -1207,11 +1207,11 @@ const ecommerceProducts = [
     {
         "id": 87,
         "name": "Lays Wavy Beef Bbq 64Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/lays-wavy-beef-bbq-64gr.jpg",
         "price": 225000,
         "originalPrice": 270000,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 2964,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -1221,7 +1221,7 @@ const ecommerceProducts = [
     {
         "id": 88,
         "name": "Wow Spaghetti Aglio Olio 75G",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/wow-spaghetti-aglio-olio-75g.jpg",
         "price": 60000,
         "originalPrice": 72000,
@@ -1249,7 +1249,7 @@ const ecommerceProducts = [
     {
         "id": 90,
         "name": "Calbee Wings Snack Guribee Layers Seaweed 30X68Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/calbee-wings-snack-guribee-layers-seaweed-30x68gr.jpg",
         "price": 160000,
         "originalPrice": null,
@@ -1263,7 +1263,7 @@ const ecommerceProducts = [
     {
         "id": 91,
         "name": "Doritos Snack Sambal Salsa (Salsa Chili) 120Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/doritos-snack-sambal-salsa-salsa-chili-120gr.jpg",
         "price": 80000,
         "originalPrice": null,
@@ -1277,7 +1277,7 @@ const ecommerceProducts = [
     {
         "id": 92,
         "name": "Abc Sambal Extra Pedas 335ML",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/abc-sambal-extra-pedas-335ml.jpg",
         "price": 190000,
         "originalPrice": 228000,
@@ -1291,7 +1291,7 @@ const ecommerceProducts = [
     {
         "id": 93,
         "name": "Oatside Chocolate 1000ML",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/oatside-chocolate-1000ml.jpg",
         "price": 215000,
         "originalPrice": 258000,
@@ -1305,7 +1305,7 @@ const ecommerceProducts = [
     {
         "id": 94,
         "name": "Oreo Sandwich Blueberry 110.4Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/oreo-sandwich-blueberry-110.4gr.jpg",
         "price": 115000,
         "originalPrice": null,
@@ -1319,7 +1319,7 @@ const ecommerceProducts = [
     {
         "id": 95,
         "name": "Oreo Sandwich Choco 110.4Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/oreo-sandwich-choco-110.4gr.jpg",
         "price": 165000,
         "originalPrice": 198000,
@@ -1333,11 +1333,11 @@ const ecommerceProducts = [
     {
         "id": 96,
         "name": "Abc Extra Pedas Botol 335ML",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/abc-extra-pedas-botol-335ml.jpg",
         "price": 190000,
         "originalPrice": 228000,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 3174,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -1347,7 +1347,7 @@ const ecommerceProducts = [
     {
         "id": 97,
         "name": "Abc Kecap 130ML",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/abc-kecap-130ml.jpg",
         "price": 170000,
         "originalPrice": 204000,
@@ -1361,7 +1361,7 @@ const ecommerceProducts = [
     {
         "id": 98,
         "name": "Abc Kecap 275ML",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/abc-kecap-275ml.jpg",
         "price": 135000,
         "originalPrice": 162000,
@@ -1375,7 +1375,7 @@ const ecommerceProducts = [
     {
         "id": 99,
         "name": "Abc Kecap 62Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/abc-kecap-62gr.jpg",
         "price": 145000,
         "originalPrice": 174000,
@@ -1389,7 +1389,7 @@ const ecommerceProducts = [
     {
         "id": 100,
         "name": "Abc Kecap Manis Jerigen 5Liter",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/abc-kecap-manis-jerigen-5liter.jpg",
         "price": 65000,
         "originalPrice": null,
@@ -1403,7 +1403,7 @@ const ecommerceProducts = [
     {
         "id": 101,
         "name": "Abc Kecap Pet 600ML",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/abc-kecap-pet-600ml.jpg",
         "price": 240000,
         "originalPrice": null,
@@ -1417,11 +1417,11 @@ const ecommerceProducts = [
     {
         "id": 102,
         "name": "Abc Sambal 65Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/abc-sambal-65gr.jpg",
         "price": 230000,
         "originalPrice": null,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 4673,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -1431,11 +1431,11 @@ const ecommerceProducts = [
     {
         "id": 103,
         "name": "Abc Sambal Asli 335ML",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/abc-sambal-asli-335ml.jpg",
         "price": 160000,
         "originalPrice": 192000,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 2232,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -1445,7 +1445,7 @@ const ecommerceProducts = [
     {
         "id": 104,
         "name": "Abc Sambal Asli 380Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/abc-sambal-asli-380gr.jpg",
         "price": 170000,
         "originalPrice": null,
@@ -1459,7 +1459,7 @@ const ecommerceProducts = [
     {
         "id": 105,
         "name": "Abc Sambal Botol 130ML",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/abc-sambal-botol-130ml.jpg",
         "price": 125000,
         "originalPrice": 150000,
@@ -1473,7 +1473,7 @@ const ecommerceProducts = [
     {
         "id": 106,
         "name": "Abc Sambal Botol 270ML",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/abc-sambal-botol-270ml.jpg",
         "price": 80000,
         "originalPrice": 96000,
@@ -1487,7 +1487,7 @@ const ecommerceProducts = [
     {
         "id": 107,
         "name": "Abc Sambal Extra Pedas 65Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/abc-sambal-extra-pedas-65gr.jpg",
         "price": 105000,
         "originalPrice": 126000,
@@ -1501,11 +1501,11 @@ const ecommerceProducts = [
     {
         "id": 108,
         "name": "Abc Sambal Extra Pedas Botol 270ML",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/abc-sambal-extra-pedas-botol-270ml.jpg",
         "price": 105000,
         "originalPrice": null,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 93,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -1515,7 +1515,7 @@ const ecommerceProducts = [
     {
         "id": 109,
         "name": "Abc Sambal Sc Extra Pedas",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/abc-sambal-sc-extra-pedas.jpg",
         "price": 185000,
         "originalPrice": 222000,
@@ -1529,7 +1529,7 @@ const ecommerceProducts = [
     {
         "id": 110,
         "name": "Abc Sambal Sc Pk",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/abc-sambal-sc-pk.jpg",
         "price": 50000,
         "originalPrice": 60000,
@@ -1543,7 +1543,7 @@ const ecommerceProducts = [
     {
         "id": 111,
         "name": "Abc Sambal St Extra Pedas",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/abc-sambal-st-extra-pedas.jpg",
         "price": 190000,
         "originalPrice": null,
@@ -1557,7 +1557,7 @@ const ecommerceProducts = [
     {
         "id": 112,
         "name": "Abc Sambal St Pk",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/abc-sambal-st-pk.jpg",
         "price": 140000,
         "originalPrice": null,
@@ -1571,7 +1571,7 @@ const ecommerceProducts = [
     {
         "id": 113,
         "name": "Abc Sambal Terasi Sc",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/abc-sambal-terasi-sc.jpg",
         "price": 140000,
         "originalPrice": 168000,
@@ -1585,7 +1585,7 @@ const ecommerceProducts = [
     {
         "id": 114,
         "name": "Abc Sambal Tomat 275ML",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/abc-sambal-tomat-275ml.jpg",
         "price": 200000,
         "originalPrice": 240000,
@@ -1687,7 +1687,7 @@ const ecommerceProducts = [
         "img": "images/catalog/products/blue-band-serbaguna-200g.jpg",
         "price": 85000,
         "originalPrice": null,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 4511,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -1725,7 +1725,7 @@ const ecommerceProducts = [
     {
         "id": 124,
         "name": "Calbee Wings Snack Guribee Layers Cheese 30X65Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/calbee-wings-snack-guribee-layers-cheese-30x65gr.jpg",
         "price": 165000,
         "originalPrice": 198000,
@@ -1879,7 +1879,7 @@ const ecommerceProducts = [
     {
         "id": 135,
         "name": "Chitato Beef Bbq 35Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/chitato-beef-bbq-35gr.jpg",
         "price": 175000,
         "originalPrice": 210000,
@@ -1893,7 +1893,7 @@ const ecommerceProducts = [
     {
         "id": 136,
         "name": "Chitato Indomie Goreng 65Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/chitato-indomie-goreng-65gr.jpg",
         "price": 90000,
         "originalPrice": 108000,
@@ -1907,7 +1907,7 @@ const ecommerceProducts = [
     {
         "id": 137,
         "name": "Chitato Lite Chicken Onion 68Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/chitato-lite-chicken-onion-68gr.jpg",
         "price": 130000,
         "originalPrice": 156000,
@@ -1921,7 +1921,7 @@ const ecommerceProducts = [
     {
         "id": 138,
         "name": "Chitato Lite Snack Potato Nori 68Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/chitato-lite-snack-potato-nori-68gr.jpg",
         "price": 160000,
         "originalPrice": null,
@@ -1935,7 +1935,7 @@ const ecommerceProducts = [
     {
         "id": 139,
         "name": "Chitato Snack Beef Barbeque 65Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/chitato-snack-beef-barbeque-65gr.jpg",
         "price": 200000,
         "originalPrice": 240000,
@@ -1949,7 +1949,7 @@ const ecommerceProducts = [
     {
         "id": 140,
         "name": "Chitato Snack Cheese Supreme 65Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/chitato-snack-cheese-supreme-65gr.jpg",
         "price": 230000,
         "originalPrice": 276000,
@@ -1963,11 +1963,11 @@ const ecommerceProducts = [
     {
         "id": 141,
         "name": "Chitato Snack Original 65Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/chitato-snack-original-65gr.jpg",
         "price": 85000,
         "originalPrice": 102000,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 3165,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -1977,7 +1977,7 @@ const ecommerceProducts = [
     {
         "id": 142,
         "name": "Chitato Snack Potato Chips Bbq 65Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/chitato-snack-potato-chips-bbq-65gr.jpg",
         "price": 140000,
         "originalPrice": null,
@@ -1991,7 +1991,7 @@ const ecommerceProducts = [
     {
         "id": 143,
         "name": "Chitato Snack Spicy Chicken 65Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/chitato-snack-spicy-chicken-65gr.jpg",
         "price": 160000,
         "originalPrice": null,
@@ -2005,7 +2005,7 @@ const ecommerceProducts = [
     {
         "id": 144,
         "name": "Chitato Snack Spicy Grilled Beef 65Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/chitato-snack-spicy-grilled-beef-65gr.jpg",
         "price": 185000,
         "originalPrice": null,
@@ -2019,7 +2019,7 @@ const ecommerceProducts = [
     {
         "id": 145,
         "name": "Cincau Cap Panda 310ML",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/cincau-cap-panda-310ml.jpg",
         "price": 80000,
         "originalPrice": 96000,
@@ -2121,7 +2121,7 @@ const ecommerceProducts = [
         "img": "images/catalog/products/dettol-body-wash-original.jpg",
         "price": 115000,
         "originalPrice": null,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 2097,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -2131,7 +2131,7 @@ const ecommerceProducts = [
     {
         "id": 153,
         "name": "Doritos Snack Sambal Salsa (Salsa Chili) 55Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/doritos-snack-sambal-salsa-salsa-chili-55gr.jpg",
         "price": 195000,
         "originalPrice": null,
@@ -2177,7 +2177,7 @@ const ecommerceProducts = [
         "img": "images/catalog/products/dua-kelinci-tos-tos-roasted-corn-140gr.jpg",
         "price": 245000,
         "originalPrice": null,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 1707,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -2289,7 +2289,7 @@ const ecommerceProducts = [
         "img": "images/catalog/products/emeron-shampo-hijab-nutritive-170ml.jpg",
         "price": 110000,
         "originalPrice": null,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 3418,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -2359,7 +2359,7 @@ const ecommerceProducts = [
         "img": "images/catalog/products/esk-kids-shm-cinder-btl-36x200ml.jpg",
         "price": 105000,
         "originalPrice": null,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 3216,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -2415,7 +2415,7 @@ const ecommerceProducts = [
         "img": "images/catalog/products/filma-margarin-200gr.jpg",
         "price": 170000,
         "originalPrice": 204000,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 1695,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -2481,7 +2481,7 @@ const ecommerceProducts = [
     {
         "id": 178,
         "name": "Freshare Minyak Angin Aromatherapy Hot",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/freshare-minyak-angin-aromatherapy-hot.jpg",
         "price": 175000,
         "originalPrice": 210000,
@@ -2495,11 +2495,11 @@ const ecommerceProducts = [
     {
         "id": 179,
         "name": "Freshare Minyak Angin Teraphy 10ML",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/freshare-minyak-angin-teraphy-10ml.jpg",
         "price": 225000,
         "originalPrice": 270000,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 4473,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -2509,7 +2509,7 @@ const ecommerceProducts = [
     {
         "id": 180,
         "name": "Freshare Minyak Angin Teraphy Kayu Putih 10ML",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/freshare-minyak-angin-teraphy-kayu-putih-10ml.jpg",
         "price": 85000,
         "originalPrice": null,
@@ -2597,7 +2597,7 @@ const ecommerceProducts = [
         "img": "images/catalog/products/garnier-light-brightening-scrub-wash-50gr.jpg",
         "price": 70000,
         "originalPrice": null,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 1891,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -2611,7 +2611,7 @@ const ecommerceProducts = [
         "img": "images/catalog/products/garnier-light-complete-night-yoghurt-50ml.jpg",
         "price": 120000,
         "originalPrice": 144000,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 4864,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -2621,11 +2621,11 @@ const ecommerceProducts = [
     {
         "id": 188,
         "name": "Garnier Light Complete White Speed Serum 50ML (Jar)",
-        "category": "harian",
+        "category": "rt",
         "img": "images/catalog/products/garnier-light-complete-white-speed-serum-50mi-jar.jpg",
         "price": 65000,
         "originalPrice": null,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 4725,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -2719,7 +2719,7 @@ const ecommerceProducts = [
     {
         "id": 195,
         "name": "Garnier Men Power White Super Duo Foam 100ML X 12",
-        "category": "harian",
+        "category": "rt",
         "img": "images/catalog/products/garnier-men-power-white-super-duo-foam-100mi-x-12.jpg",
         "price": 230000,
         "originalPrice": 276000,
@@ -2761,7 +2761,7 @@ const ecommerceProducts = [
     {
         "id": 198,
         "name": "Garnier Men Tloc White Icy Duo Foam 100ML",
-        "category": "harian",
+        "category": "rt",
         "img": "images/catalog/products/garnier-men-tloc-white-icy-duo-foam-100ml.jpg",
         "price": 155000,
         "originalPrice": null,
@@ -2807,7 +2807,7 @@ const ecommerceProducts = [
         "img": "images/catalog/products/garnier-men-turbo-light-oil-control-brightening-icy-scrub-100ml.jpg",
         "price": 165000,
         "originalPrice": 198000,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 1219,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -2873,7 +2873,7 @@ const ecommerceProducts = [
     {
         "id": 206,
         "name": "Garnier Sakura White Wf 100ML",
-        "category": "harian",
+        "category": "rt",
         "img": "images/catalog/products/garnier-sakura-white-wf-100ml.jpg",
         "price": 135000,
         "originalPrice": 162000,
@@ -2887,7 +2887,7 @@ const ecommerceProducts = [
     {
         "id": 207,
         "name": "Garuda Skippy Peanut Butter Mini Ball Snacks",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/garuda-skippy-peanut-butter-mini-ball-snacks.jpg",
         "price": 225000,
         "originalPrice": 270000,
@@ -2915,7 +2915,7 @@ const ecommerceProducts = [
     {
         "id": 209,
         "name": "Gery Saluut Malkiist Chocolate - 30 Bag",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/gery-saluut-malkiist-chocolate-30-bag.jpg",
         "price": 165000,
         "originalPrice": null,
@@ -2929,7 +2929,7 @@ const ecommerceProducts = [
     {
         "id": 210,
         "name": "Gery Saluut Malkist Cheese - 30 Bag",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/gery-saluut-malkist-cheese-30-bag.jpg",
         "price": 50000,
         "originalPrice": 60000,
@@ -2943,7 +2943,7 @@ const ecommerceProducts = [
     {
         "id": 211,
         "name": "Glade 2 In 1 Lavender 350ML",
-        "category": "harian",
+        "category": "rt",
         "img": "images/catalog/products/glade-2-in-1-lavender-350ml.jpg",
         "price": 185000,
         "originalPrice": null,
@@ -2957,7 +2957,7 @@ const ecommerceProducts = [
     {
         "id": 212,
         "name": "Glade Car Fresh Wild Berries Refill 70Gr",
-        "category": "harian",
+        "category": "rt",
         "img": "images/catalog/products/glade-car-fresh-wild-berries-refill-70gr.jpg",
         "price": 125000,
         "originalPrice": 150000,
@@ -2971,7 +2971,7 @@ const ecommerceProducts = [
     {
         "id": 213,
         "name": "Glade Spa Airfreshner Elegant Vanilla & Oud Wood 225ML",
-        "category": "harian",
+        "category": "rt",
         "img": "images/catalog/products/glade-spa-airfreshner-elegant-vanilla-oud-wood-225ml.jpg",
         "price": 145000,
         "originalPrice": 174000,
@@ -2985,7 +2985,7 @@ const ecommerceProducts = [
     {
         "id": 214,
         "name": "Good Day Cappucino 25Gr",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/good-day-cappucino-25gr.jpg",
         "price": 155000,
         "originalPrice": 186000,
@@ -2999,7 +2999,7 @@ const ecommerceProducts = [
     {
         "id": 215,
         "name": "Good Day Coffeemix Original 20Gr X 12 X 30",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/good-day-coffeemix-original-20gr-x-12-x-30.jpg",
         "price": 145000,
         "originalPrice": null,
@@ -3013,7 +3013,7 @@ const ecommerceProducts = [
     {
         "id": 216,
         "name": "Good Day Freeze Mocafrio 30Gr",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/good-day-freeze-mocafrio-30gr.jpg",
         "price": 60000,
         "originalPrice": 72000,
@@ -3027,7 +3027,7 @@ const ecommerceProducts = [
     {
         "id": 217,
         "name": "Good Day Latte Butterscotch",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/good-day-latte-butterscotch.jpg",
         "price": 185000,
         "originalPrice": null,
@@ -3041,7 +3041,7 @@ const ecommerceProducts = [
     {
         "id": 218,
         "name": "Good Day Latte Original",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/good-day-latte-original.jpg",
         "price": 135000,
         "originalPrice": 162000,
@@ -3055,7 +3055,7 @@ const ecommerceProducts = [
     {
         "id": 219,
         "name": "Head & Shoulders Anti Apek (Hitam)",
-        "category": "harian",
+        "category": "rt",
         "img": "images/catalog/products/head-shoulders-anti-apek-hitam.jpg",
         "price": 55000,
         "originalPrice": null,
@@ -3153,7 +3153,7 @@ const ecommerceProducts = [
     {
         "id": 226,
         "name": "Hello Panda Caramel 42Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/hello-panda-caramel-42gr.jpg",
         "price": 230000,
         "originalPrice": 276000,
@@ -3167,7 +3167,7 @@ const ecommerceProducts = [
     {
         "id": 227,
         "name": "Hello Panda Chocolate 42Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/hello-panda-chocolate-42gr.jpg",
         "price": 75000,
         "originalPrice": 90000,
@@ -3181,7 +3181,7 @@ const ecommerceProducts = [
     {
         "id": 228,
         "name": "Hello Panda Cookies & Cream 42Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/hello-panda-cookies-cream-42gr.jpg",
         "price": 225000,
         "originalPrice": 270000,
@@ -3195,7 +3195,7 @@ const ecommerceProducts = [
     {
         "id": 229,
         "name": "Hello Panda Double Choco 42Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/hello-panda-double-choco-42gr.jpg",
         "price": 50000,
         "originalPrice": null,
@@ -3209,7 +3209,7 @@ const ecommerceProducts = [
     {
         "id": 230,
         "name": "Hello Panda Strawberry 42Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/hello-panda-strawberry-42gr.jpg",
         "price": 115000,
         "originalPrice": null,
@@ -3223,11 +3223,11 @@ const ecommerceProducts = [
     {
         "id": 231,
         "name": "Hit Lily 600ML",
-        "category": "harian",
+        "category": "rt",
         "img": "images/catalog/products/hit-lily-600ml.jpg",
         "price": 60000,
         "originalPrice": 72000,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 1699,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -3237,7 +3237,7 @@ const ecommerceProducts = [
     {
         "id": 232,
         "name": "Hit Orange 600ML",
-        "category": "harian",
+        "category": "rt",
         "img": "images/catalog/products/hit-orange-600ml.jpg",
         "price": 110000,
         "originalPrice": null,
@@ -3265,11 +3265,11 @@ const ecommerceProducts = [
     {
         "id": 234,
         "name": "Hydro Coco 250ML",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/hydro-coco-250ml.jpg",
         "price": 145000,
         "originalPrice": 174000,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 797,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -3279,7 +3279,7 @@ const ecommerceProducts = [
     {
         "id": 235,
         "name": "Indomie Ayam Bawang 69Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/indomie-ayam-bawang-69gr.jpg",
         "price": 200000,
         "originalPrice": null,
@@ -3293,7 +3293,7 @@ const ecommerceProducts = [
     {
         "id": 236,
         "name": "Indomie Coto Makasar 80Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/indomie-coto-makasar-80gr.jpg",
         "price": 250000,
         "originalPrice": 300000,
@@ -3307,7 +3307,7 @@ const ecommerceProducts = [
     {
         "id": 237,
         "name": "Indomie Empal Gentong 75Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/indomie-empal-gentong-75gr.jpg",
         "price": 55000,
         "originalPrice": 66000,
@@ -3321,7 +3321,7 @@ const ecommerceProducts = [
     {
         "id": 238,
         "name": "Indomie Goreng Ayam Panggang Jumbo 127Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/indomie-goreng-ayam-panggang-jumbo-127gr.jpg",
         "price": 185000,
         "originalPrice": 222000,
@@ -3335,7 +3335,7 @@ const ecommerceProducts = [
     {
         "id": 239,
         "name": "Indomie Goreng Cabe Ijo 90Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/indomie-goreng-cabe-ijo-90gr.jpg",
         "price": 50000,
         "originalPrice": null,
@@ -3349,7 +3349,7 @@ const ecommerceProducts = [
     {
         "id": 240,
         "name": "Indomie Goreng Cakalang 75Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/indomie-goreng-cakalang-75gr.jpg",
         "price": 195000,
         "originalPrice": 234000,
@@ -3363,7 +3363,7 @@ const ecommerceProducts = [
     {
         "id": 241,
         "name": "Indomie Goreng Rendang 91Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/indomie-goreng-rendang-91gr.jpg",
         "price": 180000,
         "originalPrice": 216000,
@@ -3377,7 +3377,7 @@ const ecommerceProducts = [
     {
         "id": 242,
         "name": "Indomie Goreng Rendang Jumbo 120Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/indomie-goreng-rendang-jumbo-120gr.jpg",
         "price": 245000,
         "originalPrice": null,
@@ -3391,7 +3391,7 @@ const ecommerceProducts = [
     {
         "id": 243,
         "name": "Indomie Goreng Special 85Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/indomie-goreng-special-85gr.jpg",
         "price": 155000,
         "originalPrice": null,
@@ -3405,7 +3405,7 @@ const ecommerceProducts = [
     {
         "id": 244,
         "name": "Indomie Korean Ramyeon Fiery Chikin 94Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/indomie-korean-ramyeon-fiery-chikin-94gr.jpg",
         "price": 220000,
         "originalPrice": null,
@@ -3419,7 +3419,7 @@ const ecommerceProducts = [
     {
         "id": 245,
         "name": "Indomie Korean Ramyeon K-Rose 85Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/indomie-korean-ramyeon-k-rose-85gr.jpg",
         "price": 70000,
         "originalPrice": null,
@@ -3433,7 +3433,7 @@ const ecommerceProducts = [
     {
         "id": 246,
         "name": "Indomie Korean Spicy Ramyeon 83Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/indomie-korean-spicy-ramyeon-83gr.jpg",
         "price": 90000,
         "originalPrice": 108000,
@@ -3447,7 +3447,7 @@ const ecommerceProducts = [
     {
         "id": 247,
         "name": "Indomie Kuah Cakalang 75Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/indomie-kuah-cakalang-75gr.jpg",
         "price": 235000,
         "originalPrice": 282000,
@@ -3461,7 +3461,7 @@ const ecommerceProducts = [
     {
         "id": 248,
         "name": "Indomie Mie Kocok Bandung 75Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/indomie-mie-kocok-bandung-75gr.jpg",
         "price": 205000,
         "originalPrice": 246000,
@@ -3475,7 +3475,7 @@ const ecommerceProducts = [
     {
         "id": 249,
         "name": "Indomie Nyemek Bangladesh 85Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/indomie-nyemek-bangladesh-85gr.jpg",
         "price": 155000,
         "originalPrice": null,
@@ -3489,7 +3489,7 @@ const ecommerceProducts = [
     {
         "id": 250,
         "name": "Indomie Soto Mie 70Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/indomie-soto-mie-70gr.jpg",
         "price": 130000,
         "originalPrice": null,
@@ -3507,7 +3507,7 @@ const ecommerceProducts = [
         "img": "images/catalog/products/jf-sulfur-90gr.jpg",
         "price": 125000,
         "originalPrice": null,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 412,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -3573,11 +3573,11 @@ const ecommerceProducts = [
     {
         "id": 256,
         "name": "Kapal Api Mix Sachet",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/kapal-api-mix-sachet.jpg",
         "price": 55000,
         "originalPrice": null,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 3492,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -3587,7 +3587,7 @@ const ecommerceProducts = [
     {
         "id": 257,
         "name": "Kecap Bango 1.525 Kg",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/kecap-bango-1-525-kg.jpg",
         "price": 65000,
         "originalPrice": null,
@@ -3601,7 +3601,7 @@ const ecommerceProducts = [
     {
         "id": 258,
         "name": "Kecap Bango 25Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/kecap-bango-25gr.jpg",
         "price": 230000,
         "originalPrice": null,
@@ -3615,11 +3615,11 @@ const ecommerceProducts = [
     {
         "id": 259,
         "name": "Kecap Bango 77Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/kecap-bango-77gr.jpg",
         "price": 140000,
         "originalPrice": null,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 159,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -3629,7 +3629,7 @@ const ecommerceProducts = [
     {
         "id": 260,
         "name": "Kecap Bango Botol 189Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/kecap-bango-botol-189gr.jpg",
         "price": 110000,
         "originalPrice": null,
@@ -3643,7 +3643,7 @@ const ecommerceProducts = [
     {
         "id": 261,
         "name": "Kecap Bango Botol 385Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/kecap-bango-botol-385gr.jpg",
         "price": 180000,
         "originalPrice": null,
@@ -3657,7 +3657,7 @@ const ecommerceProducts = [
     {
         "id": 262,
         "name": "Kecap Bango Botol 865Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/kecap-bango-botol-865gr.jpg",
         "price": 230000,
         "originalPrice": null,
@@ -3671,7 +3671,7 @@ const ecommerceProducts = [
     {
         "id": 263,
         "name": "Kecap Bango Refill 520ML",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/kecap-bango-refill-520ml.jpg",
         "price": 200000,
         "originalPrice": null,
@@ -3685,7 +3685,7 @@ const ecommerceProducts = [
     {
         "id": 264,
         "name": "Kecap Bango Refill 700ML",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/kecap-bango-refill-700ml.jpg",
         "price": 165000,
         "originalPrice": 198000,
@@ -3699,7 +3699,7 @@ const ecommerceProducts = [
     {
         "id": 265,
         "name": "Khong Guan Saltcheese 100Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/khong-guan-saltcheese-100gr.jpg",
         "price": 100000,
         "originalPrice": null,
@@ -3713,7 +3713,7 @@ const ecommerceProducts = [
     {
         "id": 266,
         "name": "Khong Guan Ass Biscuit Red Mini 650Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/khong-guan-ass-biscuit-red-mini-650gr.jpg",
         "price": 145000,
         "originalPrice": null,
@@ -3727,7 +3727,7 @@ const ecommerceProducts = [
     {
         "id": 267,
         "name": "Kispray Gold Reff 280ML",
-        "category": "harian",
+        "category": "rt",
         "img": "images/catalog/products/kispray-gold-reff-280ml.jpg",
         "price": 105000,
         "originalPrice": null,
@@ -3741,7 +3741,7 @@ const ecommerceProducts = [
     {
         "id": 268,
         "name": "Kispray Kasturi Pouch 280ML",
-        "category": "harian",
+        "category": "rt",
         "img": "images/catalog/products/kispray-kasturi-pouch-280ml.jpg",
         "price": 215000,
         "originalPrice": 258000,
@@ -3783,7 +3783,7 @@ const ecommerceProducts = [
     {
         "id": 271,
         "name": "Kratingdaeng 250ML",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/kratingdaeng-250ml.jpg",
         "price": 95000,
         "originalPrice": null,
@@ -3797,7 +3797,7 @@ const ecommerceProducts = [
     {
         "id": 272,
         "name": "Larutan Badak Jambu 320ML",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/larutan-badak-jambu-320ml.jpg",
         "price": 50000,
         "originalPrice": null,
@@ -3811,7 +3811,7 @@ const ecommerceProducts = [
     {
         "id": 273,
         "name": "Larutan Badak Lychee 320ML",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/larutan-badak-lychee-320ml.jpg",
         "price": 200000,
         "originalPrice": 240000,
@@ -3825,7 +3825,7 @@ const ecommerceProducts = [
     {
         "id": 274,
         "name": "Larutan Cap Kaki 3 Anggur 320ML",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/larutan-cap-kaki-3-anggur-320ml.jpg",
         "price": 230000,
         "originalPrice": 276000,
@@ -3839,7 +3839,7 @@ const ecommerceProducts = [
     {
         "id": 275,
         "name": "Larutan Cap Kaki 3 Jambu 320ML",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/larutan-cap-kaki-3-jambu-320ml.jpg",
         "price": 125000,
         "originalPrice": 150000,
@@ -3853,7 +3853,7 @@ const ecommerceProducts = [
     {
         "id": 276,
         "name": "Larutan Cap Kaki 3 Jeruk 320ML",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/larutan-cap-kaki-3-jeruk-320ml.jpg",
         "price": 115000,
         "originalPrice": null,
@@ -3867,7 +3867,7 @@ const ecommerceProducts = [
     {
         "id": 277,
         "name": "Larutan Cap Kaki 3 Loci 320ML",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/larutan-cap-kaki-3-loci-320ml.jpg",
         "price": 230000,
         "originalPrice": 276000,
@@ -3881,7 +3881,7 @@ const ecommerceProducts = [
     {
         "id": 278,
         "name": "Larutan Cap Kaki 3 Melon 320ML",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/larutan-cap-kaki-3-melon-320ml.jpg",
         "price": 170000,
         "originalPrice": 204000,
@@ -3895,7 +3895,7 @@ const ecommerceProducts = [
     {
         "id": 279,
         "name": "Larutan Cap Kaki 3 Ori 500ML",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/larutan-cap-kaki-3-ori-500ml.jpg",
         "price": 155000,
         "originalPrice": 186000,
@@ -3909,7 +3909,7 @@ const ecommerceProducts = [
     {
         "id": 280,
         "name": "Doritos Snack Jagung Bakar (Roasted Corn) 55Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/doritos-snack-jagung-bakar-roasted-corn-55gr.jpg",
         "price": 250000,
         "originalPrice": null,
@@ -3923,7 +3923,7 @@ const ecommerceProducts = [
     {
         "id": 281,
         "name": "Larutan Penyegar Cap Kaki 3 200ML",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/larutan-penyegar-cap-kaki-3-200ml.jpg",
         "price": 140000,
         "originalPrice": null,
@@ -3965,7 +3965,7 @@ const ecommerceProducts = [
     {
         "id": 284,
         "name": "Lays Seaweed 64Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/lays-seaweed-64gr.jpg",
         "price": 200000,
         "originalPrice": 240000,
@@ -3979,7 +3979,7 @@ const ecommerceProducts = [
     {
         "id": 285,
         "name": "Lays Sweet Chili 64Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/lays-sweet-chili-64gr.jpg",
         "price": 80000,
         "originalPrice": 96000,
@@ -3993,7 +3993,7 @@ const ecommerceProducts = [
     {
         "id": 286,
         "name": "Lays Wavy Fried Chicken 64Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/lays-wavy-fried-chicken-64gr.jpg",
         "price": 135000,
         "originalPrice": null,
@@ -4291,7 +4291,7 @@ const ecommerceProducts = [
         "img": "images/catalog/products/lovillea-love-language-eau-de-parfum-precious-gift-100-mi-x-4-x12.jpg",
         "price": 75000,
         "originalPrice": 90000,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 2392,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -4319,7 +4319,7 @@ const ecommerceProducts = [
         "img": "images/catalog/products/lovillea-love-language-eau-de-parfum-special-moment-100-mi-x-4-x12.jpg",
         "price": 110000,
         "originalPrice": 132000,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 4000,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -4553,7 +4553,7 @@ const ecommerceProducts = [
     {
         "id": 326,
         "name": "Maxicorn Snack Barbeque 140Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/maxicorn-snack-barbeque-140gr.jpg",
         "price": 75000,
         "originalPrice": null,
@@ -4567,7 +4567,7 @@ const ecommerceProducts = [
     {
         "id": 327,
         "name": "Maxicorn Snack Nacho Cheese 140Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/maxicorn-snack-nacho-cheese-140gr.jpg",
         "price": 160000,
         "originalPrice": 192000,
@@ -4581,7 +4581,7 @@ const ecommerceProducts = [
     {
         "id": 328,
         "name": "Maxicorn Snack Roasted Corn 140Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/maxicorn-snack-roasted-corn-140gr.jpg",
         "price": 230000,
         "originalPrice": null,
@@ -4613,7 +4613,7 @@ const ecommerceProducts = [
         "img": "images/catalog/products/maya-sardines-tomat-kecil-155gr.jpg",
         "price": 245000,
         "originalPrice": null,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 2349,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -4679,7 +4679,7 @@ const ecommerceProducts = [
     {
         "id": 335,
         "name": "Mie Sedaap Ayam Bawang Bag 5",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/mie-sedaap-ayam-bawang-bag-5.jpg",
         "price": 90000,
         "originalPrice": 108000,
@@ -4693,7 +4693,7 @@ const ecommerceProducts = [
     {
         "id": 336,
         "name": "Mie Sedaap Cup Goreng 12X81Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/mie-sedaap-cup-goreng-12x81gr.jpg",
         "price": 210000,
         "originalPrice": 252000,
@@ -4707,7 +4707,7 @@ const ecommerceProducts = [
     {
         "id": 337,
         "name": "Mie Sedaap Hakata Chicken 60Pc X 88Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/mie-sedaap-hakata-chicken-60pc-x-88gr.jpg",
         "price": 200000,
         "originalPrice": 240000,
@@ -4721,7 +4721,7 @@ const ecommerceProducts = [
     {
         "id": 338,
         "name": "Minyak Goreng Bimoli 2L",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/minyak-goreng-bimoli-2L.jpg",
         "price": 190000,
         "originalPrice": null,
@@ -4735,7 +4735,7 @@ const ecommerceProducts = [
     {
         "id": 339,
         "name": "Minyak Goreng Bimoli 5L",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/minyak-goreng-bimoli-5L.jpg",
         "price": 185000,
         "originalPrice": null,
@@ -4749,7 +4749,7 @@ const ecommerceProducts = [
     {
         "id": 340,
         "name": "Minyak Goreng Sania 2L",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/minyak-goreng-sania-2L.jpg",
         "price": 175000,
         "originalPrice": null,
@@ -4763,7 +4763,7 @@ const ecommerceProducts = [
     {
         "id": 341,
         "name": "Minyak Goreng Sunco 2L",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/minyak-goreng-sunco-2L.jpg",
         "price": 60000,
         "originalPrice": 72000,
@@ -4777,7 +4777,7 @@ const ecommerceProducts = [
     {
         "id": 342,
         "name": "Neo Coffee Carramel Machiato (Bag) 20X9Sx20Gr",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/neo-coffee-carramel-machiato-bag-20x9sx20gr.jpg",
         "price": 225000,
         "originalPrice": 270000,
@@ -4791,7 +4791,7 @@ const ecommerceProducts = [
     {
         "id": 343,
         "name": "Neo Coffee Moccachino (Bag) 20X9Sx20Gr",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/neo-coffee-moccachino-bag-20x9sx20gr.jpg",
         "price": 195000,
         "originalPrice": 234000,
@@ -4805,7 +4805,7 @@ const ecommerceProducts = [
     {
         "id": 344,
         "name": "Neo Coffee Tiramisu 3ln1 20X9Sx20Gr",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/neo-coffee-tiramisu-3ln1-20x9sx20gr.jpg",
         "price": 225000,
         "originalPrice": 270000,
@@ -4819,7 +4819,7 @@ const ecommerceProducts = [
     {
         "id": 345,
         "name": "Nescafe 3 In 1 Original 525Gr",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/nescafe-3-in-1-original-525gr.jpg",
         "price": 135000,
         "originalPrice": 162000,
@@ -4889,7 +4889,7 @@ const ecommerceProducts = [
     {
         "id": 350,
         "name": "Oatside Barista Blend 1000ML",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/oatside-barista-blend-1000ml.jpg",
         "price": 55000,
         "originalPrice": 66000,
@@ -4903,7 +4903,7 @@ const ecommerceProducts = [
     {
         "id": 351,
         "name": "Oreo Dark & White Chocolate",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/oreo-dark-white-chocolate.jpg",
         "price": 55000,
         "originalPrice": null,
@@ -4917,7 +4917,7 @@ const ecommerceProducts = [
     {
         "id": 352,
         "name": "Oreo Peanut Butter 110.4Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/oreo-peanut-butter-110.4gr.jpg",
         "price": 235000,
         "originalPrice": 282000,
@@ -4931,7 +4931,7 @@ const ecommerceProducts = [
     {
         "id": 353,
         "name": "Oreo Sandwich Strawberry 110.4Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/oreo-sandwich-strawberry-110.4gr.jpg",
         "price": 65000,
         "originalPrice": null,
@@ -4945,7 +4945,7 @@ const ecommerceProducts = [
     {
         "id": 354,
         "name": "Oreo Sandwich Vanila Cream 110.4Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/oreo-sandwich-vanila-cream-110.4gr.jpg",
         "price": 170000,
         "originalPrice": 204000,
@@ -5099,7 +5099,7 @@ const ecommerceProducts = [
     {
         "id": 365,
         "name": "Pop Mie Cup Dower 75Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/pop-mie-cup-dower-75gr.jpg",
         "price": 95000,
         "originalPrice": 114000,
@@ -5113,7 +5113,7 @@ const ecommerceProducts = [
     {
         "id": 366,
         "name": "Pop Mie Korean Ramyeon Fiery Chikin 75Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/pop-mie-korean-ramyeon-fiery-chikin-75gr.jpg",
         "price": 215000,
         "originalPrice": 258000,
@@ -5127,7 +5127,7 @@ const ecommerceProducts = [
     {
         "id": 367,
         "name": "Pop Mie Mi Instan Cup - Pedes Gledeek 75Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/pop-mie-mi-instan-cup-pedes-gledeek-75gr.jpg",
         "price": 240000,
         "originalPrice": null,
@@ -5141,7 +5141,7 @@ const ecommerceProducts = [
     {
         "id": 368,
         "name": "Pop Mie Rasa Ayam Bawang New Cup 75Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/pop-mie-rasa-ayam-bawang-new-cup-75gr.jpg",
         "price": 65000,
         "originalPrice": null,
@@ -5155,7 +5155,7 @@ const ecommerceProducts = [
     {
         "id": 369,
         "name": "Pop Mie Rasa Ayam New Cup 75Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/pop-mie-rasa-ayam-new-cup-75gr.jpg",
         "price": 170000,
         "originalPrice": null,
@@ -5169,7 +5169,7 @@ const ecommerceProducts = [
     {
         "id": 370,
         "name": "Pop Mie Rasa Baso New Cup 75Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/pop-mie-rasa-baso-new-cup-75gr.jpg",
         "price": 225000,
         "originalPrice": 270000,
@@ -5183,7 +5183,7 @@ const ecommerceProducts = [
     {
         "id": 371,
         "name": "Pop Mie Rasa Kari Ayam 75Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/pop-mie-rasa-kari-ayam-75gr.jpg",
         "price": 245000,
         "originalPrice": 294000,
@@ -5197,7 +5197,7 @@ const ecommerceProducts = [
     {
         "id": 372,
         "name": "Pop Mie Rasa Soto Ayam 75Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/pop-mie-rasa-soto-ayam-75gr.jpg",
         "price": 160000,
         "originalPrice": 192000,
@@ -5579,7 +5579,7 @@ const ecommerceProducts = [
         "img": "images/catalog/products/pucelle-mist-cologne-blooming-blossom-72pcsx75ml.jpg",
         "price": 235000,
         "originalPrice": 282000,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 2695,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -5673,7 +5673,7 @@ const ecommerceProducts = [
     {
         "id": 406,
         "name": "Qtela Balado 175Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/qtela-balado-175gr.jpg",
         "price": 230000,
         "originalPrice": null,
@@ -5687,7 +5687,7 @@ const ecommerceProducts = [
     {
         "id": 407,
         "name": "Qtela Balado 60Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/qtela-balado-60gr.jpg",
         "price": 185000,
         "originalPrice": 222000,
@@ -5701,11 +5701,11 @@ const ecommerceProducts = [
     {
         "id": 408,
         "name": "Qtela Bbq 60Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/qtela-bbq-60gr.jpg",
         "price": 75000,
         "originalPrice": 90000,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 202,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -5715,7 +5715,7 @@ const ecommerceProducts = [
     {
         "id": 409,
         "name": "Qtela Ori 175Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/qtela-ori-175gr.jpg",
         "price": 125000,
         "originalPrice": 150000,
@@ -5729,7 +5729,7 @@ const ecommerceProducts = [
     {
         "id": 410,
         "name": "Qtela Original 60Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/qtela-original-60gr.jpg",
         "price": 250000,
         "originalPrice": null,
@@ -5855,7 +5855,7 @@ const ecommerceProducts = [
     {
         "id": 419,
         "name": "Resik V Mjk Whitening Btl 36X90ML",
-        "category": "harian",
+        "category": "rt",
         "img": "images/catalog/products/resik-v-mjk-whitening-btl-36x90ml.jpg",
         "price": 185000,
         "originalPrice": 222000,
@@ -5897,7 +5897,7 @@ const ecommerceProducts = [
     {
         "id": 422,
         "name": "Royco Ayam 220Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/royco-ayam-220gr.jpg",
         "price": 185000,
         "originalPrice": 222000,
@@ -5911,7 +5911,7 @@ const ecommerceProducts = [
     {
         "id": 423,
         "name": "Royco Ayam 94Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/royco-ayam-94gr.jpg",
         "price": 235000,
         "originalPrice": 282000,
@@ -5925,7 +5925,7 @@ const ecommerceProducts = [
     {
         "id": 424,
         "name": "Royco Sapi 220Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/royco-sapi-220gr.jpg",
         "price": 70000,
         "originalPrice": null,
@@ -5939,7 +5939,7 @@ const ecommerceProducts = [
     {
         "id": 425,
         "name": "Royco Sapi 94Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/royco-sapi-94gr.jpg",
         "price": 65000,
         "originalPrice": 78000,
@@ -5981,7 +5981,7 @@ const ecommerceProducts = [
     {
         "id": 428,
         "name": "Sarden Abc 425G",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/sarden-abc-425g.jpg",
         "price": 170000,
         "originalPrice": 204000,
@@ -5995,7 +5995,7 @@ const ecommerceProducts = [
     {
         "id": 429,
         "name": "Sasa Msg 1Kg",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/sasa-msg-1kg.jpg",
         "price": 150000,
         "originalPrice": 180000,
@@ -6009,7 +6009,7 @@ const ecommerceProducts = [
     {
         "id": 430,
         "name": "Sedaap Mie Ayam Bawang 86Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/sedaap-mie-ayam-bawang-86gr.jpg",
         "price": 110000,
         "originalPrice": 132000,
@@ -6023,7 +6023,7 @@ const ecommerceProducts = [
     {
         "id": 431,
         "name": "Sedaap Mie Ayam Spesial 86Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/sedaap-mie-ayam-spesial-86gr.jpg",
         "price": 80000,
         "originalPrice": 96000,
@@ -6037,7 +6037,7 @@ const ecommerceProducts = [
     {
         "id": 432,
         "name": "Sedaap Mie Baso Spesial 83Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/sedaap-mie-baso-spesial-83gr.jpg",
         "price": 235000,
         "originalPrice": 282000,
@@ -6051,7 +6051,7 @@ const ecommerceProducts = [
     {
         "id": 433,
         "name": "Sedaap Mie Goreng 90Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/sedaap-mie-goreng-90gr.jpg",
         "price": 145000,
         "originalPrice": null,
@@ -6065,7 +6065,7 @@ const ecommerceProducts = [
     {
         "id": 434,
         "name": "Sedaap Mie Goreng Isi 5 Bag 90Gr 8 X 5 X 90 Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/sedaap-mie-goreng-isi-5-bag-90gr-8-x-5-x-90-gr.jpg",
         "price": 50000,
         "originalPrice": null,
@@ -6079,7 +6079,7 @@ const ecommerceProducts = [
     {
         "id": 435,
         "name": "Sedaap Mie Kari Ayam 86Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/sedaap-mie-kari-ayam-86gr.jpg",
         "price": 175000,
         "originalPrice": 210000,
@@ -6093,7 +6093,7 @@ const ecommerceProducts = [
     {
         "id": 436,
         "name": "Sedaap Mie Soto 90Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/sedaap-mie-soto-90gr.jpg",
         "price": 240000,
         "originalPrice": 288000,
@@ -6107,7 +6107,7 @@ const ecommerceProducts = [
     {
         "id": 437,
         "name": "Sedaap Mie Soto Isi 5 5X8X75 Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/sedaap-mie-soto-isi-5-5x8x75-gr.jpg",
         "price": 200000,
         "originalPrice": 240000,
@@ -6121,7 +6121,7 @@ const ecommerceProducts = [
     {
         "id": 438,
         "name": "Sedaap Selero Padang 86Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/sedaap-selero-padang-86gr.jpg",
         "price": 225000,
         "originalPrice": null,
@@ -6135,7 +6135,7 @@ const ecommerceProducts = [
     {
         "id": 439,
         "name": "Sedaap Singapore Spice Laksa 83Gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/sedaap-singapore-spice-laksa-83gr.jpg",
         "price": 105000,
         "originalPrice": 126000,
@@ -6163,7 +6163,7 @@ const ecommerceProducts = [
     {
         "id": 441,
         "name": "Sensodyne Tp Repair Whitening 100Gr",
-        "category": "harian",
+        "category": "rt",
         "img": "images/catalog/products/sensodyne-tp-repair-whitening-100gr.jpg",
         "price": 70000,
         "originalPrice": null,
@@ -6177,7 +6177,7 @@ const ecommerceProducts = [
     {
         "id": 442,
         "name": "Sirup Marjan Bondoun Cocopandan",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/sirup-marjan-bondoun-cocopandan.jpg",
         "price": 130000,
         "originalPrice": 156000,
@@ -6191,7 +6191,7 @@ const ecommerceProducts = [
     {
         "id": 443,
         "name": "Sirup Marjan Bondoun Melon",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/sirup-marjan-bondoun-melon.jpg",
         "price": 225000,
         "originalPrice": 270000,
@@ -6205,7 +6205,7 @@ const ecommerceProducts = [
     {
         "id": 444,
         "name": "Soklin Liquid Botol Sakura 1L",
-        "category": "harian",
+        "category": "rt",
         "img": "images/catalog/products/soklin-liquid-botol-sakura-1L.jpg",
         "price": 110000,
         "originalPrice": null,
@@ -6219,7 +6219,7 @@ const ecommerceProducts = [
     {
         "id": 445,
         "name": "Soklin Liquid Botol Violet 1L",
-        "category": "harian",
+        "category": "rt",
         "img": "images/catalog/products/soklin-liquid-botol-violet-1l.jpg",
         "price": 50000,
         "originalPrice": null,
@@ -6233,7 +6233,7 @@ const ecommerceProducts = [
     {
         "id": 446,
         "name": "Soklin Liquid Botol White Bright 1L",
-        "category": "harian",
+        "category": "rt",
         "img": "images/catalog/products/soklin-liquid-botol-white-bright-1l.jpg",
         "price": 80000,
         "originalPrice": null,
@@ -6247,7 +6247,7 @@ const ecommerceProducts = [
     {
         "id": 447,
         "name": "Soklin Liquid Soft Pink 1L",
-        "category": "harian",
+        "category": "rt",
         "img": "images/catalog/products/soklin-liquid-soft-pink-1L.jpg",
         "price": 215000,
         "originalPrice": null,
@@ -6261,7 +6261,7 @@ const ecommerceProducts = [
     {
         "id": 448,
         "name": "Sprite Zero Sugar Lemon Lime (24 X 250MI)",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/sprite-zero-sugar-lemon-lime-24-x-250mi.jpg",
         "price": 205000,
         "originalPrice": 246000,
@@ -6307,7 +6307,7 @@ const ecommerceProducts = [
         "img": "images/catalog/products/starbucks-doubleshot-espresso-latte-220mix24.jpg",
         "price": 240000,
         "originalPrice": 288000,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 3161,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -6419,7 +6419,7 @@ const ecommerceProducts = [
         "img": "images/catalog/products/sukro-peanuts-original-95gr.jpg",
         "price": 205000,
         "originalPrice": 246000,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 1606,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -6429,7 +6429,7 @@ const ecommerceProducts = [
     {
         "id": 460,
         "name": "Sunlight 610ML",
-        "category": "harian",
+        "category": "rt",
         "img": "images/catalog/products/sunlight-610ml.jpg",
         "price": 165000,
         "originalPrice": null,
@@ -6443,7 +6443,7 @@ const ecommerceProducts = [
     {
         "id": 461,
         "name": "Sunlight Anti Bau Pouch 12X600ML",
-        "category": "harian",
+        "category": "rt",
         "img": "images/catalog/products/sunlight-anti-bau-pouch-12x600ml.jpg",
         "price": 190000,
         "originalPrice": 228000,
@@ -6457,7 +6457,7 @@ const ecommerceProducts = [
     {
         "id": 462,
         "name": "Sunlight Jeruk Nipis (Lime)Pouch 12X635Gr",
-        "category": "harian",
+        "category": "rt",
         "img": "images/catalog/products/sunlight-jeruk-nipis-lime-pouch-12x635gr.jpg",
         "price": 70000,
         "originalPrice": 84000,
@@ -6471,7 +6471,7 @@ const ecommerceProducts = [
     {
         "id": 463,
         "name": "Sunlight Liquid Lime Pouch 210ML",
-        "category": "harian",
+        "category": "rt",
         "img": "images/catalog/products/sunlight-liquid-lime-pouch-210ml.jpg",
         "price": 85000,
         "originalPrice": null,
@@ -6527,7 +6527,7 @@ const ecommerceProducts = [
     {
         "id": 467,
         "name": "Top Coffee Cappuccino 20Bagx6Sx25Gr",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/top-coffee-cappuccino-20bagx6sx25gr.jpg",
         "price": 235000,
         "originalPrice": 282000,
@@ -6569,7 +6569,7 @@ const ecommerceProducts = [
     {
         "id": 470,
         "name": "Vaseline HbI Healthy White Perfect Ten 200Mlx18",
-        "category": "harian",
+        "category": "rt",
         "img": "images/catalog/products/vaseline-hbi-healthy-white-perfect-ten-200mlx18.jpg",
         "price": 225000,
         "originalPrice": null,
@@ -6611,7 +6611,7 @@ const ecommerceProducts = [
     {
         "id": 473,
         "name": "Vaseline Healthy White Pump 400MI X 12",
-        "category": "harian",
+        "category": "rt",
         "img": "images/catalog/products/vaseline-healthy-white-pump-400mi-x-12.jpg",
         "price": 95000,
         "originalPrice": 114000,
@@ -6625,7 +6625,7 @@ const ecommerceProducts = [
     {
         "id": 474,
         "name": "Vaseline Ic Lotion Healthy White 18X200ML",
-        "category": "harian",
+        "category": "rt",
         "img": "images/catalog/products/vaseline-ic-lotion-healthy-white-18x200ml.jpg",
         "price": 185000,
         "originalPrice": 222000,
@@ -6639,7 +6639,7 @@ const ecommerceProducts = [
     {
         "id": 475,
         "name": "Vixal Cleaner Porselen Blue 360ML",
-        "category": "harian",
+        "category": "rt",
         "img": "images/catalog/products/vixal-cleaner-porselen-blue-360ml.jpg",
         "price": 70000,
         "originalPrice": 84000,
@@ -6709,7 +6709,7 @@ const ecommerceProducts = [
     {
         "id": 480,
         "name": "Wow Spaghetti Bolognese 76G",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/wow-spaghetti-bolognese-76g.jpg",
         "price": 120000,
         "originalPrice": 144000,
@@ -6723,7 +6723,7 @@ const ecommerceProducts = [
     {
         "id": 481,
         "name": "Wow Spaghetti Carbonara 80G",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/wow-spaghetti-carbonara-80g.jpg",
         "price": 150000,
         "originalPrice": 180000,
@@ -6751,7 +6751,7 @@ const ecommerceProducts = [
     {
         "id": 483,
         "name": "Yuri Porstex Blue Botol 1000ML",
-        "category": "harian",
+        "category": "rt",
         "img": "images/catalog/products/yuri-porstex-blue-botol-1000ml.jpg",
         "price": 110000,
         "originalPrice": null,
@@ -6811,7 +6811,7 @@ const ecommerceProducts = [
         "img": "images/catalog/products/zinc-shampo-men-active-care340ml.jpg",
         "price": 250000,
         "originalPrice": 300000,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 1263,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -6849,11 +6849,11 @@ const ecommerceProducts = [
     {
         "id": 490,
         "name": "INDOMIE GORENG AYAM GEPREK 40x85gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/indomie-goreng-ayam-geprek-40x85gr.jpg",
         "price": 170000,
         "originalPrice": 204000,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 3888,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -6863,7 +6863,7 @@ const ecommerceProducts = [
     {
         "id": 491,
         "name": "Khong Guan Grand Classic 18g",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/khong-guan-grand-classic-18g.jpg",
         "price": 95000,
         "originalPrice": null,
@@ -6877,7 +6877,7 @@ const ecommerceProducts = [
     {
         "id": 492,
         "name": "Pop Mie Goreng Rasa Indomie (12 Cup)",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/pop-mie-goreng-rasa-indomie-12-cup.jpg",
         "price": 60000,
         "originalPrice": 72000,
@@ -6891,7 +6891,7 @@ const ecommerceProducts = [
     {
         "id": 493,
         "name": "Khong Guan Classic Wafer 72g",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/khong-guan-classic-wafer-72g.jpg",
         "price": 110000,
         "originalPrice": 132000,
@@ -6905,7 +6905,7 @@ const ecommerceProducts = [
     {
         "id": 494,
         "name": "Khong Guan Wafer Classic 350g",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/khong-guan-wafer-classic-350g.jpg",
         "price": 90000,
         "originalPrice": null,
@@ -6919,7 +6919,7 @@ const ecommerceProducts = [
     {
         "id": 495,
         "name": "Mr. Hottest Maitos Tortilla 140g (Sambal Balado)",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/mr-hottest-maitos-tortilla-140g-sambal-balado.jpg",
         "price": 55000,
         "originalPrice": 66000,
@@ -6947,7 +6947,7 @@ const ecommerceProducts = [
     {
         "id": 497,
         "name": "Delfi Top Wafer Chocolate 9g (Isi 6 x 24pcs + Free 2 pcs) per Box",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/delfi-top-wafer-chocolate-9g-isi-6-x-24pcs-free-2-pcs-per-box.jpg",
         "price": 70000,
         "originalPrice": null,
@@ -6961,7 +6961,7 @@ const ecommerceProducts = [
     {
         "id": 498,
         "name": "Masako Bumbu Ekstrak Daging Sapi 1kg",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/masako-bumbu-ekstrak-daging-sapi-1kg.jpg",
         "price": 210000,
         "originalPrice": 252000,
@@ -6975,7 +6975,7 @@ const ecommerceProducts = [
     {
         "id": 499,
         "name": "Masako Bumbu Ekstrak Daging Sapi 250g",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/masako-bumbu-ekstrak-daging-sapi-250g.jpg",
         "price": 165000,
         "originalPrice": 198000,
@@ -6989,7 +6989,7 @@ const ecommerceProducts = [
     {
         "id": 500,
         "name": "Masako Bumbu Ekstrak Daging Ayam 1kg",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/masako-bumbu-ekstrak-daging-ayam-1kg.jpg",
         "price": 225000,
         "originalPrice": 270000,
@@ -7003,7 +7003,7 @@ const ecommerceProducts = [
     {
         "id": 501,
         "name": "INDOMIE GORENG ACEH 40x90gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/indomie-goreng-aceh-40x90gr.jpg",
         "price": 225000,
         "originalPrice": 270000,
@@ -7017,7 +7017,7 @@ const ecommerceProducts = [
     {
         "id": 502,
         "name": "INDOMIE AYAM SPESIAL 40x68gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/indomie-ayam-spesial-40x68gr.jpg",
         "price": 245000,
         "originalPrice": 294000,
@@ -7031,7 +7031,7 @@ const ecommerceProducts = [
     {
         "id": 503,
         "name": "INDOMIE KALDU AYAM 72gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/indomie-kaldu-ayam-72gr.jpg",
         "price": 95000,
         "originalPrice": null,
@@ -7045,7 +7045,7 @@ const ecommerceProducts = [
     {
         "id": 504,
         "name": "SASA MSG (PENYEDAP RASA) 500GR",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/sasa-msg-penyedap-rasa-500gr.jpg",
         "price": 130000,
         "originalPrice": 156000,
@@ -7059,7 +7059,7 @@ const ecommerceProducts = [
     {
         "id": 505,
         "name": "Nabati Wafer Pink Lava",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/nabati-wafer-pink-lava.jpg",
         "price": 60000,
         "originalPrice": 72000,
@@ -7073,7 +7073,7 @@ const ecommerceProducts = [
     {
         "id": 506,
         "name": "KHONGUAN Kogen Wafer Stick Susu",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/khonguan-kogen-wafer-stick-susu.jpg",
         "price": 150000,
         "originalPrice": null,
@@ -7115,7 +7115,7 @@ const ecommerceProducts = [
     {
         "id": 509,
         "name": "Kogen Wafer Stick Chocolate (Refill) Pack 500g",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/kogen-wafer-stick-chocolate-refill-pack-500g.jpg",
         "price": 115000,
         "originalPrice": null,
@@ -7129,11 +7129,11 @@ const ecommerceProducts = [
     {
         "id": 510,
         "name": "Kecap Bango 210ml / 265g",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/kecap-bango-210ml_265g.jpg",
         "price": 220000,
         "originalPrice": 264000,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 4116,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -7143,7 +7143,7 @@ const ecommerceProducts = [
     {
         "id": 511,
         "name": "Nabisco RITZ Crackers Biskuit Sweet Cheese Sandwich",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/nabisco-ritz-crackers-biskuit-sweet-cheese-sandwich.jpg",
         "price": 150000,
         "originalPrice": null,
@@ -7199,11 +7199,11 @@ const ecommerceProducts = [
     {
         "id": 515,
         "name": "Kogen Wafer Stick Chocolate (Astor) Toples 600g",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/kogen-wafer-stick-chocolate-astor-toples-600g.jpg",
         "price": 140000,
         "originalPrice": null,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 3183,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -7213,7 +7213,7 @@ const ecommerceProducts = [
     {
         "id": 516,
         "name": "FINNA SAMBAL ULEG TERASI 190GR",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/finna-sambal-uleg-terasi-190gr.jpg",
         "price": 140000,
         "originalPrice": null,
@@ -7227,7 +7227,7 @@ const ecommerceProducts = [
     {
         "id": 517,
         "name": "MINYAK GORENG KUNCI MAS 2L",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/minyak-goreng-kunci-mas-2L.jpg",
         "price": 105000,
         "originalPrice": null,
@@ -7241,7 +7241,7 @@ const ecommerceProducts = [
     {
         "id": 518,
         "name": "FINNA SAMBAL ULEG RAWIT 190GR",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/finna-sambal-uleg-rawit-190gr.jpg",
         "price": 60000,
         "originalPrice": 72000,
@@ -7255,7 +7255,7 @@ const ecommerceProducts = [
     {
         "id": 519,
         "name": "Nabati Siip Roasted Corn (Jagung) Stick 10g",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/nabati-siip-roasted-corn-jagung-stick-10g.jpg",
         "price": 55000,
         "originalPrice": 66000,
@@ -7269,7 +7269,7 @@ const ecommerceProducts = [
     {
         "id": 520,
         "name": "Nabati Siip Bites Richoco (Cokelat) Pouch 19g",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/nabati-siip-bites-richoco-cokelat-pouch-19g.jpg",
         "price": 190000,
         "originalPrice": null,
@@ -7283,7 +7283,7 @@ const ecommerceProducts = [
     {
         "id": 521,
         "name": "Nabati Siip Bites Richeese (Keju) Pouch 50g",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/nabati-siip-bites-richeese-keju-pouch-50g.jpg",
         "price": 165000,
         "originalPrice": null,
@@ -7297,7 +7297,7 @@ const ecommerceProducts = [
     {
         "id": 522,
         "name": "Biskuit Gizi Wafer Keju Kaleng (Varian Tradisional)",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/biskuit-gizi-wafer-keju-kaleng-varian-tradisional.jpg",
         "price": 150000,
         "originalPrice": null,
@@ -7311,7 +7311,7 @@ const ecommerceProducts = [
     {
         "id": 523,
         "name": "Biskuit Gizi Wafer Cokelat Kaleng (Varian Tradisional)",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/biskuit-gizi-wafer-cokelat-kaleng-varian-tradisional.jpg",
         "price": 70000,
         "originalPrice": 84000,
@@ -7325,7 +7325,7 @@ const ecommerceProducts = [
     {
         "id": 524,
         "name": "Khong Guan Biscuits Assorted Mini (Kaleng Merah Bulat) 650g",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/khong-guan-biscuits-assorted-mini-kaleng-merah-bulat-650g.jpg",
         "price": 120000,
         "originalPrice": null,
@@ -7339,7 +7339,7 @@ const ecommerceProducts = [
     {
         "id": 525,
         "name": "Khong Guan Assorted Biscuits Red Segi (Kaleng Merah Persegi) 1600g",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/khong-guan-assorted-biscuits-red-segi-kaleng-merah-persegi-1600g.jpg",
         "price": 70000,
         "originalPrice": null,
@@ -7353,11 +7353,11 @@ const ecommerceProducts = [
     {
         "id": 526,
         "name": "Richeese Nabati Wafer Keju Kaleng 287g",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/richeese-nabati-wafer-keju-kaleng-287g.jpg",
         "price": 245000,
         "originalPrice": null,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 728,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -7367,7 +7367,7 @@ const ecommerceProducts = [
     {
         "id": 527,
         "name": "Richeese Nabati Wafer Cokelat Kaleng 287g",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/richeese-nabati-wafer-cokelat-kaleng-287g.jpg",
         "price": 100000,
         "originalPrice": null,
@@ -7381,7 +7381,7 @@ const ecommerceProducts = [
     {
         "id": 528,
         "name": "Tango Wafer Cokelat Kaleng 240g",
-        "category": "harian",
+        "category": "minuman",
         "img": "images/catalog/products/tango-wafer-cokelat-kaleng-240g.jpg",
         "price": 220000,
         "originalPrice": 264000,
@@ -7395,7 +7395,7 @@ const ecommerceProducts = [
     {
         "id": 529,
         "name": "MIE SEDAAP BAKAR LIMAU 40x89gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/mie-sedaap-bakar-limau-40x89gr.jpg",
         "price": 250000,
         "originalPrice": null,
@@ -7409,7 +7409,7 @@ const ecommerceProducts = [
     {
         "id": 530,
         "name": "FINNA SAMBAL ULEG KEMIRI 190GR",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/finna-sambal-uleg-kemiri-190gr.jpg",
         "price": 190000,
         "originalPrice": null,
@@ -7423,7 +7423,7 @@ const ecommerceProducts = [
     {
         "id": 531,
         "name": "Ramenyes Mi Instan Rasa Hakata Chicken 88 gram",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/ramenyes-mi-instan-rasa-hakata-chicken-88-gram.jpg",
         "price": 150000,
         "originalPrice": null,
@@ -7437,7 +7437,7 @@ const ecommerceProducts = [
     {
         "id": 532,
         "name": "MIE SEDAAP CUP SPICY SOUP 12x72gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/mie-sedaap-cup-spicy-soup-12x72gr.jpg",
         "price": 80000,
         "originalPrice": 96000,
@@ -7451,7 +7451,7 @@ const ecommerceProducts = [
     {
         "id": 533,
         "name": "MIE SEDAAP SOTO BAG 5x8x71GR",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/mie-sedaap-soto-bag-5x8x71gr.jpg",
         "price": 65000,
         "originalPrice": 78000,
@@ -7465,7 +7465,7 @@ const ecommerceProducts = [
     {
         "id": 534,
         "name": "Ramenyes Mi Instan Goreng Rasa Tokyo Chicken",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/ramenyes-mi-instan-goreng-rasa-tokyo-chicken.jpg",
         "price": 105000,
         "originalPrice": 126000,
@@ -7479,7 +7479,7 @@ const ecommerceProducts = [
     {
         "id": 535,
         "name": "MIE SEDAAP WHITE CURRY 40x81gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/mie-sedaap-white-curry-40x81gr.jpg",
         "price": 60000,
         "originalPrice": null,
@@ -7493,11 +7493,11 @@ const ecommerceProducts = [
     {
         "id": 536,
         "name": "MIE SEDAAP GORENG CRISPY CHICK 40x85gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/mie-sedaap-goreng-crispy-chick-40x85gr.jpg",
         "price": 160000,
         "originalPrice": 192000,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 952,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -7507,7 +7507,7 @@ const ecommerceProducts = [
     {
         "id": 537,
         "name": "MIE SEDAAP BAKSO SPESIAL 40x77gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/mie-sedaap-bakso-spesial-40x77gr.jpg",
         "price": 130000,
         "originalPrice": 156000,
@@ -7521,7 +7521,7 @@ const ecommerceProducts = [
     {
         "id": 538,
         "name": "MIE SEDAAP CUP BASO 12x77gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/mie-sedaap-cup-baso-12x77gr.jpg",
         "price": 75000,
         "originalPrice": null,
@@ -7535,7 +7535,7 @@ const ecommerceProducts = [
     {
         "id": 539,
         "name": "SEDAAP MIE GORENG 40x90gr",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/sedaap-mie-goreng-40x90gr.jpg",
         "price": 110000,
         "originalPrice": null,
@@ -7549,7 +7549,7 @@ const ecommerceProducts = [
     {
         "id": 540,
         "name": "Qtela Keripik Tempe Original 55 g",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/qtela-keripik-tempe-original-55-g.jpg",
         "price": 200000,
         "originalPrice": 240000,
@@ -7563,7 +7563,7 @@ const ecommerceProducts = [
     {
         "id": 542,
         "name": "Redoxon Zinc Eff Orange 10S Tube",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/redoxon-zinc-eff-orange-10s-tube.jpg",
         "price": 170000,
         "originalPrice": null,
@@ -7861,7 +7861,7 @@ const ecommerceProducts = [
         "img": "images/catalog/products/downy-500-sunrise-fresh-biru.jpg",
         "price": 185000,
         "originalPrice": null,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 198,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -7889,7 +7889,7 @@ const ecommerceProducts = [
         "img": "images/catalog/products/downy-500-moana-mystique-hitam-ungu.jpg",
         "price": 170000,
         "originalPrice": 204000,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 2439,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -8053,7 +8053,7 @@ const ecommerceProducts = [
     {
         "id": 577,
         "name": "Mama Lime Charcoal Pouch 680 MI X 12",
-        "category": "rt",
+        "category": "harian",
         "img": "images/catalog/products/mama-lime-charcoal-pouch-680-mi-x-12.jpg",
         "price": 240000,
         "originalPrice": 288000,
@@ -8067,7 +8067,7 @@ const ecommerceProducts = [
     {
         "id": 578,
         "name": "Mama Lime Pouch 680ML X12",
-        "category": "rt",
+        "category": "harian",
         "img": "images/catalog/products/mama-lime-pouch-680mi-x12.jpg",
         "price": 115000,
         "originalPrice": null,
@@ -8081,7 +8081,7 @@ const ecommerceProducts = [
     {
         "id": 579,
         "name": "Mama Lime Pouch 680Mlx12",
-        "category": "rt",
+        "category": "harian",
         "img": "images/catalog/products/mama-lime-pouch-680mlx12.jpg",
         "price": 195000,
         "originalPrice": null,
@@ -8095,7 +8095,7 @@ const ecommerceProducts = [
     {
         "id": 580,
         "name": "Mamalime 750Ml X 12",
-        "category": "rt",
+        "category": "harian",
         "img": "images/catalog/products/mamalime-750ml-x-12.jpg",
         "price": 170000,
         "originalPrice": null,
@@ -8389,7 +8389,7 @@ const ecommerceProducts = [
     {
         "id": 601,
         "name": "Kodomo Pasta Gigi Strawbery 40Gr",
-        "category": "rt",
+        "category": "harian",
         "img": "images/catalog/products/kodomo-pasta-gigi-strawbery-40gr.jpg",
         "price": 205000,
         "originalPrice": 246000,
@@ -8487,7 +8487,7 @@ const ecommerceProducts = [
     {
         "id": 608,
         "name": "Kodomo Tooth Paste Gel Mix Berries (Pink) 36X45Gr",
-        "category": "rt",
+        "category": "harian",
         "img": "images/catalog/products/kodomo-tooth-paste-gel-mix-berries-pink-36x45gr.jpg",
         "price": 170000,
         "originalPrice": 204000,
@@ -8501,7 +8501,7 @@ const ecommerceProducts = [
     {
         "id": 609,
         "name": "Kodomo Pasta Gigi Strawbery 80Gr",
-        "category": "rt",
+        "category": "harian",
         "img": "images/catalog/products/kodomo-pasta-gigi-strawbery-80gr.jpg",
         "price": 95000,
         "originalPrice": null,
@@ -8533,7 +8533,7 @@ const ecommerceProducts = [
         "img": "images/catalog/products/wpc-pembersih-porselen-biru-extra-strong-780-ml.jpg",
         "price": 175000,
         "originalPrice": 210000,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 635,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -8557,7 +8557,7 @@ const ecommerceProducts = [
     {
         "id": 613,
         "name": "Gatsby T-Hair Cream Normal 96X70Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-t-hair-cream-normal-96x70gr.jpg",
         "price": 80000,
         "originalPrice": 96000,
@@ -8571,7 +8571,7 @@ const ecommerceProducts = [
     {
         "id": 614,
         "name": "Gatsby T-Hair Cream-Anti Dandruff 96Pcsx70Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-t-hair-cream-anti-dandruff-96pcsx70gr.jpg",
         "price": 190000,
         "originalPrice": null,
@@ -8585,7 +8585,7 @@ const ecommerceProducts = [
     {
         "id": 615,
         "name": "Gatsby T-Hair Cream-Normal 216Pcsx28Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-t-hair-cream-normal-216pcsx28gr.jpg",
         "price": 250000,
         "originalPrice": null,
@@ -8599,7 +8599,7 @@ const ecommerceProducts = [
     {
         "id": 616,
         "name": "Gatsby T-Hair Cream-Normal 36Pcsx250Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-t-hair-cream-normal-36pcsx250gr.jpg",
         "price": 125000,
         "originalPrice": 150000,
@@ -8613,7 +8613,7 @@ const ecommerceProducts = [
     {
         "id": 617,
         "name": "Gatsby T-Hair Haircream Antidandruff 216Pcsx28Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-t-hair-haircream-antidandruff-216pcsx28gr.jpg",
         "price": 90000,
         "originalPrice": 108000,
@@ -8627,7 +8627,7 @@ const ecommerceProducts = [
     {
         "id": 618,
         "name": "Gatsby The Nature Styling Balm Cream 75 G X 8 X 12",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-the-nature-styling-balm-cream-75-g-x-8-x-12.jpg",
         "price": 165000,
         "originalPrice": null,
@@ -8641,7 +8641,7 @@ const ecommerceProducts = [
     {
         "id": 619,
         "name": "Gatsby The Nature Styling Balm Pomade 70 G X 8 X 12",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-the-nature-styling-balm-pomade-70-g-x-8-x-12.jpg",
         "price": 95000,
         "originalPrice": null,
@@ -8655,7 +8655,7 @@ const ecommerceProducts = [
     {
         "id": 620,
         "name": "Gatsby Urban Cologne Attractive 48X125ML",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-urban-cologne-attractive-48x125ml.jpg",
         "price": 120000,
         "originalPrice": 144000,
@@ -8669,7 +8669,7 @@ const ecommerceProducts = [
     {
         "id": 621,
         "name": "Gatsby Urban Cologne Confidence 48X125ML",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-urban-cologne-confidence-48x125ml.jpg",
         "price": 140000,
         "originalPrice": null,
@@ -8683,7 +8683,7 @@ const ecommerceProducts = [
     {
         "id": 622,
         "name": "Gatsby Urban Cologne Dignity 48X125ML",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-urban-cologne-dignity-48x125ml.jpg",
         "price": 200000,
         "originalPrice": 240000,
@@ -8697,7 +8697,7 @@ const ecommerceProducts = [
     {
         "id": 623,
         "name": "Gatsby Urban Cologne Energy 48X125ML",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-urban-cologne-energy-48x125ml.jpg",
         "price": 160000,
         "originalPrice": null,
@@ -8711,7 +8711,7 @@ const ecommerceProducts = [
     {
         "id": 624,
         "name": "Gatsby Urban Cologne Intention 48X125ML",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-urban-cologne-intention-48x125ml.jpg",
         "price": 230000,
         "originalPrice": null,
@@ -8725,7 +8725,7 @@ const ecommerceProducts = [
     {
         "id": 625,
         "name": "Gatsby Urvibe Cologne #Atehat 115 MI X 4 X 12",
-        "category": "kosmetik",
+        "category": "minuman",
         "img": "images/catalog/products/gatsby-urvibe-cologne-atehat-115-mi-x-4-x-12.jpg",
         "price": 220000,
         "originalPrice": 264000,
@@ -8739,7 +8739,7 @@ const ecommerceProducts = [
     {
         "id": 626,
         "name": "Gatsby Urvibe Cologne #Bop 115 MI X 4 X 12",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-urvibe-cologne-bop-115-mi-x-4-x-12.jpg",
         "price": 105000,
         "originalPrice": null,
@@ -8753,7 +8753,7 @@ const ecommerceProducts = [
     {
         "id": 627,
         "name": "Gatsby Urvibe Cologne #G.O.A.T 115 MI X 4 X 12",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-urvibe-cologne-g-o-a-t-115-mi-x-4-x-12.jpg",
         "price": 245000,
         "originalPrice": 294000,
@@ -8767,7 +8767,7 @@ const ecommerceProducts = [
     {
         "id": 628,
         "name": "Gatsby Urvibe Cologne #Rizzler 115 MI X 4 X 12",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-urvibe-cologne-rizzler-115-mi-x-4-x-12.jpg",
         "price": 210000,
         "originalPrice": null,
@@ -8781,7 +8781,7 @@ const ecommerceProducts = [
     {
         "id": 629,
         "name": "Gatsby Water Gloss Hard 100 Gr X 24",
-        "category": "kosmetik",
+        "category": "minuman",
         "img": "images/catalog/products/gatsby-water-gloss-hard-100-gr-x-24.jpg",
         "price": 130000,
         "originalPrice": 156000,
@@ -8795,7 +8795,7 @@ const ecommerceProducts = [
     {
         "id": 630,
         "name": "Gatsby Water Gloss Hard 24X100Gr",
-        "category": "kosmetik",
+        "category": "minuman",
         "img": "images/catalog/products/gatsby-water-gloss-hard-24x100gr.jpg",
         "price": 210000,
         "originalPrice": null,
@@ -8809,7 +8809,7 @@ const ecommerceProducts = [
     {
         "id": 631,
         "name": "Gatsby Water Gloss Hard 48X150Gr",
-        "category": "kosmetik",
+        "category": "minuman",
         "img": "images/catalog/products/gatsby-water-gloss-hard-48x150gr.jpg",
         "price": 140000,
         "originalPrice": 168000,
@@ -8823,7 +8823,7 @@ const ecommerceProducts = [
     {
         "id": 632,
         "name": "Gatsby Water Gloss Hard 96X75Gr",
-        "category": "kosmetik",
+        "category": "minuman",
         "img": "images/catalog/products/gatsby-water-gloss-hard-96x75gr.jpg",
         "price": 185000,
         "originalPrice": 222000,
@@ -8837,11 +8837,11 @@ const ecommerceProducts = [
     {
         "id": 633,
         "name": "Gatsby Water Gloss Hyper Solid 100 Gr X 24",
-        "category": "kosmetik",
+        "category": "minuman",
         "img": "images/catalog/products/gatsby-water-gloss-hyper-solid-100-gr-x-24.jpg",
         "price": 75000,
         "originalPrice": 90000,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 1933,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -8851,7 +8851,7 @@ const ecommerceProducts = [
     {
         "id": 634,
         "name": "Gatsby Water Gloss Hyper Solid 216X30Gr",
-        "category": "kosmetik",
+        "category": "minuman",
         "img": "images/catalog/products/gatsby-water-gloss-hyper-solid-216x30gr.jpg",
         "price": 210000,
         "originalPrice": null,
@@ -8865,7 +8865,7 @@ const ecommerceProducts = [
     {
         "id": 635,
         "name": "Gatsby Water Gloss Hyper Solid 24X100Gr",
-        "category": "kosmetik",
+        "category": "minuman",
         "img": "images/catalog/products/gatsby-water-gloss-hyper-solid-24x100gr.jpg",
         "price": 235000,
         "originalPrice": null,
@@ -8879,7 +8879,7 @@ const ecommerceProducts = [
     {
         "id": 636,
         "name": "Gatsby Water Gloss Hyper Solid 36X300Gr",
-        "category": "kosmetik",
+        "category": "minuman",
         "img": "images/catalog/products/gatsby-water-gloss-hyper-solid-36x300gr.jpg",
         "price": 240000,
         "originalPrice": 288000,
@@ -8893,7 +8893,7 @@ const ecommerceProducts = [
     {
         "id": 637,
         "name": "Gatsby Water Gloss Hyper Solid 48X150Gr",
-        "category": "kosmetik",
+        "category": "minuman",
         "img": "images/catalog/products/gatsby-water-gloss-hyper-solid-48x150gr.jpg",
         "price": 60000,
         "originalPrice": 72000,
@@ -8907,7 +8907,7 @@ const ecommerceProducts = [
     {
         "id": 638,
         "name": "Gatsby Water Gloss Hyper Solid 96X75Gr",
-        "category": "kosmetik",
+        "category": "minuman",
         "img": "images/catalog/products/gatsby-water-gloss-hyper-solid-96x75gr.jpg",
         "price": 145000,
         "originalPrice": null,
@@ -8921,7 +8921,7 @@ const ecommerceProducts = [
     {
         "id": 639,
         "name": "Gatsby Water Gloss Soft",
-        "category": "kosmetik",
+        "category": "minuman",
         "img": "images/catalog/products/gatsby-water-gloss-soft.jpg",
         "price": 80000,
         "originalPrice": null,
@@ -8935,7 +8935,7 @@ const ecommerceProducts = [
     {
         "id": 640,
         "name": "Gatsby Water Gloss Soft 100 Gr X 24",
-        "category": "kosmetik",
+        "category": "minuman",
         "img": "images/catalog/products/gatsby-water-gloss-soft.jpg",
         "price": 115000,
         "originalPrice": 138000,
@@ -8949,7 +8949,7 @@ const ecommerceProducts = [
     {
         "id": 641,
         "name": "Gatsby Water Gloss Soft 24X100Gr",
-        "category": "kosmetik",
+        "category": "minuman",
         "img": "images/catalog/products/gatsby-water-gloss-soft-24x100gr.jpg",
         "price": 145000,
         "originalPrice": 174000,
@@ -8963,7 +8963,7 @@ const ecommerceProducts = [
     {
         "id": 642,
         "name": "Gatsby Water Gloss Soft 48X150Gr",
-        "category": "kosmetik",
+        "category": "minuman",
         "img": "images/catalog/products/gatsby-water-gloss-soft-48x150gr.jpg",
         "price": 245000,
         "originalPrice": 294000,
@@ -8977,7 +8977,7 @@ const ecommerceProducts = [
     {
         "id": 643,
         "name": "Gatsby Water Gloss Super Hard 100 Gr X 24",
-        "category": "kosmetik",
+        "category": "minuman",
         "img": "images/catalog/products/gatsby-water-gloss-super-hard-100-gr-x-24.jpg",
         "price": 190000,
         "originalPrice": null,
@@ -8991,7 +8991,7 @@ const ecommerceProducts = [
     {
         "id": 644,
         "name": "Gatsby Water Gloss Super Hard 150Grx48",
-        "category": "kosmetik",
+        "category": "minuman",
         "img": "images/catalog/products/gatsby-water-gloss-super-hard-150grx48.jpg",
         "price": 140000,
         "originalPrice": 168000,
@@ -9005,7 +9005,7 @@ const ecommerceProducts = [
     {
         "id": 645,
         "name": "Gatsby Water Gloss Super Hard 216X30Gr",
-        "category": "kosmetik",
+        "category": "minuman",
         "img": "images/catalog/products/gatsby-water-gloss-super-hard-216x30gr.jpg",
         "price": 205000,
         "originalPrice": null,
@@ -9019,7 +9019,7 @@ const ecommerceProducts = [
     {
         "id": 646,
         "name": "Gatsby Water Gloss Super Hard 24X100Gr",
-        "category": "kosmetik",
+        "category": "minuman",
         "img": "images/catalog/products/gatsby-water-gloss-super-hard-24x100gr.jpg",
         "price": 195000,
         "originalPrice": 234000,
@@ -9033,7 +9033,7 @@ const ecommerceProducts = [
     {
         "id": 647,
         "name": "Gatsby Water Gloss Super Hard 96X75Gr",
-        "category": "kosmetik",
+        "category": "minuman",
         "img": "images/catalog/products/gatsby-water-gloss-super-hard-96x75gr.jpg",
         "price": 105000,
         "originalPrice": 126000,
@@ -9047,7 +9047,7 @@ const ecommerceProducts = [
     {
         "id": 648,
         "name": "Gatsby Water Gloss Ultimate Hold <Tube> 24X100Gr",
-        "category": "kosmetik",
+        "category": "minuman",
         "img": "images/catalog/products/gatsby-water-gloss-ultimate-hold-tube-24x100gr.jpg",
         "price": 125000,
         "originalPrice": null,
@@ -9061,7 +9061,7 @@ const ecommerceProducts = [
     {
         "id": 649,
         "name": "Gatsby Water Gloss Ultimate Hold <Tube> 48X150Gr",
-        "category": "kosmetik",
+        "category": "minuman",
         "img": "images/catalog/products/gatsby-water-gloss-ultimate-hold-tube-48x150gr.jpg",
         "price": 250000,
         "originalPrice": null,
@@ -9075,7 +9075,7 @@ const ecommerceProducts = [
     {
         "id": 650,
         "name": "Gatsby Water Gloss Ultimate Hold 75Grx96",
-        "category": "kosmetik",
+        "category": "minuman",
         "img": "images/catalog/products/gatsby-water-gloss-ultimate-hold-75grx96.jpg",
         "price": 170000,
         "originalPrice": 204000,
@@ -9089,7 +9089,7 @@ const ecommerceProducts = [
     {
         "id": 651,
         "name": "Pantene Shampoo Hitam & Panjang (Hitam)",
-        "category": "kosmetik",
+        "category": "rt",
         "img": "images/catalog/products/pantene-shampoo-hitam-panjang-hitam.jpg",
         "price": 200000,
         "originalPrice": null,
@@ -9103,7 +9103,7 @@ const ecommerceProducts = [
     {
         "id": 652,
         "name": "Giv Bar Soap Bengkuang 72Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/giv-bar-soap-bengkuang-72gr.jpg",
         "price": 105000,
         "originalPrice": null,
@@ -9117,7 +9117,7 @@ const ecommerceProducts = [
     {
         "id": 653,
         "name": "Giv Bar Soap Biru 72Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/giv-bar-soap-biru-72gr.jpg",
         "price": 60000,
         "originalPrice": null,
@@ -9131,7 +9131,7 @@ const ecommerceProducts = [
     {
         "id": 654,
         "name": "Giv Bar Soap Merah 72Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/giv-bar-soap-merah-72gr.jpg",
         "price": 210000,
         "originalPrice": 252000,
@@ -9145,7 +9145,7 @@ const ecommerceProducts = [
     {
         "id": 655,
         "name": "Giv Bar Soap Papaya 72Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/giv-bar-soap-papaya-72gr.jpg",
         "price": 220000,
         "originalPrice": 264000,
@@ -9159,11 +9159,11 @@ const ecommerceProducts = [
     {
         "id": 656,
         "name": "Pantene Shampoo Halus &",
-        "category": "kosmetik",
+        "category": "rt",
         "img": "images/catalog/products/pantene-shampoo-halus.jpg",
         "price": 180000,
         "originalPrice": 216000,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 911,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -9173,7 +9173,7 @@ const ecommerceProducts = [
     {
         "id": 657,
         "name": "Pantene Shampoo Anti Dandruff (Biru Tua)",
-        "category": "kosmetik",
+        "category": "rt",
         "img": "images/catalog/products/pantene-shampoo-anti-dandruff-biru-tua.jpg",
         "price": 50000,
         "originalPrice": null,
@@ -9187,7 +9187,7 @@ const ecommerceProducts = [
     {
         "id": 658,
         "name": "Harmony Soap Grape 70Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/harmony-soap-grape-70gr.jpg",
         "price": 225000,
         "originalPrice": 270000,
@@ -9201,7 +9201,7 @@ const ecommerceProducts = [
     {
         "id": 659,
         "name": "Harmony Soap Lemon 70Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/harmony-soap-lemon-70gr.jpg",
         "price": 110000,
         "originalPrice": 132000,
@@ -9215,7 +9215,7 @@ const ecommerceProducts = [
     {
         "id": 660,
         "name": "Harmony Soap Melon 70Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/harmony-soap-melon-70gr.jpg",
         "price": 75000,
         "originalPrice": null,
@@ -9229,7 +9229,7 @@ const ecommerceProducts = [
     {
         "id": 661,
         "name": "Harmony Soap Orange 70Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/harmony-soap-orange-70gr.jpg",
         "price": 65000,
         "originalPrice": null,
@@ -9243,7 +9243,7 @@ const ecommerceProducts = [
     {
         "id": 662,
         "name": "Harmony Soap Strawberry 70Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/harmony-soap-strawberry-70gr.jpg",
         "price": 180000,
         "originalPrice": null,
@@ -9257,7 +9257,7 @@ const ecommerceProducts = [
     {
         "id": 663,
         "name": "Darlie Kids Cola 40Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/darlie-kids-cola-40gr.jpg",
         "price": 220000,
         "originalPrice": 264000,
@@ -9271,11 +9271,11 @@ const ecommerceProducts = [
     {
         "id": 664,
         "name": "Dettol Soap Fresh (Kemasan Ekonomis) 60Grx3Sx48",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/dettol-soap-fresh-kemasan-ekonomis-60grx3sx48.jpg",
         "price": 160000,
         "originalPrice": null,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 4865,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -9285,7 +9285,7 @@ const ecommerceProducts = [
     {
         "id": 665,
         "name": "Dettol Soap Fresh 60Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/dettol-soap-fresh-60gr.jpg",
         "price": 60000,
         "originalPrice": null,
@@ -9299,7 +9299,7 @@ const ecommerceProducts = [
     {
         "id": 666,
         "name": "Dettol Soap Lasting Fresh (Kemasan Ekonomis) 60Grx3Sx48",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/dettol-soap-lasting-fresh-kemasan-ekonomis-60grx3sx48.jpg",
         "price": 90000,
         "originalPrice": 108000,
@@ -9313,7 +9313,7 @@ const ecommerceProducts = [
     {
         "id": 667,
         "name": "Dettol Soap Lasting Fresh 60Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/dettol-soap-lasting-fresh-60gr.jpg",
         "price": 230000,
         "originalPrice": null,
@@ -9327,7 +9327,7 @@ const ecommerceProducts = [
     {
         "id": 668,
         "name": "Dettol Soap Original (Kemasan Ekonomis) 60Grx3Sx48",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/dettol-soap-original-kemasan-ekonomis-60grx3sx48.jpg",
         "price": 190000,
         "originalPrice": null,
@@ -9341,7 +9341,7 @@ const ecommerceProducts = [
     {
         "id": 669,
         "name": "Dettol Soap Original 60Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/dettol-soap-original-60gr.jpg",
         "price": 95000,
         "originalPrice": 114000,
@@ -9355,11 +9355,11 @@ const ecommerceProducts = [
     {
         "id": 670,
         "name": "Dettol Soap Re - Energize 60Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/dettol-soap-re-energize-60gr.jpg",
         "price": 105000,
         "originalPrice": 126000,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 3580,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -9369,7 +9369,7 @@ const ecommerceProducts = [
     {
         "id": 671,
         "name": "Zinc Shampoo Clean Active 340ML",
-        "category": "kosmetik",
+        "category": "rt",
         "img": "images/catalog/products/zinc-shampoo-clean-active-340ml.jpg",
         "price": 50000,
         "originalPrice": 60000,
@@ -9383,7 +9383,7 @@ const ecommerceProducts = [
     {
         "id": 672,
         "name": "Gatsby Facewash Skin Triple Protection 100Grx36",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-facewash-skin-triple-protection-100grx36.jpg",
         "price": 150000,
         "originalPrice": 180000,
@@ -9397,11 +9397,11 @@ const ecommerceProducts = [
     {
         "id": 673,
         "name": "Gatsby Fiber Pomade 80G X 4 X 12",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-fiber-pomade-80g-x-4-x-12.jpg",
         "price": 180000,
         "originalPrice": 216000,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 1400,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -9411,7 +9411,7 @@ const ecommerceProducts = [
     {
         "id": 674,
         "name": "Gatsby Harmonic Cologne At The Sea 100 MI X 4 X 12",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-harmonic-cologne-at-the-sea-100-mi-x-4-x-12.jpg",
         "price": 160000,
         "originalPrice": null,
@@ -9425,7 +9425,7 @@ const ecommerceProducts = [
     {
         "id": 675,
         "name": "Gatsby Harmonic Cologne In The Fest 100 MI X 4 X 12",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-harmonic-cologne-in-the-fest-100-mi-x-4-x-12.jpg",
         "price": 80000,
         "originalPrice": 96000,
@@ -9439,7 +9439,7 @@ const ecommerceProducts = [
     {
         "id": 676,
         "name": "Gatsby Harmonic Cologne In The Lounge 100 MI X 4 X 12",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-harmonic-cologne-in-the-lounge-100-mi-x-4-x-12.jpg",
         "price": 175000,
         "originalPrice": null,
@@ -9453,7 +9453,7 @@ const ecommerceProducts = [
     {
         "id": 677,
         "name": "Gatsby Prime Body Perfume Spray Dark Leather 100 MI X 6 X 12",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-prime-body-perfume-spray-dark-leather-100-mi-x-6-x-12.jpg",
         "price": 195000,
         "originalPrice": null,
@@ -9467,7 +9467,7 @@ const ecommerceProducts = [
     {
         "id": 678,
         "name": "Gatsby Prime Body Perfume Spray Luxe Amber 100 MI X 6 X 12",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-prime-body-perfume-spray-luxe-amber-100-mi-x-6-x-12.jpg",
         "price": 225000,
         "originalPrice": null,
@@ -9481,7 +9481,7 @@ const ecommerceProducts = [
     {
         "id": 679,
         "name": "Gatsby Prime Body Perfume Spray Ocean Ice 100 MI X 6 X 12",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-prime-body-perfume-spray-ocean-ice-100-mi-x-6-x-12.jpg",
         "price": 85000,
         "originalPrice": null,
@@ -9495,7 +9495,7 @@ const ecommerceProducts = [
     {
         "id": 680,
         "name": "Gatsby Prime Body Perfume Spray Velvet Rouge 100 MI X 6 X 12",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-prime-body-perfume-spray-velvet-rouge-100-mi-x-6-x-12.jpg",
         "price": 85000,
         "originalPrice": 102000,
@@ -9509,11 +9509,11 @@ const ecommerceProducts = [
     {
         "id": 681,
         "name": "Gatsby Roll On Deodorant Fresh Marine 72X50ML",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-roll-on-deodorant-fresh-marine-72x50ml.jpg",
         "price": 95000,
         "originalPrice": 114000,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 35,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -9523,7 +9523,7 @@ const ecommerceProducts = [
     {
         "id": 682,
         "name": "Gatsby Spray Pomade Quick & Grease 150Mx48",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-spray-pomade-quick-grease-150mx48.jpg",
         "price": 110000,
         "originalPrice": 132000,
@@ -9537,7 +9537,7 @@ const ecommerceProducts = [
     {
         "id": 683,
         "name": "Gatsby Spray Pomade Quick & Volume 150Mx48",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-spray-pomade-quick-volume-150mx48.jpg",
         "price": 230000,
         "originalPrice": null,
@@ -9551,7 +9551,7 @@ const ecommerceProducts = [
     {
         "id": 684,
         "name": "Gatsby Styling Pomade 75G (Perfect Rise) 4 X 12 X 75G",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-styling-pomade-75g-perfect-rise-4-x-12-x-75g.jpg",
         "price": 100000,
         "originalPrice": null,
@@ -9565,7 +9565,7 @@ const ecommerceProducts = [
     {
         "id": 685,
         "name": "Gatsby Styling Pomade Matte Moulder 96X30Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-styling-pomade-matte-moulder-96x30gr.jpg",
         "price": 190000,
         "originalPrice": null,
@@ -9579,7 +9579,7 @@ const ecommerceProducts = [
     {
         "id": 686,
         "name": "Gatsby Styling Pomade Supreme Grease 80Grx48",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-styling-pomade-supreme-grease-80grx48.jpg",
         "price": 165000,
         "originalPrice": null,
@@ -9593,7 +9593,7 @@ const ecommerceProducts = [
     {
         "id": 687,
         "name": "Gatsby Styling Pomade Supreme Hold (48X75Gr)",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-styling-pomade-supreme-hold-48x75gr.jpg",
         "price": 105000,
         "originalPrice": null,
@@ -9607,7 +9607,7 @@ const ecommerceProducts = [
     {
         "id": 688,
         "name": "Gatsby Styling Wax - Extreme Volume 216X25Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-styling-wax-extreme-volume-216x25gr.jpg",
         "price": 145000,
         "originalPrice": null,
@@ -9621,7 +9621,7 @@ const ecommerceProducts = [
     {
         "id": 689,
         "name": "Gatsby Styling Wax (Extreme & Volume) 8 X 12 X 75G",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-styling-wax-extreme-volume-8-x-12-x-75g.jpg",
         "price": 210000,
         "originalPrice": null,
@@ -9635,7 +9635,7 @@ const ecommerceProducts = [
     {
         "id": 690,
         "name": "Gatsby Styling Wax Hard And Free 25 Gr X 216",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-styling-wax-hard-and-free-25-gr-x-216.jpg",
         "price": 70000,
         "originalPrice": 84000,
@@ -9649,11 +9649,11 @@ const ecommerceProducts = [
     {
         "id": 691,
         "name": "Gatsby Styling Wax Hard&Free (Blue) 96X75Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-styling-wax-hard-free-blue-96x75gr.jpg",
         "price": 115000,
         "originalPrice": null,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 3918,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -9663,11 +9663,11 @@ const ecommerceProducts = [
     {
         "id": 692,
         "name": "Gatsby Styling Wax Mat & Hard 25Gr X 216",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-styling-wax-mat-hard-25gr-x-216.jpg",
         "price": 55000,
         "originalPrice": 66000,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 4419,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -9677,7 +9677,7 @@ const ecommerceProducts = [
     {
         "id": 693,
         "name": "Gatsby Styling Wax Mat&Hard (Black) 96X75Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-styling-wax-mat-hard-black-96x75gr.jpg",
         "price": 135000,
         "originalPrice": 162000,
@@ -9691,7 +9691,7 @@ const ecommerceProducts = [
     {
         "id": 694,
         "name": "Gatsby Styling Wax Power&Spike (Red) 216X25Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-styling-wax-power-spike-red-216x25gr.jpg",
         "price": 85000,
         "originalPrice": 102000,
@@ -9705,11 +9705,11 @@ const ecommerceProducts = [
     {
         "id": 695,
         "name": "Gatsby Styling Wax Power&Spike (Red) 96X75Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-styling-wax-power-spike-red-96x75gr.jpg",
         "price": 220000,
         "originalPrice": 264000,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 3353,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -9719,7 +9719,7 @@ const ecommerceProducts = [
     {
         "id": 696,
         "name": "Gatsby T-Hair Cream Normal 36X250Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-t-hair-cream-normal-36x250gr.jpg",
         "price": 245000,
         "originalPrice": null,
@@ -9733,7 +9733,7 @@ const ecommerceProducts = [
     {
         "id": 697,
         "name": "Gatsby T-Hair Cream Normal 48X120Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-t-hair-cream-normal-48x120gr.jpg",
         "price": 85000,
         "originalPrice": 102000,
@@ -9747,7 +9747,7 @@ const ecommerceProducts = [
     {
         "id": 698,
         "name": "Zinc Shampoo - Re-Refreshing Cool 340ML",
-        "category": "kosmetik",
+        "category": "rt",
         "img": "images/catalog/products/zinc-shampoo-re-refreshing-cool-340ml.jpg",
         "price": 90000,
         "originalPrice": null,
@@ -9761,7 +9761,7 @@ const ecommerceProducts = [
     {
         "id": 699,
         "name": "Dettol Soap Re Energize Kemasan Ekonomis) 60Grx3Sx48",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/dettol-soap-re-energize-kemasan-ekonomis-60grx3sx48.jpg",
         "price": 180000,
         "originalPrice": null,
@@ -9775,7 +9775,7 @@ const ecommerceProducts = [
     {
         "id": 700,
         "name": "Dettol Soap Skincare (Kemasan Ekonomis) 60Grx3Sx48",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/dettol-soap-skincare-kemasan-ekonomis-60grx3sx48.jpg",
         "price": 60000,
         "originalPrice": null,
@@ -9789,7 +9789,7 @@ const ecommerceProducts = [
     {
         "id": 701,
         "name": "Dettol Soap Skincare 60Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/dettol-soap-skincare-60gr.jpg",
         "price": 200000,
         "originalPrice": null,
@@ -9803,7 +9803,7 @@ const ecommerceProducts = [
     {
         "id": 702,
         "name": "Dove Bar Soap - Pink 48 X 90Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/dove-bar-soap-pink-48-x-90gr.jpg",
         "price": 125000,
         "originalPrice": 150000,
@@ -9817,7 +9817,7 @@ const ecommerceProducts = [
     {
         "id": 703,
         "name": "Emeron Shampoo Hijab Antidandruff 170ML",
-        "category": "kosmetik",
+        "category": "rt",
         "img": "images/catalog/products/emeron-shampoo-hijab-antidandruff-170ml.jpg",
         "price": 75000,
         "originalPrice": null,
@@ -9831,7 +9831,7 @@ const ecommerceProducts = [
     {
         "id": 704,
         "name": "Johnson Baby Shampoo Gold 200ML",
-        "category": "kosmetik",
+        "category": "rt",
         "img": "images/catalog/products/johnson-baby-shampoo-gold-200ml.jpg",
         "price": 245000,
         "originalPrice": null,
@@ -9845,7 +9845,7 @@ const ecommerceProducts = [
     {
         "id": 705,
         "name": "Emeron Shampoo Hijab Anti Hair Fall 340ML",
-        "category": "kosmetik",
+        "category": "rt",
         "img": "images/catalog/products/emeron-shampoo-hijab-anti-hair-fall-340ml.jpg",
         "price": 120000,
         "originalPrice": 144000,
@@ -9859,11 +9859,11 @@ const ecommerceProducts = [
     {
         "id": 706,
         "name": "Emeron Shampoo Black Shine 340ML",
-        "category": "kosmetik",
+        "category": "rt",
         "img": "images/catalog/products/emeron-shampoo-black-shine-340ml.jpg",
         "price": 125000,
         "originalPrice": 150000,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 4004,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -9873,7 +9873,7 @@ const ecommerceProducts = [
     {
         "id": 707,
         "name": "Dove Bar Soap Pampering Beauty Crm 48 X 90Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/dove-bar-soap-pampering-beauty-crm-48-x-90gr.jpg",
         "price": 195000,
         "originalPrice": 234000,
@@ -9887,7 +9887,7 @@ const ecommerceProducts = [
     {
         "id": 708,
         "name": "Medicare Barsoap Anti Bacteri 90Gr (Blue)",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/medicare-barsoap-anti-bacteri-90gr-blue.jpg",
         "price": 215000,
         "originalPrice": 258000,
@@ -9901,7 +9901,7 @@ const ecommerceProducts = [
     {
         "id": 709,
         "name": "Colgate Toothpaste Great Regular 180Gr",
-        "category": "kosmetik",
+        "category": "makanan",
         "img": "images/catalog/products/colgate-toothpaste-great-regular-180gr.jpg",
         "price": 150000,
         "originalPrice": null,
@@ -9915,7 +9915,7 @@ const ecommerceProducts = [
     {
         "id": 710,
         "name": "Colgate Toothpaste Fresh Cool Mint 180Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/colgate-toothpaste-fresh-cool-mint-180gr.jpg",
         "price": 225000,
         "originalPrice": null,
@@ -9929,7 +9929,7 @@ const ecommerceProducts = [
     {
         "id": 711,
         "name": "Dettol Soap Cool 60Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/dettol-soap-cool-60gr.jpg",
         "price": 110000,
         "originalPrice": null,
@@ -9943,7 +9943,7 @@ const ecommerceProducts = [
     {
         "id": 712,
         "name": "Medicare Barsoap Fresh 90Gr (Red)",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/medicare-barsoap-fresh-90gr-red.jpg",
         "price": 240000,
         "originalPrice": 288000,
@@ -9957,11 +9957,11 @@ const ecommerceProducts = [
     {
         "id": 713,
         "name": "Medicare Barsoap Powerful 90Gr (Black)",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/medicare-barsoap-powerful-90gr-black.jpg",
         "price": 95000,
         "originalPrice": 114000,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 589,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -9971,7 +9971,7 @@ const ecommerceProducts = [
     {
         "id": 714,
         "name": "Medicare Barsoap Refresh 90Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/medicare-barsoap-refresh-90gr.jpg",
         "price": 230000,
         "originalPrice": 276000,
@@ -9985,7 +9985,7 @@ const ecommerceProducts = [
     {
         "id": 715,
         "name": "Close Up Toothpaste Menthol (Green) 160Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/close-up-toothpaste-menthol-green-160gr.jpg",
         "price": 225000,
         "originalPrice": 270000,
@@ -9999,11 +9999,11 @@ const ecommerceProducts = [
     {
         "id": 716,
         "name": "Biore Facial Foam Oil Balance 100Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/biore-facial-foam-oil-balance-100gr.jpg",
         "price": 175000,
         "originalPrice": 210000,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 1904,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -10013,7 +10013,7 @@ const ecommerceProducts = [
     {
         "id": 717,
         "name": "Biore Facial Foam Acne Bactrior 100Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/biore-facial-foam-acne-bactrior-100gr.jpg",
         "price": 145000,
         "originalPrice": null,
@@ -10027,7 +10027,7 @@ const ecommerceProducts = [
     {
         "id": 718,
         "name": "Biore Facial Foam Deep Pore 100Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/biore-facial-foam-deep-pore-100gr.jpg",
         "price": 200000,
         "originalPrice": 240000,
@@ -10041,7 +10041,7 @@ const ecommerceProducts = [
     {
         "id": 719,
         "name": "Biore Facial Foam Cool Oil 100Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/biore-facial-foam-cool-oil-100gr.jpg",
         "price": 215000,
         "originalPrice": 258000,
@@ -10055,7 +10055,7 @@ const ecommerceProducts = [
     {
         "id": 720,
         "name": "Biore Facial Foam Bright Oil 100Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/biore-facial-foam-bright-oil-100gr.jpg",
         "price": 55000,
         "originalPrice": null,
@@ -10069,7 +10069,7 @@ const ecommerceProducts = [
     {
         "id": 721,
         "name": "Biore Facial Foam Bright Expert 100Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/biore-facial-foam-bright-expert-100gr.jpg",
         "price": 165000,
         "originalPrice": 198000,
@@ -10083,11 +10083,11 @@ const ecommerceProducts = [
     {
         "id": 722,
         "name": "Biore Facial Foam Bright Energy 100Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/biore-facial-foam-bright-energy-100gr.jpg",
         "price": 155000,
         "originalPrice": 186000,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 1375,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -10097,7 +10097,7 @@ const ecommerceProducts = [
     {
         "id": 723,
         "name": "Sensodyne Tooth Paste Deep Clean 100Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/sensodyne-tooth-paste-deep-clean-100gr.jpg",
         "price": 210000,
         "originalPrice": 252000,
@@ -10111,7 +10111,7 @@ const ecommerceProducts = [
     {
         "id": 724,
         "name": "Sensodyne Toothpaste Cool Gel 100Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/sensodyne-toothpaste-cool-gel-100gr.jpg",
         "price": 115000,
         "originalPrice": null,
@@ -10125,7 +10125,7 @@ const ecommerceProducts = [
     {
         "id": 725,
         "name": "Sensodyne Toothpaste Fresh Mint 100Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/sensodyne-toothpaste-fresh-mint-100gr.jpg",
         "price": 200000,
         "originalPrice": 240000,
@@ -10139,7 +10139,7 @@ const ecommerceProducts = [
     {
         "id": 726,
         "name": "Sensodyne Toothpaste Herbal 100Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/sensodyne-toothpaste-herbal-100gr.jpg",
         "price": 150000,
         "originalPrice": 180000,
@@ -10153,7 +10153,7 @@ const ecommerceProducts = [
     {
         "id": 727,
         "name": "Lifebouy Bar Soap Lemon Fresh (Yellow) 100Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/lifebouy-bar-soap-lemon-fresh-yellow-100gr.jpg",
         "price": 130000,
         "originalPrice": 156000,
@@ -10167,7 +10167,7 @@ const ecommerceProducts = [
     {
         "id": 728,
         "name": "Lifebouy Shampoo Anti Dandruff 680ML",
-        "category": "kosmetik",
+        "category": "rt",
         "img": "images/catalog/products/lifebouy-shampoo-anti-dandruff-680ml.jpg",
         "price": 240000,
         "originalPrice": null,
@@ -10181,7 +10181,7 @@ const ecommerceProducts = [
     {
         "id": 729,
         "name": "Lifebouy Soap Mild Care (White) 100Gr",
-        "category": "kosmetik",
+        "category": "rt",
         "img": "images/catalog/products/lifebouy-soap-mild-care-white-100gr.jpg",
         "price": 160000,
         "originalPrice": null,
@@ -10195,7 +10195,7 @@ const ecommerceProducts = [
     {
         "id": 730,
         "name": "Lifebouy Soap Total 10 100Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/lifebouy-soap-total-10-100gr.jpg",
         "price": 70000,
         "originalPrice": 84000,
@@ -10209,7 +10209,7 @@ const ecommerceProducts = [
     {
         "id": 731,
         "name": "Dettol Soap Cool (Kemasan Ekonomis) 60Grx3Sx48",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/dettol-soap-cool-kemasan-ekonomis-60grx3sx48.jpg",
         "price": 70000,
         "originalPrice": null,
@@ -10223,7 +10223,7 @@ const ecommerceProducts = [
     {
         "id": 732,
         "name": "Darlie Toothpaste Double Action Fresh & Clean 2S 450Gr (2S X 225Gr)",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/darlie-toothpaste-double-action-fresh-clean-2s-450gr-2s-x-225gr.jpg",
         "price": 60000,
         "originalPrice": null,
@@ -10237,7 +10237,7 @@ const ecommerceProducts = [
     {
         "id": 733,
         "name": "Darlie Pg Double Action Mint 75Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/darlie-pg-double-action-mint-75gr.jpg",
         "price": 70000,
         "originalPrice": null,
@@ -10251,7 +10251,7 @@ const ecommerceProducts = [
     {
         "id": 734,
         "name": "Darlie Pg Double Action Mint 120Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/darlie-pg-double-action-mint-120gr.jpg",
         "price": 75000,
         "originalPrice": null,
@@ -10265,11 +10265,11 @@ const ecommerceProducts = [
     {
         "id": 735,
         "name": "Darlie Pg Double Action 225Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/darlie-pg-double-action-225gr.jpg",
         "price": 180000,
         "originalPrice": 216000,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 4990,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -10279,7 +10279,7 @@ const ecommerceProducts = [
     {
         "id": 736,
         "name": "Pantene Shampoo Perawatan Rambut Rontok (Merah)",
-        "category": "kosmetik",
+        "category": "rt",
         "img": "images/catalog/products/pantene-shampoo-perawatan-rambut-rontok-merah.jpg",
         "price": 65000,
         "originalPrice": 78000,
@@ -10293,11 +10293,11 @@ const ecommerceProducts = [
     {
         "id": 737,
         "name": "Pantene Shampoo Rambut Kering (Gold)",
-        "category": "kosmetik",
+        "category": "rt",
         "img": "images/catalog/products/pantene-shampoo-rambut-kering-gold.jpg",
         "price": 65000,
         "originalPrice": 78000,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 3792,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -10307,7 +10307,7 @@ const ecommerceProducts = [
     {
         "id": 738,
         "name": "Pantene Shampoo Rambut Rusak (Biru Tua)",
-        "category": "kosmetik",
+        "category": "rt",
         "img": "images/catalog/products/pantene-shampoo-rambut-rusak-biru-tua.jpg",
         "price": 190000,
         "originalPrice": 228000,
@@ -10321,7 +10321,7 @@ const ecommerceProducts = [
     {
         "id": 739,
         "name": "Biore Facial Foam Acne Bright Care 100Gr",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/biore-facial-foam-acne-bright-care-100gr.jpg",
         "price": 150000,
         "originalPrice": null,
@@ -10335,7 +10335,7 @@ const ecommerceProducts = [
     {
         "id": 740,
         "name": "Gatsby Cooling Face Wash Speedy Oil Foam 110ML X 2 X 12",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-cooling-face-wash-speedy-oil-foam-110mi-x-2-x-12.jpg",
         "price": 250000,
         "originalPrice": 300000,
@@ -10349,11 +10349,11 @@ const ecommerceProducts = [
     {
         "id": 741,
         "name": "Gatsby Deodorant Nature Perfume Body Spray Calm Wood",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-deodorant-nature-perfume-body-spray-calm-wood.jpg",
         "price": 65000,
         "originalPrice": 78000,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 1335,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -10363,7 +10363,7 @@ const ecommerceProducts = [
     {
         "id": 742,
         "name": "Gatsby Deodorant Nature Perfume Body Spray Cool Fougere 150 MI X 4 X 12",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-deodorant-nature-perfume-body-spray-cool-fougere-150-mi-x-4-x-12.jpg",
         "price": 55000,
         "originalPrice": 66000,
@@ -10377,7 +10377,7 @@ const ecommerceProducts = [
     {
         "id": 743,
         "name": "Gatsby Deodorant Nature Perfume Body Spray Premium Tonka 150 MI X 4 X 12",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-deodorant-nature-perfume-body-spray-premium-tonka-150-mi-x-4-x-12.jpg",
         "price": 60000,
         "originalPrice": null,
@@ -10391,7 +10391,7 @@ const ecommerceProducts = [
     {
         "id": 744,
         "name": "Gatsby Deodorant Nature Perfume Body Spray Relax Musk 150 MI X 4 X 12",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-deodorant-nature-perfume-body-spray-relax-musk-150-mi-x-4-x-12.jpg",
         "price": 130000,
         "originalPrice": null,
@@ -10405,7 +10405,7 @@ const ecommerceProducts = [
     {
         "id": 745,
         "name": "Gatsby Eau De Blue Deo Roll On Air Code 48X50ML",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-eau-de-blue-deo-roll-on-air-code-48x50ml.jpg",
         "price": 185000,
         "originalPrice": 222000,
@@ -10419,11 +10419,11 @@ const ecommerceProducts = [
     {
         "id": 746,
         "name": "Gatsby Eau De Blue Deo Roll On Earth Code 48X50ML",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-eau-de-blue-deo-roll-on-earth-code-48x50ml.jpg",
         "price": 90000,
         "originalPrice": null,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 320,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -10433,7 +10433,7 @@ const ecommerceProducts = [
     {
         "id": 747,
         "name": "Gatsby Eau De Blue Deo Roll On Skyline Code 48X50ML",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-eau-de-blue-deo-roll-on-skyline-code-48x50ml.jpg",
         "price": 210000,
         "originalPrice": null,
@@ -10447,7 +10447,7 @@ const ecommerceProducts = [
     {
         "id": 748,
         "name": "Gatsby Eau De Blue Eau De Parfum Air Code 48X100ML",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-eau-de-blue-eau-de-parfum-air-code-48x100ml.jpg",
         "price": 175000,
         "originalPrice": 210000,
@@ -10461,7 +10461,7 @@ const ecommerceProducts = [
     {
         "id": 749,
         "name": "Gatsby Eau De Blue Eau De Parfum Earth Code 48X100ML",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-eau-de-blue-eau-de-parfum-earth-code-48x100ml.jpg",
         "price": 195000,
         "originalPrice": null,
@@ -10475,7 +10475,7 @@ const ecommerceProducts = [
     {
         "id": 750,
         "name": "Gatsby Eau De Blue Eau De Parfum Skyline Code 48X100ML",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-eau-de-blue-eau-de-parfum-skyline-code-48x100ml.jpg",
         "price": 150000,
         "originalPrice": 180000,
@@ -10489,7 +10489,7 @@ const ecommerceProducts = [
     {
         "id": 751,
         "name": "Gatsby Eau De Bold Deodorant Roll On Moon Code 50 Mlx48",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-eau-de-bold-deodorant-roll-on-moon-code-50-mlx48.jpg",
         "price": 105000,
         "originalPrice": null,
@@ -10503,7 +10503,7 @@ const ecommerceProducts = [
     {
         "id": 752,
         "name": "Gatsby Eau De Bold Deodorant Roll On Space Code 50 Mlx48",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-eau-de-bold-deodorant-roll-on-space-code-50-mlx48.jpg",
         "price": 150000,
         "originalPrice": 180000,
@@ -10517,7 +10517,7 @@ const ecommerceProducts = [
     {
         "id": 753,
         "name": "Gatsby Eau De Bold Deodorant Roll On Star Code 50 Mlx48",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-eau-de-bold-deodorant-roll-on-star-code-50-mlx48.jpg",
         "price": 200000,
         "originalPrice": 240000,
@@ -10531,7 +10531,7 @@ const ecommerceProducts = [
     {
         "id": 754,
         "name": "Gatsby Eau De Bold Eau De Parfum Moon Code 100Mlx48",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-eau-de-bold-eau-de-parfum-moon-code-100mlx48.jpg",
         "price": 215000,
         "originalPrice": null,
@@ -10545,11 +10545,11 @@ const ecommerceProducts = [
     {
         "id": 755,
         "name": "Gatsby Eau De Bold Eau De Parfum Space Code 100Mlx48",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-eau-de-bold-eau-de-parfum-space-code-100mlx48.jpg",
         "price": 145000,
         "originalPrice": null,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 2957,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -10559,7 +10559,7 @@ const ecommerceProducts = [
     {
         "id": 756,
         "name": "Gatsby Eau De Bold Eau De Parfum Star Code 100Mlx48",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-eau-de-bold-eau-de-parfum-star-code-100mlx48.jpg",
         "price": 170000,
         "originalPrice": null,
@@ -10573,7 +10573,7 @@ const ecommerceProducts = [
     {
         "id": 757,
         "name": "Gatsby Facewash Clear Whitening 100Grx36",
-        "category": "kosmetik",
+        "category": "rt",
         "img": "images/catalog/products/gatsby-facewash-clear-whitening-100grx36.jpg",
         "price": 55000,
         "originalPrice": null,
@@ -10587,7 +10587,7 @@ const ecommerceProducts = [
     {
         "id": 758,
         "name": "Gatsby Facewash Oil Control 100Grx36",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-facewash-oil-control-100grx36.jpg",
         "price": 215000,
         "originalPrice": null,
@@ -10601,7 +10601,7 @@ const ecommerceProducts = [
     {
         "id": 759,
         "name": "Gatsby Facewash Perfect Clean 100Grx36",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-facewash-perfect-clean-100grx36.jpg",
         "price": 65000,
         "originalPrice": null,
@@ -10615,7 +10615,7 @@ const ecommerceProducts = [
     {
         "id": 760,
         "name": "Gatsby Fiber Clay 80G X 4 X 12",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/gatsby-fiber-clay-80g-x-4-x-12.jpg",
         "price": 195000,
         "originalPrice": 234000,
@@ -10629,7 +10629,7 @@ const ecommerceProducts = [
     {
         "id": 761,
         "name": "Ellips Hv Mrc Hr Treatmtn Blr 72X6ML",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/ellips-hv-mrc-hr-treatmtn-blr-72x6ml.jpg",
         "price": 95000,
         "originalPrice": 114000,
@@ -10643,7 +10643,7 @@ const ecommerceProducts = [
     {
         "id": 762,
         "name": "Ellips Hair Vitamin Keratin Hair Treatment (Pink)",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/ellips-hair-vitamin-keratin-hair-treatment-pink.jpg",
         "price": 225000,
         "originalPrice": 270000,
@@ -10657,7 +10657,7 @@ const ecommerceProducts = [
     {
         "id": 763,
         "name": "LIFEBUOY TS LEMONFRESH 24X(4X110G)",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/lifebuoy-ts-lemonfresh-24x-4x110g.jpg",
         "price": 195000,
         "originalPrice": 234000,
@@ -10671,11 +10671,11 @@ const ecommerceProducts = [
     {
         "id": 764,
         "name": "FreshCare Roll On Minyak Angin Strong (Hot) 10 ml",
-        "category": "kosmetik",
+        "category": "makanan",
         "img": "images/catalog/products/freshcare-roll-on-minyak-angin-strong-hot-10-ml.jpg",
         "price": 70000,
         "originalPrice": null,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 2434,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -10685,7 +10685,7 @@ const ecommerceProducts = [
     {
         "id": 765,
         "name": "Ellips Hair Vitamin Keratin Smooth & Silky (Yellow)",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/ellips-hair-vitamin-keratin-smooth-silky-yellow.jpg",
         "price": 200000,
         "originalPrice": 240000,
@@ -10699,7 +10699,7 @@ const ecommerceProducts = [
     {
         "id": 766,
         "name": "Ellips Hv Mrc Hr Treatment Jar 12X50ML",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/ellips-hv-mrc-hr-treatment-jar-12x50ml.jpg",
         "price": 65000,
         "originalPrice": null,
@@ -10713,7 +10713,7 @@ const ecommerceProducts = [
     {
         "id": 767,
         "name": "Ellips Hv Mrc Hair Vitality Jar 12X50ML",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/ellips-hv-mrc-hair-vitality-jar-12x50ml.jpg",
         "price": 110000,
         "originalPrice": 132000,
@@ -10727,7 +10727,7 @@ const ecommerceProducts = [
     {
         "id": 768,
         "name": "GARNIER MAN ACNOFIGHT 6IN1 ANTI ACNE FOAM 100ml",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/garnier-man-acnofight-6in1-anti-acne-foam-100ml.jpg",
         "price": 145000,
         "originalPrice": 174000,
@@ -10741,7 +10741,7 @@ const ecommerceProducts = [
     {
         "id": 769,
         "name": "Ellips Hmst Sweet & Siky Btl 18X100ML",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/ellips-hmst-sweet-siky-btl-18x100ml.jpg",
         "price": 190000,
         "originalPrice": 228000,
@@ -10755,7 +10755,7 @@ const ecommerceProducts = [
     {
         "id": 770,
         "name": "GARNIER M TURBOLIGHT OC COOLING FOAM 100ML",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/garnier-m-turbolight-oc-cooling-foam-100ml.jpg",
         "price": 200000,
         "originalPrice": null,
@@ -10769,7 +10769,7 @@ const ecommerceProducts = [
     {
         "id": 771,
         "name": "CDR (Calcium D Redoxin) Effervescent 10 Tablet Tube",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/cdr-calcium-d-redoxin-effervescent-10-tablet-tube.jpg",
         "price": 245000,
         "originalPrice": 294000,
@@ -10783,7 +10783,7 @@ const ecommerceProducts = [
     {
         "id": 772,
         "name": "Ellips Hm Mrc Nutricolor Sch 72X20ML",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/ellips-hm-mrc-nutricolor-sch-72x20ml.jpg",
         "price": 55000,
         "originalPrice": null,
@@ -10797,7 +10797,7 @@ const ecommerceProducts = [
     {
         "id": 773,
         "name": "GARNIER MAN FF DOUBLE WHITE 100ml",
-        "category": "kosmetik",
+        "category": "rt",
         "img": "images/catalog/products/garnier-man-ff-double-white-100ml.jpg",
         "price": 160000,
         "originalPrice": 192000,
@@ -10811,7 +10811,7 @@ const ecommerceProducts = [
     {
         "id": 774,
         "name": "GARNIER MAN TLOC INTENSIVE 3IN1 100ml",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/garnier-man-tloc-intensive-3in1-100ml.jpg",
         "price": 190000,
         "originalPrice": 228000,
@@ -10825,7 +10825,7 @@ const ecommerceProducts = [
     {
         "id": 775,
         "name": "Listerine Mw Cool Mint 250ML",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/listerine-mw-cool-mint-250ml.jpg",
         "price": 185000,
         "originalPrice": 222000,
@@ -10839,7 +10839,7 @@ const ecommerceProducts = [
     {
         "id": 776,
         "name": "Listerine Mw Cool Mint 500ML",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/listerine-mw-cool-mint-500ml.jpg",
         "price": 135000,
         "originalPrice": 162000,
@@ -10853,7 +10853,7 @@ const ecommerceProducts = [
     {
         "id": 777,
         "name": "VASELINE HBL HEALTH WHT 400ML",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/vaseline-hbl-health-wht-400ml.jpg",
         "price": 95000,
         "originalPrice": 114000,
@@ -10867,11 +10867,11 @@ const ecommerceProducts = [
     {
         "id": 778,
         "name": "Ellips Hair Vitamin Smooth & Shiny Blister (Yellow)",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/ellips-hair-vitamin-smooth-shiny-blister-yellow.jpg",
         "price": 240000,
         "originalPrice": null,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 1845,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -10881,7 +10881,7 @@ const ecommerceProducts = [
     {
         "id": 779,
         "name": "Ellips Hair Vitamin Keratin Hair Repair (Pink)",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/ellips-hair-vitamin-keratin-hair-repair-pink.jpg",
         "price": 195000,
         "originalPrice": null,
@@ -10895,7 +10895,7 @@ const ecommerceProducts = [
     {
         "id": 780,
         "name": "Ellips Hv Mrc Smth Shiny Blr 72X6ML",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/ellips-hv-mrc-smth-shiny-blr-72x6ml.jpg",
         "price": 100000,
         "originalPrice": null,
@@ -10909,7 +10909,7 @@ const ecommerceProducts = [
     {
         "id": 781,
         "name": "Ellips Hair Vitamin Keratin Smooth & Silky",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/ellips-hair-vitamin-keratin-smooth-silky.jpg",
         "price": 120000,
         "originalPrice": 144000,
@@ -10923,7 +10923,7 @@ const ecommerceProducts = [
     {
         "id": 782,
         "name": "GARNIER MAN TURBOLIGHT OC COOLING FOAM 100ml",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/garnier-man-turbolight-oc-cooling-foam-100ml.jpg",
         "price": 75000,
         "originalPrice": null,
@@ -10937,7 +10937,7 @@ const ecommerceProducts = [
     {
         "id": 783,
         "name": "GARNIER MAN TURBOLIGHT OC ICY SCRUB 100ml",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/garnier-man-turbolight-oc-icy-scrub-100ml.jpg",
         "price": 165000,
         "originalPrice": null,
@@ -10951,7 +10951,7 @@ const ecommerceProducts = [
     {
         "id": 784,
         "name": "GARNIER SAKURA FF WHITE 100ml",
-        "category": "kosmetik",
+        "category": "rt",
         "img": "images/catalog/products/garnier-sakura-ff-white-100ml.jpg",
         "price": 125000,
         "originalPrice": null,
@@ -10965,7 +10965,7 @@ const ecommerceProducts = [
     {
         "id": 785,
         "name": "Ellips Hv Mrc Smooth Shiny Jar 12X50ML",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/ellips-hv-mrc-smooth-shiny-jar-12x50ml.jpg",
         "price": 60000,
         "originalPrice": null,
@@ -10979,7 +10979,7 @@ const ecommerceProducts = [
     {
         "id": 786,
         "name": "Ellips Hv Mrc Shiny Black Jar 12X50ML",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/ellips-hv-mrc-shiny-black-jar-12x50ml.jpg",
         "price": 125000,
         "originalPrice": null,
@@ -10993,7 +10993,7 @@ const ecommerceProducts = [
     {
         "id": 787,
         "name": "Ellips Hair Vitamin Hair Treatment Jar (Pink)",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/ellips-hair-vitamin-hair-treatment-jar-pink.jpg",
         "price": 220000,
         "originalPrice": null,
@@ -11007,7 +11007,7 @@ const ecommerceProducts = [
     {
         "id": 788,
         "name": "GARNIER MAN FF ACNO FIGHT WASABAI 100ml",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/garnier-man-ff-acno-fight-wasabai-100ml.jpg",
         "price": 125000,
         "originalPrice": null,
@@ -11021,7 +11021,7 @@ const ecommerceProducts = [
     {
         "id": 789,
         "name": "Ellips Hv Mrc Shiny Black Blr 72X6ML",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/ellips-hv-mrc-shiny-black-blr-72x6ml.jpg",
         "price": 200000,
         "originalPrice": 240000,
@@ -11035,7 +11035,7 @@ const ecommerceProducts = [
     {
         "id": 790,
         "name": "Ellips Hair Vitamin Hair Vitality",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/ellips-hair-vitamin-hair-vitality.jpg",
         "price": 180000,
         "originalPrice": 216000,
@@ -11049,7 +11049,7 @@ const ecommerceProducts = [
     {
         "id": 791,
         "name": "Ellips Hair Vitamin Hair Treatment (Pink)",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/ellips-hair-vitamin-hair-treatment-pink.jpg",
         "price": 160000,
         "originalPrice": null,
@@ -11063,7 +11063,7 @@ const ecommerceProducts = [
     {
         "id": 792,
         "name": "Ellips Hair Vitamin Hair Treatment Blister (Pink)",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/ellips-hair-vitamin-hair-treatment-blister-pink.jpg",
         "price": 195000,
         "originalPrice": 234000,
@@ -11077,7 +11077,7 @@ const ecommerceProducts = [
     {
         "id": 793,
         "name": "Ellips Hair Vitamin Hair Shiny Black Jar (Hitam)",
-        "category": "kosmetik",
+        "category": "rt",
         "img": "images/catalog/products/ellips-hair-vitamin-hair-shiny-black-jar-hitam.jpg",
         "price": 115000,
         "originalPrice": 138000,
@@ -11091,7 +11091,7 @@ const ecommerceProducts = [
     {
         "id": 794,
         "name": "Ellips Hair Vitamin Hair Shiny Black Blister (Hitam)",
-        "category": "kosmetik",
+        "category": "rt",
         "img": "images/catalog/products/ellips-hair-vitamin-hair-shiny-black-blister-hitam.jpg",
         "price": 100000,
         "originalPrice": 120000,
@@ -11105,7 +11105,7 @@ const ecommerceProducts = [
     {
         "id": 795,
         "name": "Ellips Hair Vitamin Hair Nutri Color Jar (Ungu)",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/ellips-hair-vitamin-hair-nutri-color-jar-ungu.jpg",
         "price": 165000,
         "originalPrice": 198000,
@@ -11119,7 +11119,7 @@ const ecommerceProducts = [
     {
         "id": 796,
         "name": "Ellips Hair Vitamin Hair Nutri Color Blister (Ungu)",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/ellips-hair-vitamin-hair-nutri-color-blister-ungu.jpg",
         "price": 230000,
         "originalPrice": 276000,
@@ -11133,7 +11133,7 @@ const ecommerceProducts = [
     {
         "id": 797,
         "name": "IMBOOST KIDS SYRUP 60 ml",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/imboost-kids-syrup-60-ml.jpg",
         "price": 175000,
         "originalPrice": 210000,
@@ -11147,7 +11147,7 @@ const ecommerceProducts = [
     {
         "id": 798,
         "name": "IMBOOST KIDS SYRUP 120 ml",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/imboost-kids-syrup-120-ml.jpg",
         "price": 125000,
         "originalPrice": 150000,
@@ -11161,7 +11161,7 @@ const ecommerceProducts = [
     {
         "id": 799,
         "name": "Ellips Hair Vitamin Smooth & Shiny (Yellow)",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/ellips-hair-vitamin-smooth-shiny-yellow.jpg",
         "price": 165000,
         "originalPrice": 198000,
@@ -11175,7 +11175,7 @@ const ecommerceProducts = [
     {
         "id": 800,
         "name": "IMBOOST FORCE KIDS SYRUP 60 ml",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/imboost-force-kids-syrup-60-ml.jpg",
         "price": 200000,
         "originalPrice": null,
@@ -11189,7 +11189,7 @@ const ecommerceProducts = [
     {
         "id": 801,
         "name": "IMBOOST FORCE KIDS SYRUP 120 ml",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/imboost-force-kids-syrup-120-ml.jpg",
         "price": 145000,
         "originalPrice": 174000,
@@ -11203,7 +11203,7 @@ const ecommerceProducts = [
     {
         "id": 802,
         "name": "Ellips Hmst Frsh & Smth Btl 18X100ML",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/ellips-hmst-frsh-smth-btl-18x100ml.jpg",
         "price": 90000,
         "originalPrice": 108000,
@@ -11217,7 +11217,7 @@ const ecommerceProducts = [
     {
         "id": 803,
         "name": "GATSBY WATER GLOSS SOFT 96x75gr",
-        "category": "kosmetik",
+        "category": "minuman",
         "img": "images/catalog/products/gatsby-water-gloss-soft-96x75gr.jpg",
         "price": 145000,
         "originalPrice": 174000,
@@ -11231,7 +11231,7 @@ const ecommerceProducts = [
     {
         "id": 804,
         "name": "Ellips Hv Mrc Nutricolor Jar 12X50ML",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/ellips-hv-mrc-nutricolor-jar-12x50ml.jpg",
         "price": 240000,
         "originalPrice": 288000,
@@ -11245,7 +11245,7 @@ const ecommerceProducts = [
     {
         "id": 805,
         "name": "Ellips Hm Mrc Volume Mrcle Sch 72X20ML",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/ellips-hm-mrc-volume-mrcle-sch-72x20ml.jpg",
         "price": 200000,
         "originalPrice": null,
@@ -11259,11 +11259,11 @@ const ecommerceProducts = [
     {
         "id": 806,
         "name": "Ellips Hm Mrc Smth Shiny Sch 72X20ML",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/ellips-hm-mrc-smth-shiny-sch-72x20ml.jpg",
         "price": 115000,
         "originalPrice": 138000,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 505,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -11273,7 +11273,7 @@ const ecommerceProducts = [
     {
         "id": 807,
         "name": "SALONPAS KOYO HOT (SUPER HOT) ISI 10 LEMBAR",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/salonpas-koyo-hot-super-hot-isi-10-lembar.jpg",
         "price": 145000,
         "originalPrice": null,
@@ -11287,11 +11287,11 @@ const ecommerceProducts = [
     {
         "id": 808,
         "name": "Sleek Baby Laundry Detergent Pouch",
-        "category": "kosmetik",
+        "category": "rt",
         "img": "images/catalog/products/sleek-baby-laundry-detergent-pouch.jpg",
         "price": 55000,
         "originalPrice": null,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 4223,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -11301,7 +11301,7 @@ const ecommerceProducts = [
     {
         "id": 809,
         "name": "Ellips Hair Vitamin Smooth & Shiny Jar (Yellow)",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/ellips-hair-vitamin-smooth-shiny-jar-yellow.jpg",
         "price": 195000,
         "originalPrice": null,
@@ -11315,11 +11315,11 @@ const ecommerceProducts = [
     {
         "id": 810,
         "name": "Ellips Hm Mrc Hr Treatmnt Sch 72X20ML",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/ellips-hm-mrc-hr-treatmnt-sch-72x20ml.jpg",
         "price": 190000,
         "originalPrice": null,
-        "rating": 5.0,
+        "rating": 5,
         "sold": 1863,
         "location": "Gudang Utama",
         "dateAdded": "2024-04-15",
@@ -11329,7 +11329,7 @@ const ecommerceProducts = [
     {
         "id": 811,
         "name": "Ellips Hair Vitamin Hair Vitality",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/ellips-hair-vitamin-hair-vitality.jpg",
         "price": 60000,
         "originalPrice": 72000,
@@ -11343,7 +11343,7 @@ const ecommerceProducts = [
     {
         "id": 812,
         "name": "LISTERINE MW MULTI PROTECT ZERO 250ML",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/listerine-mw-multi-protect-zero-250ml.jpg",
         "price": 110000,
         "originalPrice": null,
@@ -11357,7 +11357,7 @@ const ecommerceProducts = [
     {
         "id": 813,
         "name": "LISTERINE NATURAL GREEN TEA 250 ML",
-        "category": "kosmetik",
+        "category": "minuman",
         "img": "images/catalog/products/listerine-natural-green-tea-250-ml.jpg",
         "price": 105000,
         "originalPrice": 126000,
@@ -11371,7 +11371,7 @@ const ecommerceProducts = [
     {
         "id": 814,
         "name": "Ellips Hv Mrc Nutricolor Blr 72X6ML",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/ellips-hv-mrc-nutricolor-blr-72x6ml.jpg",
         "price": 195000,
         "originalPrice": 234000,
@@ -11385,7 +11385,7 @@ const ecommerceProducts = [
     {
         "id": 815,
         "name": "Ellips Hv Mrc Hr Vitality Blr 72X6ML",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/ellips-hv-mrc-hr-vitality-blr-72x6ml.jpg",
         "price": 160000,
         "originalPrice": null,
@@ -11399,7 +11399,7 @@ const ecommerceProducts = [
     {
         "id": 816,
         "name": "Garnier Men Tloc Intensive 3ln1 Foam 100ML",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/garnier-men-tloc-intensive-3ln1-foam-100ml.jpg",
         "price": 145000,
         "originalPrice": null,
@@ -11413,7 +11413,7 @@ const ecommerceProducts = [
     {
         "id": 817,
         "name": "Garnier Men Tloc Intensive 3ln1 Foam 50ML",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/garnier-men-tloc-intensive-3ln1-foam-50ml.jpg",
         "price": 155000,
         "originalPrice": 186000,
@@ -11427,7 +11427,7 @@ const ecommerceProducts = [
     {
         "id": 818,
         "name": "Lion Zact Stain Fighter Toothpaste 190g",
-        "category": "kosmetik",
+        "category": "harian",
         "img": "images/catalog/products/lion-zact-stain-fighter-toothpaste-190g.jpg",
         "price": 150000,
         "originalPrice": null,
@@ -11441,7 +11441,7 @@ const ecommerceProducts = [
     {
         "id": 819,
         "name": "SASA SANTAN 65ML",
-        "category": "harian",
+        "category": "makanan",
         "img": "images/catalog/products/sasa-santan-65ml.jpg",
         "price": 100000,
         "originalPrice": null,
